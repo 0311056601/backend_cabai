@@ -18,4 +18,12 @@ class ProdukSiapJualDetail extends Model
     public function produkPetani() {
         return $this->hasOne('App\Models\ProdukPetani', 'id', 'produk_petani');
     }
+
+    public function ProdukSiapJual() {
+        return $this->hasOne('App\Models\ProdukSiapJual', 'id', 'produk_siap_jual');
+    }
+
+    public function ProdukSiapJualImage() {
+        return $this->hasMany('App\Models\ProdukSiapJualImage', 'produk_siap_jual', 'produk_siap_jual');
+    }
 }

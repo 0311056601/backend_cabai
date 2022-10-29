@@ -7,6 +7,7 @@ use Illuminate\Support\Facades\Hash;
 use Illuminate\Http\Request;
 use App\Models\Notifikasi;
 use App\Models\Profile;
+use App\Models\Saldo;
 use App\Models\User;
 use Storage;
 use Auth;
@@ -346,6 +347,20 @@ class UserController extends Controller {
             return response()->json($success, $this->successStatus);
 
         }
+
+    }
+
+    public function detailSaldo() {
+
+        $user = Auth::user();
+
+        $data = Saldo::where('user_id', $user->id)->with('getDetail')->orderBy('created_at', 'desc')->get();
+
+        $this->successStatus    = 200;
+        $success['success']     = true;
+        $success['data']        = $data;
+
+        return response()->json($success, $this->successStatus);
 
     }
 

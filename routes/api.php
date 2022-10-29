@@ -28,6 +28,8 @@ Route::post('v2/addLogRequestData', [App\Http\Controllers\API\ExternalController
 Route::get('v2/getExpiredQR/{expiredId}', [App\Http\Controllers\API\ExternalController::class, 'getExpiredQR']);
 Route::get('v2/getMasterBank', [App\Http\Controllers\API\ExternalController::class, 'getMasterBank']);
 
+Route::get('v2/testing', [App\Http\Controllers\API\ExternalController::class, 'testing']);
+
 // api harus login ditaruh didalam sini
 Route::group(['middleware' => 'auth:api'], function () { 
 
@@ -40,6 +42,7 @@ Route::group(['middleware' => 'auth:api'], function () {
     Route::get('v2/ListNotifikasi', [App\Http\Controllers\API\UserController::class, 'ListNotifikasi']);
     Route::get('v2/NotifikasiDetail/{notifId}', [App\Http\Controllers\API\UserController::class, 'NotifikasiDetail']);
     Route::get('v2/HapusNotif/{notifId}', [App\Http\Controllers\API\UserController::class, 'HapusNotif']);
+    Route::get('v2/detailSaldo', [App\Http\Controllers\API\UserController::class, 'detailSaldo']);
 
     Route::get('v2/listLahan', [App\Http\Controllers\API\LahanController::class, 'listLahan']);
     Route::get('v2/DetailLahan/{lahanId}', [App\Http\Controllers\API\LahanController::class, 'DetailLahan']);
@@ -48,13 +51,14 @@ Route::group(['middleware' => 'auth:api'], function () {
     Route::post('v2/updateLahan/{lahanId}', [App\Http\Controllers\API\LahanController::class, 'updateLahan']);
 
     Route::get('v2/listProdukPetani', [App\Http\Controllers\API\ProdukController::class, 'listProdukPetani']);
+    Route::get('v2/getTracePanen/{produkPetaniId}', [App\Http\Controllers\API\ProdukController::class, 'getTracePanen']);
     Route::post('v2/simpan-produk-petani', [App\Http\Controllers\API\ProdukController::class, 'addProdukPetani']);
     Route::post('v2/updateProdukPetani/{produkId}', [App\Http\Controllers\API\ProdukController::class, 'updateProdukPetani']);
     Route::get('v2/detailProdukPetani/{produkId}', [App\Http\Controllers\API\ProdukController::class, 'detailProdukPetani']);
     Route::get('v2/petani-hapus-produk/{produkId}', [App\Http\Controllers\API\ProdukController::class, 'hapusProdukPetani']);
     Route::get('v2/petani-kirim-produk/{produkId}', [App\Http\Controllers\API\ProdukController::class, 'petaniKirimPeroduk']);
 
-    Route::get('v2/getDashboardPetani', [App\Http\Controllers\API\PetaniController::class, 'index']);
+    Route::get('v2/getDashboardPetaniHome', [App\Http\Controllers\API\PetaniController::class, 'index']);
 
     Route::get('v2/getDashboardGapoktan', [App\Http\Controllers\API\GapoktanController::class, 'index']);
     Route::get('v2/gapoktan-get-produk', [App\Http\Controllers\API\GapoktanController::class, 'listProdukPetani']);
@@ -71,6 +75,7 @@ Route::group(['middleware' => 'auth:api'], function () {
     Route::post('v2/update-qr-produk-siap-jual/{produkId}', [App\Http\Controllers\API\GapoktanController::class, 'update_qr']);
     Route::post('v2/update-qr-transaksi/{transaksiId}', [App\Http\Controllers\API\GapoktanController::class, 'update_qr_transaksi']);
     Route::post('v2/add-transaction-hash', [App\Http\Controllers\API\GapoktanController::class, 'blockchainHashProduk']);
+    Route::post('v2/addMinimalPembelian', [App\Http\Controllers\API\GapoktanController::class, 'addMinimalPembelian']);
     Route::get('v2/error-transaction-produk-blockchain/{produkId}', [App\Http\Controllers\API\GapoktanController::class, 'transactionProdukError']);
     Route::get('v2/error-transaction-transaksi-blockchain/{transaksiId}', [App\Http\Controllers\API\GapoktanController::class, 'transactionTransaksiError']);
     Route::get('v2/error-transaction-request-blockchain/{transaksiId}', [App\Http\Controllers\API\GapoktanController::class, 'transactionRequestError']);
@@ -79,7 +84,7 @@ Route::group(['middleware' => 'auth:api'], function () {
     Route::get('v2/DeleteMHargaPengemasan/{id}', [App\Http\Controllers\API\GapoktanController::class, 'DeleteMHargaPengemasan']);
     Route::get('v2/ListTransaksi', [App\Http\Controllers\API\GapoktanController::class, 'ListTransaksi']);
     Route::get('v2/ListTransaksiHistory', [App\Http\Controllers\API\GapoktanController::class, 'ListTransaksiHistory']);
-    Route::get('v2/UpdateKirimProduk/{transaksiId}', [App\Http\Controllers\API\GapoktanController::class, 'UpdateKirimProduk']);
+    Route::get('v2/UpdateKirimProduk/{transaksiId}/{estimasi}', [App\Http\Controllers\API\GapoktanController::class, 'UpdateKirimProduk']);
     Route::get('v2/getMasterHargaPengemasan', [App\Http\Controllers\API\GapoktanController::class, 'getMasterHargaPengemasan']);
     Route::post('v2/AddMHargaPengemasan', [App\Http\Controllers\API\GapoktanController::class, 'AddMHargaPengemasan']);
     Route::get('v2/getMasterHargaCabaiPetani', [App\Http\Controllers\API\GapoktanController::class, 'getMasterHargaCabaiPetani']);
@@ -87,7 +92,7 @@ Route::group(['middleware' => 'auth:api'], function () {
     Route::get('v2/ChangeStatusMHargaCabaiPetani/{id}', [App\Http\Controllers\API\GapoktanController::class, 'ChangeStatusMHargaCabaiPetani']);
     Route::get('v2/DeleteMHargaCabaiPetani/{id}', [App\Http\Controllers\API\GapoktanController::class, 'DeleteMHargaCabaiPetani']);
     Route::get('v2/ListTransaksiPermintaan', [App\Http\Controllers\API\GapoktanController::class, 'ListTransaksiPermintaan']);
-    Route::get('v2/updateTransaksiRequest/{requestId}', [App\Http\Controllers\API\GapoktanController::class, 'updateTransaksiRequest']);
+    Route::get('v2/updateTransaksiRequest/{requestId}/{estimasi}', [App\Http\Controllers\API\GapoktanController::class, 'updateTransaksiRequest']);
     Route::post('v2/update-qr-transaksi/request/{transaksiId}', [App\Http\Controllers\API\GapoktanController::class, 'update_qr_transaksi_request']);
     Route::get('v2/list-request-data', [App\Http\Controllers\API\GapoktanController::class, 'getAdminLRD']);
     Route::post('v2/ApproveRequestData', [App\Http\Controllers\API\GapoktanController::class, 'ApproveRequestData']);
@@ -100,6 +105,7 @@ Route::group(['middleware' => 'auth:api'], function () {
     Route::post('v2/update-qr-expired/{expiredId}', [App\Http\Controllers\API\GapoktanController::class, 'update_qr_expired']);
     Route::get('v2/hapus-data-expired/{expiredId}', [App\Http\Controllers\API\GapoktanController::class, 'HapusDataExpired']);
     Route::get('v2/ErrorTransactionExpired/{expiredId}', [App\Http\Controllers\API\GapoktanController::class, 'ErrorTransactionExpired']);
+    Route::get('v2/getDataMinimal', [App\Http\Controllers\API\GapoktanController::class, 'getDataMinimal']);
     
     Route::post('v2/postKeranjang', [App\Http\Controllers\API\KonsumenController::class, 'postKeranjang']);
     Route::get('v2/getKeranjang', [App\Http\Controllers\API\KonsumenController::class, 'getKeranjang']);
@@ -116,5 +122,6 @@ Route::group(['middleware' => 'auth:api'], function () {
     Route::get('v2/konsumenBayarPemesanan/{noTx}', [App\Http\Controllers\API\KonsumenController::class, 'konsumenBayarPemesanan']);
     Route::get('v2/getTransaksiDetailRequest/{requestId}', [App\Http\Controllers\API\KonsumenController::class, 'getTransaksiDetailRequest']);
     Route::get('v2/konsumenTerimaProdukRequest/{requestId}', [App\Http\Controllers\API\KonsumenController::class, 'konsumenTerimaProdukRequest']);
+    Route::get('v2/getDashboardPetani', [App\Http\Controllers\API\KonsumenController::class, 'getDashboardPetani']);
     
 });

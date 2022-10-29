@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\API;
 
 use App\Http\Controllers\Controller;
+use App\Models\MMinimalPembelian;
 use App\Models\MHargaCabaiPetani;
 use App\Models\MHargaPengemasan;
 use App\Models\ProdukSiapJual;
@@ -13,6 +14,7 @@ use Illuminate\Support\Str;
 use App\Models\Notifikasi;
 use App\Models\Keranjang;
 use App\Models\Profile;
+use App\Models\User;
 use Carbon\Carbon;
 use Storage;
 use Auth;
@@ -117,6 +119,7 @@ class KonsumenController extends Controller
             return response()->json($success, $this->successStatus);
 
         } else {
+            $date = Carbon::now();
 
             // insert transaksi cabai
             $simpan = new TransaksiCabai();
@@ -126,6 +129,7 @@ class KonsumenController extends Controller
             $simpan->produk_id = $request->produk_id;
             $simpan->status_transaksi = "Check Out";
             $simpan->progress_transaksi = 30;
+            $simpan->est_sampai = $date->addDays(7)->format('Y-m-d'); // otomatis estimasi terisi 7 hari dihitung dari tanggal checkout dan bisa berubah ketika gapoktan menentukan pengiriman
             $simpan->save();
 
             // update keranjang
@@ -324,6 +328,21 @@ class KonsumenController extends Controller
 
     public function SimpanRequestCabai(Request $request) {
 
+        $user = Auth::user();
+
+        $cek = MMinimalPembelian::where('gapoktan', $request->gapoktan)->first();
+        $gapoktan = User::where('id', $request->gapoktan)->first();
+
+        if($cek) { // jika gapoktan telah mengisi minimal pembelian
+            if($cek->minimal_pembelian > intval($request->volume)){ // jika minimal pembelian lebih besar dari jumlah request volume
+                $this->successStatus       = 200;
+                $success['success']        = true;
+                $success['message']        = 'Minimal pembelian di '.$gapoktan->username.' harus lebih dari '.$cek->minimal_pembelian.' Kilo';
+
+                return response()->json($success, $this->successStatus);
+            }
+        }
+
         $date = Carbon::now();
         $tgl = $date->format('Ymd');
         $time = $date->format('His'); 
@@ -333,8 +352,6 @@ class KonsumenController extends Controller
         $hargakemas = MHargaPengemasan::where('gapoktan_id', $request->gapoktan)->where('status', 1)->first();
 
         $perkiraan = ($request->volume * $hargaCabai->harga_jual) + ($request->volume * $hargakemas->harga);
-
-        $user = Auth::user();
 
         $simpan = new RequestProduk();
         $simpan->no_transaksi = 'TXRP-'.$tgl.strtoupper($randomString).$time;
@@ -528,6 +545,52 @@ class KonsumenController extends Controller
             return response()->json($success, $this->successStatus);
 
         }
+
+    }
+
+    public function getDashboardPetani() {
+
+        $user = Auth::user();
+
+        $keranjang = Keranjang::where('user', $user->id)->where('status', 'Keranjang')->with('getProduk')->orderBy('created_at', 'desc')->get();
+        $transaksiMarket = TransaksiCabai::where('user_id', $user->id)->with('getProduk', 'getKeranjang')->orderBy('created_at', 'desc')->get();
+        $transaksiMarketTotal = TransaksiCabai::where('user_id', $user->id)->with('getProduk', 'getKeranjang')->orderBy('created_at', 'desc')->get()->count();
+        $transaksiRequest = RequestProduk::where('user_id', $user->id)->orderBy('created_at', 'desc')->get();
+        $transaksiRequestTotal = RequestProduk::where('user_id', $user->id)->orderBy('created_at', 'desc')->get()->count();
+
+        $getGapoktan = User::where('role', 'gapoktan')->get();
+
+        $chart = [];
+        foreach($getGapoktan as $g) {
+            $cek1 = DB::table('transaksi_cabai')
+            ->select('transaksi_cabai.progress_transaksi', 'transaksi_cabai.gapoktan_id', 'transaksi_cabai.user_id', 'gapoktan_gudang.user_gapoktan')
+            ->join('produk_siap_jual','produk_siap_jual.id','=','transaksi_cabai.produk_id')
+            ->where('transaksi_cabai.user_id', $user->id)
+            ->where('transaksi_cabai.gapoktan_id', $g->id)
+            ->where('transaksi_cabai.progress_transaksi', '>', 60)
+            ->sum('produk_siap_jual.volume');
+            // $cek1 = TransaksiCabai::where('user_id', $user->id)->where('gapoktan_id', $g->id)->where('progress_transaksi', '>', 60)->sum();
+            $cek2 = RequestProduk::where('user_id', $user->id)->where('gapoktan_id', $g->id)->where('status', 'Produk diterima konsumen')->sum('volume');
+
+            if(in_array(['gapoktan' => $g->username, 'jumlah' => intval($cek1+$cek2)], $chart)) {
+                // jika sudah ada di array tidak perlu di masukan
+            } else {
+                if(intval($cek1+$cek2) != 0) {
+                    array_push($chart, ['gapoktan' => $g->username, 'jumlah' => intval($cek1+$cek2)]);
+                }
+            }
+        }
+
+        $this->successStatus                 = 200;
+        $success['success']                  = true;
+        $success['chart']                    = $chart;
+        $success['keranjang']                = $keranjang;
+        $success['transaksiMarket']          = $transaksiMarket;
+        $success['transaksiMarketTotal']     = $transaksiMarketTotal;
+        $success['transaksiRequest']         = $transaksiRequest;
+        $success['transaksiRequestTotal']    = $transaksiRequestTotal;
+
+        return response()->json($success, $this->successStatus);
 
     }
 
