@@ -9,8 +9,8 @@ use App\Models\GapoktanGudangDetail;
 use App\Models\ProdukSiapJualDetail;
 use App\Models\ProdukSiapJualImage;
 use App\Models\MHargaCabaiPetani;
+use App\Models\MMinimalPembelian;
 use App\Models\MHargaPengemasan;
-use App\Models\MExpired;
 use App\Models\ProdukPetaniImg;
 use App\Models\ProdukSiapJual;
 use App\Models\GapoktanGudang;
@@ -24,6 +24,7 @@ use App\Models\RequestData;
 use App\Models\SaldoDetail;
 use App\Models\Notifikasi;
 use App\Models\Keranjang;
+use App\Models\MExpired;
 use App\Models\Profile;
 use App\Models\Saldo;
 use App\Models\User;
@@ -59,9 +60,112 @@ class GapoktanController extends Controller
         $saldoTotal = Saldo::where('gapoktan_id', $user->gapoktan)->where('user_id', $user->id)->orderBy('created_at', 'desc')->first(); // ambil data terbaru
         $saldoKeluar = Saldo::where('gapoktan_id', $user->gapoktan)->where('user_id', $user->id)->sum('saldo_out');
 
+        // data chart
+        $gudang = GapoktanGudang::where('user_gapoktan', $user->id)->distinct()->get()->pluck('kualitas');
+        $gudangGapoktan = GapoktanGudang::where('user_gapoktan', $user->id)->distinct()->get();
+
+        $chart = [];
+        foreach($gudang as $g) {
+            $cek = GapoktanGudang::where('kualitas', $g)->where('status', 1)->sum('volume');
+
+            if(in_array(['kualitas' => $g, 'jumlah' => intval($cek)], $chart)) {
+                // jika sudah ada di array tidak perlu di masukan
+            } else {
+                array_push($chart, ['kualitas' => $g, 'jumlah' => intval($cek)]);
+            }
+        }
+
+        // $getMonths = GapoktanGudang::find_by_sql("SELECT DATE_FORMAT(created_at, '%Y-%m') AS created_month FROM blog where user_gapoktan = $user->id GROUP BY created_month");
+        // $getMonths = DB::RAW('select distinct id, ip_address, browser from table_name where month(visited_time) = month(NOW()) and year(visited_time) = year(NOW())')
+
+
+        $getMonths = GapoktanGudang::select(DB::raw("(DATE_FORMAT(created_at, '%Y-%m')) as month_year"))->where('user_gapoktan', $user->id)->orderBy('month_year')->groupBy(DB::raw("DATE_FORMAT(created_at, '%Y-%m')"))->get();
+
+        $chartBar = [];
+        foreach($getMonths as $gm) {
+
+            $dataGudangKS = DB::table('gapoktan_gudang')
+            ->select('gapoktan_gudang.kualitas', 'gapoktan_gudang.volume', 'gapoktan_gudang_detail.volume_in', 'gapoktan_gudang.user_gapoktan')
+            ->join('gapoktan_gudang_detail','gapoktan_gudang_detail.gapoktan_gudang_id','=','gapoktan_gudang.id')
+            ->where('gapoktan_gudang.kualitas', 'Kelas Super')
+            ->where('gapoktan_gudang.user_gapoktan', $user->gapoktan)
+            ->where('gapoktan_gudang_detail.created_at', 'like', '%'.$gm->month_year.'%')
+            ->sum('volume_in');
+
+            $dataGudangK1 = DB::table('gapoktan_gudang')
+            ->select('gapoktan_gudang.kualitas', 'gapoktan_gudang.volume', 'gapoktan_gudang_detail.volume_in', 'gapoktan_gudang.user_gapoktan')
+            ->join('gapoktan_gudang_detail','gapoktan_gudang_detail.gapoktan_gudang_id','=','gapoktan_gudang.id')
+            ->where('gapoktan_gudang.kualitas', 'Kelas 1')
+            ->where('gapoktan_gudang.user_gapoktan', $user->gapoktan)
+            ->where('gapoktan_gudang_detail.created_at', 'like', '%'.$gm->month_year.'%')
+            ->sum('volume_in');
+
+            $dataGudangK2 = DB::table('gapoktan_gudang')
+            ->select('gapoktan_gudang.kualitas', 'gapoktan_gudang.volume', 'gapoktan_gudang_detail.volume_in', 'gapoktan_gudang.user_gapoktan')
+            ->join('gapoktan_gudang_detail','gapoktan_gudang_detail.gapoktan_gudang_id','=','gapoktan_gudang.id')
+            ->where('gapoktan_gudang.kualitas', 'Kelas 2')
+            ->where('gapoktan_gudang.user_gapoktan', $user->gapoktan)
+            ->where('gapoktan_gudang_detail.created_at', 'like', '%'.$gm->month_year.'%')
+            ->sum('volume_in');
+
+            // $PanenDataSuper = GapoktanGudangDetail::where('gapoktan_id', $user->gapoktan)->where('kualitas', 'Kelas Super')->where('created_at', 'like', '%'.$gm.'%')->where('')
+            // $getPanenDataK1 = GapoktanGudangDetail::where('gapoktan_id', $user->gapoktan)->where('kualitas', 'Kelas 1')->where('created_at', 'like', '%'.$gm.'%')->
+            // $getPanenDataK2 = GapoktanGudangDetail::where('gapoktan_id', $user->gapoktan)->where('kualitas', 'Kelas 2')->where('created_at', 'like', '%'.$gm.'%')->
+
+            array_push($chartBar, [
+                'date' => date('M-Y', strtotime($gm->month_year)),
+                'k1' => intval($dataGudangK1),
+                'k2' => intval($dataGudangK2),
+                'super' => intval($dataGudangKS),
+            ]);
+
+        }
+
+        $chartBarOut = [];
+        foreach($getMonths as $gm) {
+
+            $dataGudangKS = DB::table('gapoktan_gudang')
+            ->select('gapoktan_gudang.kualitas', 'gapoktan_gudang.volume', 'gapoktan_gudang_detail.volume_in', 'gapoktan_gudang.user_gapoktan')
+            ->join('gapoktan_gudang_detail','gapoktan_gudang_detail.gapoktan_gudang_id','=','gapoktan_gudang.id')
+            ->where('gapoktan_gudang.kualitas', 'Kelas Super')
+            ->where('gapoktan_gudang.user_gapoktan', $user->gapoktan)
+            ->where('gapoktan_gudang_detail.created_at', 'like', '%'.$gm->month_year.'%')
+            ->sum('volume_out');
+
+            $dataGudangK1 = DB::table('gapoktan_gudang')
+            ->select('gapoktan_gudang.kualitas', 'gapoktan_gudang.volume', 'gapoktan_gudang_detail.volume_in', 'gapoktan_gudang.user_gapoktan')
+            ->join('gapoktan_gudang_detail','gapoktan_gudang_detail.gapoktan_gudang_id','=','gapoktan_gudang.id')
+            ->where('gapoktan_gudang.kualitas', 'Kelas 1')
+            ->where('gapoktan_gudang.user_gapoktan', $user->gapoktan)
+            ->where('gapoktan_gudang_detail.created_at', 'like', '%'.$gm->month_year.'%')
+            ->sum('volume_out');
+
+            $dataGudangK2 = DB::table('gapoktan_gudang')
+            ->select('gapoktan_gudang.kualitas', 'gapoktan_gudang.volume', 'gapoktan_gudang_detail.volume_in', 'gapoktan_gudang.user_gapoktan')
+            ->join('gapoktan_gudang_detail','gapoktan_gudang_detail.gapoktan_gudang_id','=','gapoktan_gudang.id')
+            ->where('gapoktan_gudang.kualitas', 'Kelas 2')
+            ->where('gapoktan_gudang.user_gapoktan', $user->gapoktan)
+            ->where('gapoktan_gudang_detail.created_at', 'like', '%'.$gm->month_year.'%')
+            ->sum('volume_out');
+
+            // $PanenDataSuper = GapoktanGudangDetail::where('gapoktan_id', $user->gapoktan)->where('kualitas', 'Kelas Super')->where('created_at', 'like', '%'.$gm.'%')->where('')
+            // $getPanenDataK1 = GapoktanGudangDetail::where('gapoktan_id', $user->gapoktan)->where('kualitas', 'Kelas 1')->where('created_at', 'like', '%'.$gm.'%')->
+            // $getPanenDataK2 = GapoktanGudangDetail::where('gapoktan_id', $user->gapoktan)->where('kualitas', 'Kelas 2')->where('created_at', 'like', '%'.$gm.'%')->
+
+            array_push($chartBarOut, [
+                'date' => date('M-Y', strtotime($gm->month_year)),
+                'k1' => intval($dataGudangK1),
+                'k2' => intval($dataGudangK2),
+                'super' => intval($dataGudangKS),
+            ]);
+
+        }
+
+
         // cek data master
         $hargaCabai = MHargaCabaiPetani::where('gapoktan_id', $user->gapoktan)->first();
         $hargaKemas = MHargaPengemasan::where('gapoktan_id', $user->gapoktan)->first();
+        $expired = MExpired::where('gapoktan_id', $user->gapoktan)->first();
         // end cek data master
 
         if($hargaCabai) {
@@ -76,19 +180,12 @@ class GapoktanController extends Controller
             $success['masterHargaKemas']              = false;
         }
 
-        // data chart
-        $gudang = GapoktanGudang::where('user_gapoktan', $user->id)->distinct()->get()->pluck('kualitas');
-
-        $chart = [];
-        foreach($gudang as $g) {
-            $cek = GapoktanGudang::where('kualitas', $g)->where('status', 1)->sum('volume');
-
-            if(in_array(['kualitas' => $g, 'jumlah' => intval($cek)], $chart)) {
-                // jika sudah ada di array tidak perlu di masukan
-            } else {
-                array_push($chart, ['kualitas' => $g, 'jumlah' => intval($cek)]);
-            }
+        if($expired) {
+            $success['masterExpired']                 = true;
+        } else {
+            $success['masterExpired']                 = false;
         }
+        
 
         $this->successStatus            = 200;
         $success['success']             = true;
@@ -99,6 +196,8 @@ class GapoktanController extends Controller
         $success['DTotalTransaksi']     = $TotalTransaksi + $TotalTtransaksiRequest;
         $success['DPetani']             = $petani;
         $success['DChart']              = $chart;
+        $success['DChartBar']           = $chartBar;
+        $success['DChartBarOut']        = $chartBarOut;
 
         return response()->json($success, $this->successStatus);
 
@@ -154,6 +253,7 @@ class GapoktanController extends Controller
             // insert detail gapoktan gudang
             $gudangDetail = new GapoktanGudangDetail();
             $gudangDetail->gapoktan_gudang_id = $gudang->id;
+            $gudangDetail->gapoktan_id = $user->id;
             $gudangDetail->petani_id = $gudang->petani;
             $gudangDetail->volume_in = $gudang->volume;
             $gudangDetail->status = 'Panen petani';
@@ -350,6 +450,7 @@ class GapoktanController extends Controller
                 // insert gudang detail
                 $gudangDetail = new GapoktanGudangDetail();
                 $gudangDetail->gapoktan_gudang_id = $gudang->id;
+                $gudangDetail->gapoktan_id = $user->gapoktan;
                 $gudangDetail->petani_id = $request->petani;
                 $gudangDetail->volume_out = $simpan->volume;
                 $gudangDetail->status = 'Pembuatan Produk Market';
@@ -361,6 +462,7 @@ class GapoktanController extends Controller
                 // insert gudang detail
                 $gudangDetail = new GapoktanGudangDetail();
                 $gudangDetail->gapoktan_gudang_id = $gudang->id;
+                $gudangDetail->gapoktan_id = $user->gapoktan;
                 $gudangDetail->petani_id = $request->petani;
                 $gudangDetail->volume_out = $simpan->volume;
                 $gudangDetail->status = 'Pembuatan Produk Market';
@@ -396,6 +498,7 @@ class GapoktanController extends Controller
             // insert gudang detail
             $gudangDetail = new GapoktanGudangDetail();
             $gudangDetail->gapoktan_gudang_id = $gudang->id;
+            $gudangDetail->gapoktan_id = $user->gapoktan;
             $gudangDetail->petani_id = $gudang->petani;
             $gudangDetail->volume_in = $data->volume;
             $gudangDetail->status = 'Hapus Produk Market';
@@ -686,7 +789,7 @@ class GapoktanController extends Controller
                     
                     if($cekSaldoSebelumnya) { // jika saldo sebelumnya ada
                         
-                        $saldo11->total_saldo = intval($cekSaldoSebelumnya->total_saldo) + (intval($hargaPetani->harga_jual) * $produk->volume);
+                        $saldo1->total_saldo = intval($cekSaldoSebelumnya->total_saldo) + (intval($hargaPetani->harga_jual) * $produk->volume);
                         
                     } else {
                         
@@ -710,16 +813,16 @@ class GapoktanController extends Controller
                     $saldo2->user_id = $transaksi->gapoktan_id;
                     $saldo2->gapoktan_id = $transaksi->gapoktan_id;
                     // $saldo2->saldo_in = intval($transaksi->pembayaran - $saldo1->total_saldo;
-                    $saldo2->saldo_in = $transaksi->jumlah_pembayaran - $saldo1->total_saldo;
+                    $saldo2->saldo_in = $transaksi->jumlah_pembayaran - $saldo1->saldo_in;
                     $cekSaldoSebelumnya = Saldo::where('user_id', $keranjang->gapoktan_id)->where('gapoktan_id', $keranjang->gapoktan_id)->orderBy('created_at', 'desc')->first();
 
                     if($cekSaldoSebelumnya) { // jika saldo sebelumnya ada
 
-                        $saldo2->total_saldo = $cekSaldoSebelumnya + ($transaksi->jumlah_pembayaran - $saldo1->total_saldo);
+                        $saldo2->total_saldo = $cekSaldoSebelumnya->total_saldo + ($transaksi->jumlah_pembayaran - $saldo1->saldo_in);
                         
                     } else {
                         
-                        $saldo2->total_saldo = $transaksi->jumlah_pembayaran - $saldo1->total_saldo;
+                        $saldo2->total_saldo = $transaksi->jumlah_pembayaran - $saldo1->saldo_in;
 
                     }
                     $saldo2->save();
@@ -771,13 +874,42 @@ class GapoktanController extends Controller
     }
 
     public function transactionTransaksiError($transaksiId) {
-        
+        // kembalikan status sebelumnya
         $data = TransaksiCabai::find($transaksiId);
         $data->qrcode = null;
         $data->status_pembayaran = null;
         $data->progress_transaksi = 50;
         $data->status_transaksi = "Menunggu Konfirmasi Pembayaran";
         $data->save();
+
+        // get data
+        $keranjang = Keranjang::where('id', $data->keranjang_id)->first();
+        $produk = ProdukSiapJualDetail::where('produk_siap_jual', $data->produk_id)->first();
+        $pembeli = Profile::where('user_id', $data->user_id)->with('getUser')->first();
+        $saldoDetailPetani = SaldoDetail::where('gapoktan', $data->gapoktan_id)->where('user_id', $produk->petani)->where('no_transaksi', $keranjang->no_transaksi)->first();
+        $saldoDetailGapoktan = SaldoDetail::where('gapoktan', $data->gapoktan_id)->where('user_id', $data->gapoktan_id)->where('no_transaksi', $keranjang->no_transaksi)->first();
+
+        // hapus saldo petani
+        $deleteSaldoPetani = Saldo::where('id', $saldoDetailPetani->saldo_id)->delete();
+        $deleteSaldoDetailPetani = SaldoDetail::where('gapoktan', $data->gapoktan_id)->where('no_transaksi', $keranjang->no_transaksi)->delete();
+
+        // hapus saldo gapoktan
+        $deleteSaldoGapoktan = Saldo::where('id', $saldoDetailGapoktan->saldo_id)->delete();
+        $deleteSaldoDetailGapoktan = SaldoDetail::where('gapoktan', $data->gapoktan_id)->where('no_transaksi', $keranjang->no_transaksi)->delete();
+
+        // berikan notifikasi ke petani dan pembeli
+        $notifPetani = new Notifikasi();
+        $notifPetani->user_id = $produk->petani;
+        $notifPetani->notifikasi = 'Transaksi untuk '. $pembeli->nama. ' dengan nomor '. $keranjang->no_transaksi .' gagal di proses oleh gapoktan';
+        $notifPetani->status = "Belum Dibaca";
+        $notifPetani->save();
+        
+        $notifPembeli = new Notifikasi();
+        $notifPembeli->user_id = $data->user_id;
+        $notifPembeli->notifikasi = 'Transaksi anda gagal dikonfirmasi oleh gapoktan';
+        $notifPembeli->status = "Belum Dibaca";
+        $notifPembeli->save();
+        // end berikan notifikasi
 
         $this->successStatus    = 200;
         $success['success']     = true;
@@ -803,7 +935,7 @@ class GapoktanController extends Controller
 
     }
 
-    public function UpdateKirimProduk($transaksiId) {
+    public function UpdateKirimProduk($transaksiId, $estimasi) {
 
         $data = TransaksiCabai::find($transaksiId);
         // $keranjang = Keranjang::where('produk', $data->keranjang_id)->first();
@@ -813,6 +945,7 @@ class GapoktanController extends Controller
 
             $data->status_transaksi = "Produk Dikirim Oleh Gapoktan";
             $data->progress_transaksi = 80;
+            $data->est_sampai = $estimasi;
             $data->save();
 
             $notifPembeli = new Notifikasi();
@@ -958,7 +1091,7 @@ class GapoktanController extends Controller
 
         $user = Auth::user();
 
-        $data = RequestProduk::where('gapoktan_id', $user->gapoktan)->where('status', '!=', 'Pengajuan pemesanan cabai')->with('getKonsumen')->get();
+        $data = RequestProduk::where('gapoktan_id', $user->gapoktan)->where('status', '!=', 'Pengajuan pemesanan cabai')->with('getKonsumen')->orderBy('created_at', 'desc')->get();
 
         $this->successStatus       = 200;
         $success['success']        = true;
@@ -968,7 +1101,7 @@ class GapoktanController extends Controller
 
     }
 
-    public function updateTransaksiRequest($requestId) {
+    public function updateTransaksiRequest($requestId, $estimasi) {
 
         $data = RequestProduk::find($requestId);
 
@@ -1085,16 +1218,18 @@ class GapoktanController extends Controller
                 }
 
                 // saldo gapoktan
+                $cekSaldoGapoktan = Saldo::where('user_id', $data->gapoktan_id)->where('gapoktan_id', $data->gapoktan_id)->orderBy('created_at', 'desc')->first(); // get data saldo terakhir dari user yang di loop
+
                 $saldo = new Saldo();
                 $saldo->user_id = $data->gapoktan_id;
                 $saldo->gapoktan_id = $data->gapoktan_id;
                 $saldo->saldo_in = intval($data->harga) - $hargaTersisa;
-                if($cekSaldo) { // jika saldo tidak kosong
-                    $saldo->total_saldo = intval($cekSaldo->total_saldo) + (intval($data->harga) - $hargaTersisa);
+                if($cekSaldoGapoktan) { // jika saldo tidak kosong
+                    $saldo->total_saldo = intval($cekSaldoGapoktan->total_saldo) + (intval($data->harga) - $hargaTersisa);
                 } else {
                     $saldo->total_saldo = intval($data->harga) - $hargaTersisa;
                 }
-                $saldo->save(); 
+                $saldo->save();
 
                 $saldoDetail = new SaldoDetail();
                 $saldoDetail->saldo_id = $saldo->id;
@@ -1131,6 +1266,7 @@ class GapoktanController extends Controller
             } else if($data->status == 'Pembayaran telah dikonfirmasi') {
 
                 $data->status = 'Barang dalam masa pengiriman';
+                $data->est_sampai = $estimasi;
                 $data->save();
 
                 // kirim notifikasi ke konsumen
@@ -1439,9 +1575,11 @@ class GapoktanController extends Controller
         $user = Auth::user();
 
         $getdata = GapoktanGudangExpired::where('gapoktan_id', $user->id)->with('getDetail')->get();
+        $getProdukExpired = ProdukSiapJual::where('status_tayang', 3)->where('gapoktan_id', $user->id)->orderBy('tanggal_pengemasan', 'desc')->get();
 
-        $this->successStatus    = 200;
-        $success['data']        = $getdata;
+        $this->successStatus        = 200;
+        $success['data']            = $getdata;
+        $success['produkExpired']   = $getProdukExpired;
 
         return response()->json($success, $this->successStatus);
 
@@ -1515,6 +1653,50 @@ class GapoktanController extends Controller
         $this->successStatus    = 200;
         $success['success']     = true;
         $success['data']        = $data;
+
+        return response()->json($success, $this->successStatus);
+
+    }
+
+    public function addMinimalPembelian(Request $request) {
+
+        $user = Auth::user();
+
+        $cek = MMinimalPembelian::where('gapoktan', $user->gapoktan)->first();
+
+        if($cek) {
+            $data = $cek;
+        } else {
+            $data = new MMinimalPembelian();
+        }
+
+        $data->gapoktan = $user->id;
+        $data->minimal_pembelian = $request->minimal_pembelian;
+        $data->save();
+
+        $this->successStatus    = 200;
+        $success['success']     = true;
+        $success['data']        = $data;
+
+        return response()->json($success, $this->successStatus);
+
+    }
+
+    public function getDataMinimal() {
+
+        $user = Auth::user();
+
+        $data = MMinimalPembelian::where('gapoktan', $user->gapoktan)->first();
+
+        if($data) {
+            $minimal = $data;
+        } else {
+            $minimal = null;
+        }
+
+        $this->successStatus    = 200;
+        $success['success']     = true;
+        $success['data']        = $minimal;
 
         return response()->json($success, $this->successStatus);
 

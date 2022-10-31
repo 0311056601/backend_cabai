@@ -19,6 +19,7 @@ use Illuminate\Http\Request;
 use App\Models\TransaksiLog;
 use App\Models\RequestData;
 use App\Models\Keranjang;
+use App\Models\MExpired;
 use App\Models\Profile;
 use App\Models\Lahan;
 use App\Models\MBank;

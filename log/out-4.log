@@ -1,0 +1,124 @@
+2022-03-16T05:11:14: Starting Laravel development server: http://68.183.235.127:8003
+2022-03-16T05:11:14: [Wed Mar 16 05:11:14 2022] Failed to listen on 68.183.235.127:8003 (reason: Address already in use)
+2022-03-16T05:11:15: Starting Laravel development server: http://68.183.235.127:8003
+2022-03-16T05:11:15: [Wed Mar 16 05:11:15 2022] Failed to listen on 68.183.235.127:8003 (reason: Address already in use)
+2022-03-16T05:13:37: Starting Laravel development server: http://68.183.235.127:8003
+2022-03-16T05:26:07: [Wed Mar 16 05:26:06 2022] 111.94.195.194:49817 [200]: /images/profile/1/harvest%20coffee.jpg
+2022-03-16T05:44:46: [Wed Mar 16 05:44:46 2022] 111.94.195.194:55099 [200]: /images/produk/1/cabai.jpg
+2022-03-16T05:53:37: [Wed Mar 16 05:53:37 2022] 111.94.195.194:55435 [200]: /images/produk/siapJual/1/cabai%20kemasan.jpg
+2022-03-16T05:53:37: [Wed Mar 16 05:53:37 2022] 111.94.195.194:55436 [200]: /images/produk/1/cabai.jpg
+2022-03-16T05:53:37: [Wed Mar 16 05:53:37 2022] 111.94.195.194:55437 [200]: /images/lahan/1/lahan.jpg
+2022-03-16T05:58:25: [Wed Mar 16 05:58:25 2022] 111.94.195.194:55602 [200]: /images/produk/siapJual/1/cabai%20kemasan.jpg
+2022-03-16T05:58:25: [Wed Mar 16 05:58:25 2022] 111.94.195.194:55603 [200]: /images/product/1/QR/1.png
+2022-03-16T06:01:33: [Wed Mar 16 06:01:32 2022] 111.94.195.194:55707 [200]: /images/produk/siapJual/1/cabai%20kemasan.jpg
+2022-03-16T06:01:33: [Wed Mar 16 06:01:32 2022] 111.94.195.194:55708 [200]: /images/product/1/QR/1.png
+2022-03-16T06:01:58: [Wed Mar 16 06:01:58 2022] 111.94.195.194:55727 [200]: /images/produk/siapJual/1/cabai%20kemasan.jpg
+2022-03-16T06:01:58: [Wed Mar 16 06:01:58 2022] 111.94.195.194:55728 [200]: /images/product/1/QR/1.png
+2022-03-16T06:30:52: [Wed Mar 16 06:30:52 2022] 111.94.195.194:50405 [200]: /images/produk/siapJual/1/cabai%20kemasan.jpg
+2022-03-16T06:30:52: [Wed Mar 16 06:30:52 2022] 111.94.195.194:50406 [200]: /images/product/1/QR/1.png
+2022-03-16T12:03:48: [Wed Mar 16 12:03:47 2022] 111.94.195.194:51179 [200]: /images/produk/siapJual/1/cabai%20kemasan.jpg
+2022-03-16T12:03:48: [Wed Mar 16 12:03:47 2022] 111.94.195.194:51180 [200]: /images/product/1/QR/1.png
+2022-03-16T12:03:50: [Wed Mar 16 12:03:50 2022] 111.94.195.194:51183 [200]: /images/product/1/QR/1.png
+2022-03-16T12:03:50: [Wed Mar 16 12:03:50 2022] 111.94.195.194:51184 [200]: /images/produk/siapJual/1/cabai%20kemasan.jpg
+2022-03-16T12:27:01: [Wed Mar 16 12:27:01 2022] 111.94.195.194:59292 [200]: /images/produk/siapJual/1/cabai%20kemasan.jpg
+2022-03-16T12:27:01: [Wed Mar 16 12:27:01 2022] 111.94.195.194:59293 [200]: /images/product/1/QR/1.png
+2022-03-16T12:27:22: [Wed Mar 16 12:27:21 2022] 111.94.195.194:59310 [200]: /images/produk/siapJual/1/cabai%20kemasan.jpg
+2022-03-16T12:27:22: [Wed Mar 16 12:27:21 2022] 111.94.195.194:59311 [200]: /images/produk/1/cabai.jpg
+2022-03-16T12:27:22: [Wed Mar 16 12:27:21 2022] 111.94.195.194:59312 [200]: /images/lahan/1/lahan.jpg
+2022-03-16T12:56:14: [Wed Mar 16 12:56:14 2022] 111.94.195.194:57974 [200]: /images/product/1/QR/1.png
+2022-03-16T12:56:14: [Wed Mar 16 12:56:14 2022] 111.94.195.194:57975 [200]: /images/produk/siapJual/1/cabai%20kemasan.jpg
+2022-03-16T12:57:38: [Wed Mar 16 12:57:37 2022] 111.94.195.194:57604 [200]: /images/produk/siapJual/1/cabai%20kemasan.jpg
+2022-03-16T12:57:38: [Wed Mar 16 12:57:37 2022] 111.94.195.194:57606 [200]: /images/product/1/QR/1.png
+2022-03-16T12:58:32: [Wed Mar 16 12:58:32 2022] 111.94.195.194:58004 [200]: /images/produk/siapJual/1/cabai%20kemasan.jpg
+2022-03-16T12:58:32: [Wed Mar 16 12:58:32 2022] 111.94.195.194:58005 [200]: /images/produk/1/cabai.jpg
+2022-03-16T12:58:32: [Wed Mar 16 12:58:32 2022] 111.94.195.194:58006 [200]: /images/lahan/1/lahan.jpg
+2022-03-16T12:59:05: [Wed Mar 16 12:59:05 2022] 111.94.195.194:58013 [200]: /images/produk/siapJual/1/cabai%20kemasan.jpg
+2022-03-16T12:59:05: [Wed Mar 16 12:59:05 2022] 111.94.195.194:58014 [200]: /images/product/1/QR/1.png
+2022-03-16T13:08:19: [Wed Mar 16 13:08:19 2022] 111.94.195.194:58054 [200]: /images/product/1/QR/1.png
+2022-03-16T13:08:19: [Wed Mar 16 13:08:19 2022] 111.94.195.194:58055 [200]: /images/produk/siapJual/1/cabai%20kemasan.jpg
+2022-03-16T23:41:33: [Wed Mar 16 23:41:33 2022] 182.2.137.210:54449 [200]: /images/produk/siapJual/1/cabai%20kemasan.jpg
+2022-03-16T23:41:33: [Wed Mar 16 23:41:33 2022] 182.2.137.210:54450 [200]: /images/product/1/QR/1.png
+2022-03-16T23:44:50: [Wed Mar 16 23:44:50 2022] 182.2.137.210:54476 [200]: /images/produk/siapJual/1/cabai%20kemasan.jpg
+2022-03-16T23:44:50: [Wed Mar 16 23:44:50 2022] 182.2.137.210:54477 [200]: /images/product/1/QR/1.png
+2022-03-16T23:45:07: [Wed Mar 16 23:45:07 2022] 182.2.137.210:54484 [200]: /images/produk/siapJual/1/cabai%20kemasan.jpg
+2022-03-16T23:45:07: [Wed Mar 16 23:45:07 2022] 182.2.137.210:54483 [200]: /images/product/1/QR/1.png
+2022-03-17T02:54:31: [Thu Mar 17 02:54:31 2022] 111.94.195.194:36192 [200]: /images/produk/siapJual/1/cabai%20kemasan.jpg
+2022-03-17T02:54:31: [Thu Mar 17 02:54:31 2022] 111.94.195.194:36194 [200]: /images/product/1/QR/1.png
+2022-03-17T02:55:31: [Thu Mar 17 02:55:31 2022] 111.94.195.194:60053 [200]: /images/produk/siapJual/1/cabai%20kemasan.jpg
+2022-03-17T02:55:31: [Thu Mar 17 02:55:31 2022] 111.94.195.194:60054 [200]: /images/product/1/QR/1.png
+2022-03-17T02:57:31: [Thu Mar 17 02:57:31 2022] 111.94.195.194:60066 [200]: /images/produk/siapJual/1/cabai%20kemasan.jpg
+2022-03-17T02:57:31: [Thu Mar 17 02:57:31 2022] 111.94.195.194:60067 [200]: /images/product/1/QR/1.png
+2022-03-17T02:58:40: [Thu Mar 17 02:58:40 2022] 111.94.195.194:36248 [200]: /images/produk/siapJual/1/cabai%20kemasan.jpg
+2022-03-17T02:58:40: [Thu Mar 17 02:58:40 2022] 111.94.195.194:36250 [200]: /images/product/1/QR/1.png
+2022-03-17T02:58:40: [Thu Mar 17 02:58:40 2022] 111.94.195.194:36254 [200]: /images/produk/siapJual/1/cabai%20kemasan.jpg
+2022-03-17T02:58:40: [Thu Mar 17 02:58:40 2022] 111.94.195.194:36256 [200]: /images/product/1/QR/1.png
+2022-03-17T03:01:46: [Thu Mar 17 03:01:46 2022] 111.94.195.194:55425 [200]: /images/produk/siapJual/1/cabai%20kemasan.jpg
+2022-03-17T03:01:46: [Thu Mar 17 03:01:46 2022] 111.94.195.194:55426 [200]: /images/product/1/QR/1.png
+2022-03-17T03:01:51: [Thu Mar 17 03:01:51 2022] 111.94.195.194:55430 [200]: /images/produk/siapJual/1/cabai%20kemasan.jpg
+2022-03-17T03:01:51: [Thu Mar 17 03:01:51 2022] 111.94.195.194:55431 [200]: /images/product/1/QR/1.png
+2022-03-17T03:02:22: [Thu Mar 17 03:02:22 2022] 111.94.195.194:36290 [200]: /images/produk/siapJual/1/cabai%20kemasan.jpg
+2022-03-17T03:02:22: [Thu Mar 17 03:02:22 2022] 111.94.195.194:36292 [200]: /images/produk/1/cabai.jpg
+2022-03-17T03:02:22: [Thu Mar 17 03:02:22 2022] 111.94.195.194:36294 [200]: /images/lahan/1/lahan.jpg
+2022-03-17T03:26:24: [Thu Mar 17 03:26:23 2022] 111.94.195.194:64803 [200]: /images/produk/siapJual/1/cabai%20kemasan.jpg
+2022-03-17T03:26:24: [Thu Mar 17 03:26:23 2022] 111.94.195.194:64802 [200]: /images/product/1/QR/1.png
+2022-03-17T03:33:17: [Thu Mar 17 03:33:17 2022] 111.94.195.194:65011 [200]: /images/produk/siapJual/1/cabai%20kemasan.jpg
+2022-03-17T03:33:17: [Thu Mar 17 03:33:17 2022] 111.94.195.194:65012 [200]: /images/product/1/QR/1.png
+2022-03-17T03:33:53: [Thu Mar 17 03:33:53 2022] 111.94.195.194:37402 [200]: /images/produk/siapJual/1/cabai%20kemasan.jpg
+2022-03-17T03:33:53: [Thu Mar 17 03:33:53 2022] 111.94.195.194:37404 [200]: /images/produk/1/cabai.jpg
+2022-03-17T03:33:53: [Thu Mar 17 03:33:53 2022] 111.94.195.194:37406 [200]: /images/lahan/1/lahan.jpg
+2022-03-17T03:34:01: [Thu Mar 17 03:34:01 2022] 111.94.195.194:58063 [200]: /images/produk/siapJual/1/cabai%20kemasan.jpg
+2022-03-17T03:34:01: [Thu Mar 17 03:34:01 2022] 111.94.195.194:58062 [200]: /images/product/1/QR/1.png
+2022-03-17T03:46:40: [Thu Mar 17 03:46:40 2022] 111.94.195.194:58138 [200]: /images/produk/siapJual/1/cabai%20kemasan.jpg
+2022-03-17T03:46:40: [Thu Mar 17 03:46:40 2022] 111.94.195.194:58139 [200]: /images/product/1/QR/1.png
+2022-03-17T05:35:12: [Thu Mar 17 05:35:11 2022] 111.94.195.194:52067 [200]: /images/produk/siapJual/1/cabai%20kemasan.jpg
+2022-03-17T05:35:12: [Thu Mar 17 05:35:11 2022] 111.94.195.194:52068 [200]: /images/product/1/QR/1.png
+2022-03-17T16:15:34: [Thu Mar 17 16:15:33 2022] 111.94.195.194:43492 [200]: /images/produk/1/cabai.jpg
+2022-03-17T16:15:34: [Thu Mar 17 16:15:33 2022] 111.94.195.194:43488 [200]: /images/produk/siapJual/1/cabai%20kemasan.jpg
+2022-03-17T16:15:34: [Thu Mar 17 16:15:33 2022] 111.94.195.194:43490 [200]: /images/lahan/1/lahan.jpg
+2022-03-19T11:03:51: [Sat Mar 19 11:03:50 2022] 62.233.50.179:63548 Invalid request (Malformed HTTP request)
+2022-03-20T04:26:26: [Sun Mar 20 04:26:25 2022] 36.84.18.158:59950 [200]: /images/produk/siapJual/1/cabai%20kemasan.jpg
+2022-03-20T04:26:26: [Sun Mar 20 04:26:25 2022] 110.138.95.222:59951 [200]: /images/product/1/QR/1.png
+2022-03-20T04:26:33: [Sun Mar 20 04:26:33 2022] 110.138.95.222:59958 [200]: /images/product/1/QR/1.png
+2022-03-20T04:26:33: [Sun Mar 20 04:26:33 2022] 110.138.95.222:59959 [200]: /images/produk/siapJual/1/cabai%20kemasan.jpg
+2022-03-20T04:26:43: [Sun Mar 20 04:26:42 2022] 110.138.95.222:59965 [200]: /images/produk/siapJual/1/cabai%20kemasan.jpg
+2022-03-20T04:26:43: [Sun Mar 20 04:26:42 2022] 110.138.95.222:59966 [200]: /images/product/1/QR/1.png
+2022-03-20T04:53:41: [Sun Mar 20 04:53:41 2022] 36.84.18.158:63007 [200]: /images/product/1/QR/1.png
+2022-03-20T04:53:41: [Sun Mar 20 04:53:41 2022] 110.138.95.222:63006 [200]: /images/produk/siapJual/1/cabai%20kemasan.jpg
+2022-03-20T04:55:07: [Sun Mar 20 04:55:07 2022] 36.84.18.158:63025 [200]: /images/produk/siapJual/1/cabai%20kemasan.jpg
+2022-03-20T04:55:07: [Sun Mar 20 04:55:07 2022] 36.84.18.158:63024 [200]: /images/product/1/QR/1.png
+2022-03-20T06:01:29: [Sun Mar 20 06:01:29 2022] 167.94.138.62:40858 Invalid request (Connection reset by peer)
+2022-03-20T06:01:30: [Sun Mar 20 06:01:29 2022] 167.94.138.62:40406 Invalid request (Unsupported SSL request)
+2022-03-20T06:01:32: [Sun Mar 20 06:01:32 2022] 167.94.138.62:40260 Invalid request (Malformed HTTP request)
+2022-03-20T07:38:22: [Sun Mar 20 07:38:22 2022] 89.248.163.136:59000 Invalid request (Malformed HTTP request)
+2022-03-20T07:56:11: [Sun Mar 20 07:56:11 2022] 147.78.47.12:64257 Invalid request (Malformed HTTP request)
+2022-03-20T10:41:57: [Sun Mar 20 10:41:57 2022] 223.71.167.165:22346 Invalid request (Malformed HTTP request)
+2022-03-20T13:19:16: [Sun Mar 20 13:19:16 2022] 62.233.50.179:63770 Invalid request (Malformed HTTP request)
+2022-03-20T14:49:15: [Sun Mar 20 14:49:15 2022] 91.191.209.206:64579 Invalid request (Malformed HTTP request)
+2022-03-20T23:04:01: [Sun Mar 20 23:04:00 2022] 118.193.56.204:41718 Invalid request (Unsupported SSL request)
+2022-03-20T23:04:11: [Sun Mar 20 23:04:10 2022] 118.193.56.204:43876 [200]: /favicon.ico
+2022-03-20T23:04:11: [Sun Mar 20 23:04:11 2022] 118.193.56.204:43900 [200]: /robots.txt
+2022-03-21T02:26:51: [Mon Mar 21 02:26:50 2022] 111.94.195.194:60924 [200]: /images/product/1/QR/1.png
+2022-03-21T02:26:51: [Mon Mar 21 02:26:50 2022] 111.94.195.194:60925 [200]: /images/produk/siapJual/1/cabai%20kemasan.jpg
+2022-03-21T02:27:25: [Mon Mar 21 02:27:25 2022] 111.94.195.194:60947 [200]: /images/profile/1/harvest%20coffee.jpg
+2022-03-21T02:32:35: [Mon Mar 21 02:32:35 2022] 111.94.195.194:60979 [200]: /images/produk/siapJual/1/cabai%20kemasan.jpg
+2022-03-21T02:32:35: [Mon Mar 21 02:32:35 2022] 111.94.195.194:60980 [200]: /images/product/1/QR/1.png
+2022-03-21T02:35:48: [Mon Mar 21 02:35:48 2022] 111.94.195.194:61019 [200]: /images/profile/1/harvest%20coffee.jpg
+2022-03-21T02:57:07: [Mon Mar 21 02:57:07 2022] 111.94.195.194:50639 [200]: /images/produk/siapJual/1/cabai%20kemasan.jpg
+2022-03-21T02:57:07: [Mon Mar 21 02:57:07 2022] 111.94.195.194:50640 [200]: /images/product/1/QR/1.png
+2022-03-21T04:03:59: [Mon Mar 21 04:03:59 2022] 111.94.195.194:57775 [200]: /images/produk/siapJual/1/cabai%20kemasan.jpg
+2022-03-21T04:03:59: [Mon Mar 21 04:03:59 2022] 111.94.195.194:57776 [200]: /images/product/1/QR/1.png
+2022-03-21T05:15:01: [Mon Mar 21 05:15:00 2022] 43.131.66.209:23734 Invalid request (Unsupported SSL request)
+2022-03-21T05:15:26: [Mon Mar 21 05:15:26 2022] 8.26.182.37:31972 [200]: /favicon.ico
+2022-03-21T05:15:30: [Mon Mar 21 05:15:30 2022] 8.31.2.50:40720 [200]: /favicon.ico
+2022-03-21T07:15:58: [Mon Mar 21 07:15:58 2022] 111.94.195.194:50190 [200]: /images/produk/siapJual/1/cabai%20kemasan.jpg
+2022-03-21T07:15:58: [Mon Mar 21 07:15:58 2022] 111.94.195.194:50191 [200]: /images/product/1/QR/1.png
+2022-03-21T07:16:02: [Mon Mar 21 07:16:02 2022] 111.94.195.194:50200 [200]: /images/produk/siapJual/1/cabai%20kemasan.jpg
+2022-03-21T07:16:02: [Mon Mar 21 07:16:02 2022] 111.94.195.194:50201 [200]: /images/product/1/QR/1.png
+2022-03-21T07:16:11: [Mon Mar 21 07:16:10 2022] 111.94.195.194:50213 [200]: /images/produk/siapJual/1/cabai%20kemasan.jpg
+2022-03-21T07:16:11: [Mon Mar 21 07:16:10 2022] 111.94.195.194:50214 [200]: /images/product/1/QR/1.png
+2022-03-21T10:14:34: [Mon Mar 21 10:14:34 2022] 118.123.105.87:41060 [200]: /favicon.ico
+2022-03-21T10:14:36: [Mon Mar 21 10:14:36 2022] 118.123.105.87:42020 [200]: /robots.txt
+2022-03-21T12:47:16: [Mon Mar 21 12:47:16 2022] 183.136.225.42:37964 Invalid request (Malformed HTTP request)
+2022-03-21T15:45:22: [Mon Mar 21 15:45:21 2022] 91.243.44.29:64211 Invalid request (Malformed HTTP request)
+2022-03-21T17:09:23: [Mon Mar 21 17:09:22 2022] 167.248.133.46:37496 Invalid request (Malformed HTTP request)
+2022-03-23T04:19:44: [Wed Mar 23 04:19:44 2022] 183.136.225.9:53716 Invalid request (Malformed HTTP request)

@@ -3,9 +3,13 @@
 namespace App\Http\Controllers\API;
 
 use App\Http\Controllers\Controller;
+use App\Models\ProdukSiapJualDetail;
 use App\Models\ProdukPetaniImg;
-use App\Models\ProdukPetani;
+use App\Models\TransaksiCabai;
 use Illuminate\Http\Request;
+use App\Models\ProdukPetani;
+use App\Models\Profile;
+use App\Models\Lahan;
 use Storage;
 use Auth;
 use File;
@@ -151,6 +155,35 @@ class ProdukController extends Controller
 
             return response()->json($success, $this->successStatus);
         }
+
+    }
+
+    public function getTracePanen($produkPanenId) {
+
+        $user = Auth::user();
+        $produkPetani = ProdukPetani::where('id', $produkPanenId)->with('getImage')->first();
+        $profile = Profile::where('user_id', $user->id)->first();
+        $lahan = Lahan::where('user_id', $user->id)->with('getImg')->first();
+        $produk = ProdukSiapJualDetail::where('produk_petani', $produkPanenId)->with('ProdukSiapJual', 'ProdukSiapJualImage')->get();
+
+        $arr = [];
+        foreach($produk as $p) {
+            $transaksi = TransaksiCabai::where('produk_id', $p->produk_siap_jual)->with('getPembeli', 'getProfilePembeli', 'getGapoktan', 'getProfileGapoktan', 'getKeranjang', 'getProduk')->first();
+            if($transaksi){
+                array_push($arr, $transaksi);
+            }
+        }
+
+        $this->successStatus       = 200;
+        $success['success']        = true;
+        $success['user']           = $user;
+        $success['profile']        = $profile;
+        $success['produkPetani']   = $produkPetani;
+        $success['lahan']          = $lahan;
+        $success['produk']         = $produk;
+        $success['transaksi']      = $arr;
+
+        return response()->json($success, $this->successStatus);
 
     }
 }
