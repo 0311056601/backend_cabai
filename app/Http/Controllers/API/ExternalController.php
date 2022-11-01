@@ -425,5 +425,42 @@ class ExternalController extends Controller
 
     }
 
+    public function getDashboardLogin() {
+
+        $data = [];
+        
+        for($i=0; $i < 7; $i++) {
+            $tgl = Carbon::now();
+
+            
+            if($i != 0) {
+                $t = $tgl->add(-$i, 'day');
+                // get data all jumlah produk market
+                $dataProduk = ProdukSiapJual::where('tanggal_pengemasan', $t->format('Y-m-d'))->get()->sum('volume');
+    
+                // get data all permintaan cabai
+                $dataPermintaan = RequestProduk::where('tanggal_pembelian', 'like', '%'.$t->format('Y-m-d').'%')->get()->sum('volume');
+
+                array_push($data, ['tanggal' => $t->format('d/M'), 'produk' => $dataProduk, 'kebutuhan' => $dataPermintaan, 'no' => $i+1]);
+            } else {
+                // get data all jumlah produk market
+                $dataProduk = ProdukSiapJual::where('tanggal_pengemasan', $tgl->format('Y-m-d'))->get()->sum('volume');
+    
+                // get data all permintaan cabai
+                $dataPermintaan = RequestProduk::where('tanggal_pembelian', 'like', '%'.$tgl->format('Y-m-d').'%')->get()->sum('volume');
+
+                array_push($data, ['tanggal' => $tgl->format('d/M'), 'produk' => $dataProduk, 'kebutuhan' => $dataPermintaan, 'no' => $i+1]);
+            }
+
+        }
+
+        $this->successStatus       = 200;
+        $success['success']        = true;
+        $success['data']           = $data;
+
+        return response()->json($success, $this->successStatus);
+
+    }
+
 
 }

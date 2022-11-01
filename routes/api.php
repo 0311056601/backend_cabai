@@ -27,6 +27,7 @@ Route::get('v2/getGapoktanHarga/{gapoktanId}', [App\Http\Controllers\API\Externa
 Route::post('v2/addLogRequestData', [App\Http\Controllers\API\ExternalController::class, 'addLogRequestData']);
 Route::get('v2/getExpiredQR/{expiredId}', [App\Http\Controllers\API\ExternalController::class, 'getExpiredQR']);
 Route::get('v2/getMasterBank', [App\Http\Controllers\API\ExternalController::class, 'getMasterBank']);
+Route::get('v2/getDashboardLogin', [App\Http\Controllers\API\ExternalController::class, 'getDashboardLogin']);
 
 Route::get('v2/testing', [App\Http\Controllers\API\ExternalController::class, 'testing']);
 
