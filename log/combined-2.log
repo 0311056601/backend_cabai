@@ -1,0 +1,1093 @@
+2022-02-17T11:43:42: Starting Laravel development server: http://68.183.235.127:90
+2022-02-17T11:43:43: [Thu Feb 17 11:43:43 2022] Failed to listen on 68.183.235.127:90 (reason: Permission denied)
+2022-02-17T11:43:44: Starting Laravel development server: http://68.183.235.127:90
+2022-02-17T11:43:44: [Thu Feb 17 11:43:44 2022] Failed to listen on 68.183.235.127:90 (reason: Permission denied)
+2022-02-17T11:44:20: Starting Laravel development server: http://68.183.235.127:90
+2022-02-17T11:44:21: [Thu Feb 17 11:44:20 2022] Failed to listen on 68.183.235.127:90 (reason: Permission denied)
+2022-02-17T11:45:14: Starting Laravel development server: http://68.183.235.127:90
+2022-02-17T11:45:14: [Thu Feb 17 11:45:14 2022] Failed to listen on 68.183.235.127:90 (reason: Permission denied)
+2022-09-16T08:02:13: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-16T08:05:39: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-16T08:05:40: [Fri Sep 16 08:05:39 2022] 140.213.15.170:17501 [200]: /images/profile/2/logo.png
+2022-09-16T08:05:40: [Fri Sep 16 08:05:40 2022] 140.213.15.170:10741 [200]: /images/profile/29/gapoktan%20cabai.jpg
+2022-09-16T08:05:40: [Fri Sep 16 08:05:40 2022] 140.213.15.170:51719 [200]: /images/profile/51/GAPOKTAN.png
+2022-09-16T08:08:01: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-16T08:08:02: [Fri Sep 16 08:08:02 2022] 140.213.15.170:57390 [200]: /images/profile/2/logo.png
+2022-09-16T08:08:02: [Fri Sep 16 08:08:02 2022] 140.213.15.170:19411 [200]: /images/profile/29/gapoktan%20cabai.jpg
+2022-09-16T08:08:02: [Fri Sep 16 08:08:02 2022] 140.213.15.170:58571 [200]: /images/profile/51/GAPOKTAN.png
+2022-09-16T08:10:32: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-16T08:10:33: [Fri Sep 16 08:10:32 2022] 140.213.15.170:5077 [200]: /images/profile/29/gapoktan%20cabai.jpg
+2022-09-16T08:10:33: [Fri Sep 16 08:10:32 2022] 140.213.15.170:29319 [200]: /images/profile/2/logo.png
+2022-09-16T08:10:33: [Fri Sep 16 08:10:33 2022] 140.213.15.170:51175 [200]: /images/profile/51/GAPOKTAN.png
+2022-09-16T08:10:37: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-16T08:10:52: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-16T08:10:53: [Fri Sep 16 08:10:53 2022] 140.213.15.170:37573 [200]: /images/profile/29/gapoktan%20cabai.jpg
+2022-09-16T08:10:53: [Fri Sep 16 08:10:53 2022] 140.213.15.170:44351 [200]: /images/profile/2/logo.png
+2022-09-16T08:10:53: [Fri Sep 16 08:10:53 2022] 140.213.15.170:12077 [200]: /images/profile/51/GAPOKTAN.png
+2022-09-16T08:13:02: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-16T08:13:02: [Fri Sep 16 08:13:02 2022] 140.213.15.170:50399 [200]: /favicon.ico
+2022-09-16T08:18:56: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-16T08:18:56: [Fri Sep 16 08:18:56 2022] 140.213.15.170:12665 [200]: /images/profile/2/logo.png
+2022-09-16T08:18:56: [Fri Sep 16 08:18:56 2022] 140.213.15.170:7316 [200]: /images/profile/29/gapoktan%20cabai.jpg
+2022-09-16T08:18:57: [Fri Sep 16 08:18:57 2022] 140.213.15.170:50476 [200]: /images/profile/51/GAPOKTAN.png
+2022-09-16T10:57:08: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-16T12:06:01: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-16T12:06:02: [Fri Sep 16 12:06:02 2022] 140.213.15.170:7037 [200]: /images/profile/2/logo.png
+2022-09-16T12:06:02: [Fri Sep 16 12:06:02 2022] 140.213.15.170:58443 [200]: /images/profile/29/gapoktan%20cabai.jpg
+2022-09-16T12:06:02: [Fri Sep 16 12:06:02 2022] 140.213.15.170:2163 [200]: /images/profile/51/GAPOKTAN.png
+2022-09-16T14:04:14: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-16T14:04:14: [Fri Sep 16 14:04:14 2022] 140.213.15.170:22663 [200]: /favicon.ico
+2022-09-16T14:04:40: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-16T14:04:41: [Fri Sep 16 14:04:41 2022] 140.213.15.170:38912 [200]: /favicon.ico
+2022-09-16T14:19:32: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-16T14:19:33: [Fri Sep 16 14:19:32 2022] 140.213.15.170:38281 [200]: /images/profile/2/logo.png
+2022-09-16T14:19:33: [Fri Sep 16 14:19:32 2022] 140.213.15.170:26233 [200]: /images/profile/51/GAPOKTAN.png
+2022-09-16T14:19:33: [Fri Sep 16 14:19:32 2022] 140.213.15.170:59340 [200]: /images/profile/29/gapoktan%20cabai.jpg
+2022-09-16T14:19:39: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-16T14:19:43: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-16T14:19:43: [Fri Sep 16 14:19:43 2022] 140.213.15.170:18863 [200]: /images/profile/2/logo.png
+2022-09-17T05:11:58: [Sat Sep 17 05:11:58 2022] 159.223.9.243:34032 Invalid request (Unsupported SSL request)
+2022-09-17T05:11:58: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-17T17:10:06: [Sat Sep 17 17:10:06 2022] 80.66.75.92:64811 Invalid request (Malformed HTTP request)
+2022-09-17T17:10:07: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-17T21:54:49: [Sat Sep 17 21:54:49 2022] 223.71.167.165:21665 Invalid request (Malformed HTTP request)
+2022-09-17T21:54:49: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-18T05:58:17: [Sun Sep 18 05:58:16 2022] 152.89.196.25:64550 Invalid request (Malformed HTTP request)
+2022-09-18T05:58:17: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-18T06:52:31: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-18T06:57:39: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-18T14:47:18: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-18T14:56:34: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-18T14:56:41: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-18T14:56:42: [Sun Sep 18 14:56:42 2022] 103.26.211.4:56632 [200]: /images/profile/2/logo.png
+2022-09-18T14:56:42: [Sun Sep 18 14:56:42 2022] 103.26.211.4:56638 [200]: /images/profile/29/gapoktan%20cabai.jpg
+2022-09-18T14:56:44: [Sun Sep 18 14:56:44 2022] 103.26.211.4:56644 [200]: /images/profile/51/GAPOKTAN.png
+2022-09-18T14:56:44: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-18T15:03:00: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-18T15:03:02: [Sun Sep 18 15:03:02 2022] 125.160.233.246:22077 [200]: /images/profile/4/WhatsApp%20Image%202022-04-16%20at%2022.22.57.jpeg
+2022-09-18T15:03:24: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-18T15:03:50: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-18T15:03:55: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-18T15:03:59: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-18T15:05:57: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-18T21:14:57: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-18T21:15:03: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-18T21:15:05: [Sun Sep 18 21:15:05 2022] 172.105.83.46:28619 Invalid request (Unsupported SSL request)
+2022-09-18T21:15:05: [Sun Sep 18 21:15:05 2022] 172.105.83.46:38121 Invalid request (Unsupported SSL request)
+2022-09-18T21:15:05: [Sun Sep 18 21:15:05 2022] 172.105.83.46:6334 Invalid request (Unsupported SSL request)
+2022-09-18T21:15:07: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-18T21:15:08: [Sun Sep 18 21:15:08 2022] 172.105.83.46:4547 [200]: /favicon.ico
+2022-09-18T21:15:13: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-18T21:15:14: [Sun Sep 18 21:15:14 2022] 172.105.83.46:2782 Invalid request (Unsupported SSL request)
+2022-09-19T01:57:02: [Mon Sep 19 01:57:02 2022] 140.213.2.175:63142 [200]: /favicon.ico
+2022-09-19T01:57:03: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-19T01:58:14: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-19T01:58:14: [Mon Sep 19 01:58:14 2022] 140.213.2.175:25601 [200]: /images/profile/2/logo.png
+2022-09-19T01:58:14: [Mon Sep 19 01:58:14 2022] 140.213.2.175:10109 [200]: /images/profile/29/gapoktan%20cabai.jpg
+2022-09-19T01:58:14: [Mon Sep 19 01:58:14 2022] 140.213.2.175:39563 [200]: /images/profile/51/GAPOKTAN.png
+2022-09-19T03:25:27: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-19T03:25:27: [Mon Sep 19 03:25:27 2022] 125.160.233.246:24797 [200]: /images/profile/2/logo.png
+2022-09-19T03:25:28: [Mon Sep 19 03:25:28 2022] 125.160.233.246:40758 [200]: /images/profile/51/GAPOKTAN.png
+2022-09-19T03:25:28: [Mon Sep 19 03:25:28 2022] 125.160.233.246:36202 [200]: /images/profile/29/gapoktan%20cabai.jpg
+2022-09-19T03:25:52: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-19T03:26:09: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-19T03:26:31: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-19T03:26:31: [Mon Sep 19 03:26:31 2022] 125.160.233.246:4951 [200]: /images/profile/2/logo.png
+2022-09-19T03:26:31: [Mon Sep 19 03:26:31 2022] 125.160.233.246:64346 [200]: /images/profile/29/gapoktan%20cabai.jpg
+2022-09-19T03:26:31: [Mon Sep 19 03:26:31 2022] 125.160.233.246:34227 [200]: /images/profile/51/GAPOKTAN.png
+2022-09-19T03:28:01: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-19T03:28:03: [Mon Sep 19 03:28:02 2022] 125.160.233.246:33340 [200]: /images/profile/8/WhatsApp%20Image%202022-04-10%20at%2011.42.55%20(1).jpeg
+2022-09-19T03:28:12: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-19T03:28:22: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-19T03:29:29: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-19T03:31:02: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-19T03:31:28: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-19T03:39:32: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-19T03:41:22: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-19T03:42:34: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-19T03:42:55: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-19T03:42:56: [Mon Sep 19 03:42:55 2022] 140.213.2.175:30240 [200]: /favicon.ico
+2022-09-19T03:57:35: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-19T03:57:37: [Mon Sep 19 03:57:36 2022] 125.160.233.246:10274 [200]: /images/profile/2/logo.png
+2022-09-19T03:57:44: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-19T03:59:55: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-19T04:00:58: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-19T04:01:38: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-19T04:38:19: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-19T04:38:21: [Mon Sep 19 04:38:21 2022] 125.160.233.246:48458 [200]: /images/profile/22/WhatsApp%20Image%202022-04-16%20at%2015.26.18.jpeg
+2022-09-19T04:38:26: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-19T04:39:11: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-19T04:39:16: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-19T04:39:27: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-19T04:41:02: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-19T04:44:22: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-19T04:44:23: [Mon Sep 19 04:44:23 2022] 125.160.233.246:10270 [200]: /images/profile/4/WhatsApp%20Image%202022-04-16%20at%2022.22.57.jpeg
+2022-09-19T04:44:27: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-19T04:44:33: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-19T04:44:40: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-19T04:44:46: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-19T04:49:55: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-19T04:49:55: [Mon Sep 19 04:49:55 2022] 125.160.233.246:64446 [200]: /images/produk/1/WhatsApp%20Image%202022-04-17%20at%2009.54.23.jpeg
+2022-09-19T04:49:55: [Mon Sep 19 04:49:55 2022] 125.160.233.246:51876 [200]: /images/lahan/2/WhatsApp%20Image%202022-04-10%20at%2011.42.55.jpeg
+2022-09-19T04:49:55: [Mon Sep 19 04:49:55 2022] 125.160.233.246:10369 [200]: /images/produk/siapJual/1/WhatsApp%20Image%202022-03-28%20at%2022.21.21%20(1).jpeg
+2022-09-19T04:50:50: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-19T04:51:12: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-19T04:51:17: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-19T04:52:16: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-19T04:53:22: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-19T04:54:09: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-19T04:54:13: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-19T04:57:24: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-19T04:57:28: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-19T05:12:38: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-19T05:12:39: [Mon Sep 19 05:12:39 2022] 125.160.233.246:65155 [200]: /images/profile/2/logo.png
+2022-09-19T05:12:58: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-19T05:13:08: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-19T05:13:36: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-19T05:13:36: [Mon Sep 19 05:13:36 2022] 125.160.233.246:13091 [200]: /images/produk/82/WhatsApp%20Image%202022-04-17%20at%2009.54.23.jpeg
+2022-09-19T05:14:13: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-19T05:14:26: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-19T05:14:47: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-19T05:27:09: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-19T05:30:08: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-19T05:30:30: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-19T05:30:51: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-19T05:30:52: [Mon Sep 19 05:30:51 2022] 125.160.233.246:61683 [200]: /images/produk/siapJual/37/WhatsApp%20Image%202022-03-28%20at%2022.21.21%20(1).jpeg
+2022-09-19T05:30:52: [Mon Sep 19 05:30:51 2022] 125.160.233.246:24296 [200]: /images/produk/81/WhatsApp%20Image%202022-04-17%20at%2009.54.23.jpeg
+2022-09-19T05:30:52: [Mon Sep 19 05:30:51 2022] 125.160.233.246:14986 [200]: /images/lahan/2/WhatsApp%20Image%202022-04-10%20at%2011.42.55.jpeg
+2022-09-19T07:19:45: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-19T07:20:33: [Mon Sep 19 07:20:33 2022] 125.160.233.246:32150 [200]: /images/profile/2/logo.png
+2022-09-19T07:20:33: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-19T07:23:51: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-19T07:23:52: [Mon Sep 19 07:23:52 2022] 125.160.233.246:32081 [200]: /images/profile/22/WhatsApp%20Image%202022-04-16%20at%2015.26.18.jpeg
+2022-09-19T07:24:07: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-19T07:24:16: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-19T07:27:47: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-19T07:27:57: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-19T07:29:03: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-19T07:31:01: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-19T07:31:04: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-19T07:31:18: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-19T07:31:40: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-19T07:31:43: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-19T07:39:10: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-19T07:39:25: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-19T07:39:51: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-19T07:40:11: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-19T07:40:15: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-19T07:55:28: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-19T07:55:36: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-19T07:55:55: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-19T07:56:12: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-19T07:58:44: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-19T07:59:27: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-19T07:59:48: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-19T08:00:16: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-19T08:00:20: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-19T08:00:57: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-19T08:01:38: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-19T08:01:47: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-19T08:01:58: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-19T08:01:59: [Mon Sep 19 08:01:59 2022] 125.160.233.246:9534 [200]: /images/profile/2/logo.png
+2022-09-19T08:06:19: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-19T08:08:44: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-19T08:09:33: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-19T08:09:34: [Mon Sep 19 08:09:33 2022] 125.160.233.246:58367 [200]: /images/lahan/2/WhatsApp%20Image%202022-04-10%20at%2011.42.55.jpeg
+2022-09-19T08:09:34: [Mon Sep 19 08:09:33 2022] 125.160.233.246:42584 [200]: /images/produk/siapJual/28/WhatsApp%20Image%202022-04-29%20at%2007.16.45.jpeg
+2022-09-19T08:10:18: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-19T08:10:19: [Mon Sep 19 08:10:18 2022] 125.160.233.246:65535 [200]: /images/produk/siapJual/25/WhatsApp%20Image%202022-04-29%20at%2007.16.43.jpeg
+2022-09-19T08:10:19: [Mon Sep 19 08:10:18 2022] 125.160.233.246:11594 [200]: /images/lahan/2/WhatsApp%20Image%202022-04-10%20at%2011.42.55.jpeg
+2022-09-19T08:10:59: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-19T10:41:57: [Mon Sep 19 10:41:57 2022] 185.122.204.54:64743 Invalid request (Malformed HTTP request)
+2022-09-19T10:41:58: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-19T19:41:28: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-19T19:41:29: [Mon Sep 19 19:41:28 2022] Failed to listen on 68.183.235.127:8003 (reason: Address already in use)
+2022-09-21T11:31:38: Starting Laravel development server: http://68.183.235.127:8003
+2022-09-21T14:01:26: [Wed Sep 21 14:01:26 2022] 125.160.232.1:36434 [200]: /images/profile/51/GAPOKTAN.png
+2022-09-21T14:01:26: [Wed Sep 21 14:01:26 2022] 125.160.232.1:57642 [200]: /images/profile/2/logo.png
+2022-09-21T14:01:26: [Wed Sep 21 14:01:26 2022] 125.160.232.1:7557 [200]: /images/profile/29/gapoktan%20cabai.jpg
+2022-09-21T14:01:41: [Wed Sep 21 14:01:41 2022] 125.160.232.1:37310 [200]: /images/profile/2/logo.png
+2022-09-21T14:23:45: [Wed Sep 21 14:23:45 2022] 125.160.232.1:20086 [200]: /images/profile/2/logo.png
+2022-09-21T14:37:13: [Wed Sep 21 14:37:13 2022] 125.160.232.1:33603 [200]: /images/profile/2/logo.png
+2022-09-21T15:20:04: [Wed Sep 21 15:20:04 2022] 80.66.75.92:64811 Invalid request (Malformed HTTP request)
+2022-09-22T07:52:26: [Thu Sep 22 07:52:26 2022] 123.160.221.14:52226 Invalid request (Unsupported SSL request)
+2022-09-22T07:53:06: [Thu Sep 22 07:53:06 2022] 209.141.55.120:10126 [200]: /favicon.ico
+2022-09-23T00:00:41: [Fri Sep 23 00:00:41 2022] 47.243.75.120:32856 [200]: /robots.txt
+2022-09-23T01:13:13: [Fri Sep 23 01:13:12 2022] 140.213.11.60:28182 [200]: /images/profile/51/GAPOKTAN.png
+2022-09-23T01:13:13: [Fri Sep 23 01:13:12 2022] 140.213.11.60:43961 [200]: /images/profile/29/gapoktan%20cabai.jpg
+2022-09-23T01:13:13: [Fri Sep 23 01:13:12 2022] 140.213.11.60:63773 [200]: /images/profile/2/logo.png
+2022-09-23T03:27:43: [Fri Sep 23 03:27:43 2022] 103.10.107.182:35066 [200]: /images/profile/29/gapoktan%20cabai.jpg
+2022-09-23T03:27:43: [Fri Sep 23 03:27:43 2022] 103.10.107.182:40124 [200]: /images/profile/2/logo.png
+2022-09-23T03:27:43: [Fri Sep 23 03:27:43 2022] 103.10.107.182:4716 [200]: /images/profile/51/GAPOKTAN.png
+2022-09-23T03:32:14: [Fri Sep 23 03:32:13 2022] 103.10.107.182:18117 [200]: /images/profile/2/logo.png
+2022-09-23T04:46:21: [Fri Sep 23 04:46:21 2022] 141.98.10.78:58080 Invalid request (Malformed HTTP request)
+2022-09-24T15:03:36: [Sat Sep 24 15:03:35 2022] 194.165.16.77:18340 Invalid request (Connection reset by peer)
+2022-09-24T15:03:36: [Sat Sep 24 15:03:35 2022] 194.165.16.77:19803 Invalid request (Malformed HTTP request)
+2022-09-24T15:03:36: [Sat Sep 24 15:03:36 2022] 194.165.16.77:22567 Invalid request (Malformed HTTP request)
+2022-09-24T23:41:45: [Sat Sep 24 23:41:44 2022] 5.9.89.106:64640 Invalid request (Malformed HTTP request)
+2022-09-25T00:50:45: [Sun Sep 25 00:50:45 2022] 20.93.2.94:65269 Invalid request (Unsupported SSL request)
+2022-09-25T00:50:46: [Sun Sep 25 00:50:46 2022] 20.93.2.94:65313 Invalid request (Unsupported SSL request)
+2022-09-25T00:50:46: [Sun Sep 25 00:50:46 2022] 20.93.2.94:65358 Invalid request (Unsupported SSL request)
+2022-09-25T00:50:47: [Sun Sep 25 00:50:47 2022] 20.93.2.94:65414 Invalid request (Unsupported SSL request)
+2022-09-25T00:50:47: [Sun Sep 25 00:50:47 2022] 20.93.2.94:65505 Invalid request (Unsupported SSL request)
+2022-09-25T00:50:48: [Sun Sep 25 00:50:48 2022] 20.93.2.94:49162 Invalid request (Unsupported SSL request)
+2022-09-25T00:50:49: [Sun Sep 25 00:50:49 2022] 20.93.2.94:49266 Invalid request (Unsupported SSL request)
+2022-09-25T00:50:49: [Sun Sep 25 00:50:49 2022] 20.93.2.94:49304 Invalid request (Unsupported SSL request)
+2022-09-25T00:50:50: [Sun Sep 25 00:50:50 2022] 20.93.2.94:49372 Invalid request (Unsupported SSL request)
+2022-09-25T00:50:51: [Sun Sep 25 00:50:51 2022] 20.93.2.94:49411 Invalid request (Unsupported SSL request)
+2022-09-25T00:50:51: [Sun Sep 25 00:50:51 2022] 20.93.2.94:49490 Invalid request (Unsupported SSL request)
+2022-09-25T00:50:52: [Sun Sep 25 00:50:52 2022] 20.93.2.94:49533 Invalid request (Unsupported SSL request)
+2022-09-25T00:50:52: [Sun Sep 25 00:50:52 2022] 20.93.2.94:49620 Invalid request (Unsupported SSL request)
+2022-09-25T00:50:53: [Sun Sep 25 00:50:53 2022] 20.93.2.94:49649 Invalid request (Unsupported SSL request)
+2022-09-25T00:50:54: [Sun Sep 25 00:50:54 2022] 20.93.2.94:49754 Invalid request (Unsupported SSL request)
+2022-09-25T00:50:54: [Sun Sep 25 00:50:54 2022] 20.93.2.94:49785 Invalid request (Unsupported SSL request)
+2022-09-25T00:50:55: [Sun Sep 25 00:50:55 2022] 20.93.2.94:49851 Invalid request (Unsupported SSL request)
+2022-09-25T00:50:56: [Sun Sep 25 00:50:56 2022] 20.93.2.94:49886 Invalid request (Unsupported SSL request)
+2022-09-25T00:50:56: [Sun Sep 25 00:50:56 2022] 20.93.2.94:49981 Invalid request (Unsupported SSL request)
+2022-09-25T00:50:57: [Sun Sep 25 00:50:57 2022] 20.93.2.94:50017 Invalid request (Unsupported SSL request)
+2022-09-25T00:50:57: [Sun Sep 25 00:50:57 2022] 20.93.2.94:50098 Invalid request (Unsupported SSL request)
+2022-09-25T00:50:58: [Sun Sep 25 00:50:58 2022] 20.93.2.94:50127 Invalid request (Unsupported SSL request)
+2022-09-25T00:50:58: [Sun Sep 25 00:50:58 2022] 20.93.2.94:50188 Invalid request (Unsupported SSL request)
+2022-09-25T00:50:59: [Sun Sep 25 00:50:59 2022] 20.93.2.94:50221 Invalid request (Unsupported SSL request)
+2022-09-25T00:50:59: [Sun Sep 25 00:50:59 2022] 20.93.2.94:50302 Invalid request (Unsupported SSL request)
+2022-09-25T00:51:00: [Sun Sep 25 00:51:00 2022] 20.93.2.94:50333 Invalid request (Unsupported SSL request)
+2022-09-25T00:51:01: [Sun Sep 25 00:51:01 2022] 20.93.2.94:50409 Invalid request (Unsupported SSL request)
+2022-09-25T00:51:02: [Sun Sep 25 00:51:01 2022] 20.93.2.94:50444 Invalid request (Unsupported SSL request)
+2022-09-25T00:51:02: [Sun Sep 25 00:51:02 2022] 20.93.2.94:50532 Invalid request (Unsupported SSL request)
+2022-09-25T00:51:03: [Sun Sep 25 00:51:03 2022] 20.93.2.94:50579 Invalid request (Unsupported SSL request)
+2022-09-25T00:51:03: [Sun Sep 25 00:51:03 2022] 20.93.2.94:50670 Invalid request (Unsupported SSL request)
+2022-09-25T00:51:04: [Sun Sep 25 00:51:04 2022] 20.93.2.94:50714 Invalid request (Unsupported SSL request)
+2022-09-25T00:51:05: [Sun Sep 25 00:51:04 2022] 20.93.2.94:50810 Invalid request (Unsupported SSL request)
+2022-09-25T00:51:05: [Sun Sep 25 00:51:05 2022] 20.93.2.94:50851 Invalid request (Unsupported SSL request)
+2022-09-25T00:51:06: [Sun Sep 25 00:51:05 2022] 20.93.2.94:50912 Invalid request (Unsupported SSL request)
+2022-09-25T00:51:06: [Sun Sep 25 00:51:06 2022] 20.93.2.94:50948 Invalid request (Unsupported SSL request)
+2022-09-25T00:51:07: [Sun Sep 25 00:51:07 2022] 20.93.2.94:50987 Invalid request (Unsupported SSL request)
+2022-09-25T00:51:07: [Sun Sep 25 00:51:07 2022] 20.93.2.94:51070 Invalid request (Unsupported SSL request)
+2022-09-25T00:51:08: [Sun Sep 25 00:51:08 2022] 20.93.2.94:51118 Invalid request (Unsupported SSL request)
+2022-09-25T00:51:08: [Sun Sep 25 00:51:08 2022] 20.93.2.94:51177 Invalid request (Unsupported SSL request)
+2022-09-25T00:51:09: [Sun Sep 25 00:51:09 2022] 20.93.2.94:51211 Invalid request (Unsupported SSL request)
+2022-09-25T00:51:09: [Sun Sep 25 00:51:09 2022] 20.93.2.94:51300 Invalid request (Unsupported SSL request)
+2022-09-25T00:51:10: [Sun Sep 25 00:51:10 2022] 20.93.2.94:51337 Invalid request (Unsupported SSL request)
+2022-09-25T00:51:10: [Sun Sep 25 00:51:10 2022] 20.93.2.94:51426 Invalid request (Unsupported SSL request)
+2022-09-25T00:51:11: [Sun Sep 25 00:51:11 2022] 20.93.2.94:51463 Invalid request (Unsupported SSL request)
+2022-09-25T00:51:12: [Sun Sep 25 00:51:12 2022] 20.93.2.94:51541 Invalid request (Unsupported SSL request)
+2022-09-25T00:51:13: [Sun Sep 25 00:51:13 2022] 20.93.2.94:51577 Invalid request (Unsupported SSL request)
+2022-09-25T00:51:13: [Sun Sep 25 00:51:13 2022] 20.93.2.94:51679 Invalid request (Unsupported SSL request)
+2022-09-25T00:51:14: [Sun Sep 25 00:51:14 2022] 20.93.2.94:51715 Invalid request (Unsupported SSL request)
+2022-09-25T00:51:14: [Sun Sep 25 00:51:14 2022] 20.93.2.94:51774 Invalid request (Unsupported SSL request)
+2022-09-26T06:38:41: [Mon Sep 26 06:38:40 2022] 194.165.17.11:61592 Invalid request (Malformed HTTP request)
+2022-09-26T15:51:29: [Mon Sep 26 15:51:28 2022] 89.169.37.111:56849 Invalid request (Malformed HTTP request)
+2022-09-26T15:58:46: [Mon Sep 26 15:58:46 2022] 172.105.83.46:40126 Invalid request (Malformed HTTP request)
+2022-09-26T15:58:53: [Mon Sep 26 15:58:53 2022] 172.105.83.46:56075 Invalid request (Unsupported SSL request)
+2022-09-26T15:58:59: [Mon Sep 26 15:58:59 2022] 172.105.83.46:36167 Invalid request (Unsupported SSL request)
+2022-09-26T15:59:01: [Mon Sep 26 15:59:01 2022] 172.105.83.46:40636 Invalid request (Malformed HTTP request)
+2022-09-27T01:30:25: [Tue Sep 27 01:30:25 2022] 45.227.254.26:2891 Invalid request (Connection reset by peer)
+2022-09-27T01:30:25: [Tue Sep 27 01:30:25 2022] 45.227.254.26:4983 Invalid request (Malformed HTTP request)
+2022-09-27T01:30:26: [Tue Sep 27 01:30:25 2022] 45.227.254.26:7424 Invalid request (Malformed HTTP request)
+2022-09-27T02:12:53: [Tue Sep 27 02:12:53 2022] 173.255.252.198:57562 Invalid request (Unsupported SSL request)
+2022-09-27T02:12:54: [Tue Sep 27 02:12:54 2022] 173.255.252.198:57564 Invalid request (Malformed HTTP request)
+2022-09-27T02:19:35: [Tue Sep 27 02:19:34 2022] 60.217.75.70:38972 Invalid request (Unsupported SSL request)
+2022-09-27T07:17:12: [Tue Sep 27 07:17:12 2022] 162.142.125.10:60262 Invalid request (Connection reset by peer)
+2022-09-27T07:17:12: [Tue Sep 27 07:17:12 2022] 162.142.125.10:54002 Invalid request (Unsupported SSL request)
+2022-09-27T07:17:14: [Tue Sep 27 07:17:14 2022] 162.142.125.10:41292 Invalid request (Malformed HTTP request)
+2022-09-27T07:17:15: [Tue Sep 27 07:17:15 2022] 162.142.125.10:56088 [200]: /favicon.ico
+2022-09-27T10:28:42: [Tue Sep 27 10:28:41 2022] 80.66.75.92:64811 Invalid request (Malformed HTTP request)
+2022-09-27T14:45:42: [Tue Sep 27 14:45:42 2022] 141.98.10.78:48922 Invalid request (Malformed HTTP request)
+2022-09-27T17:27:36: [Tue Sep 27 17:27:36 2022] 45.227.253.46:63689 Invalid request (Malformed HTTP request)
+2022-09-28T07:06:56: [Wed Sep 28 07:06:56 2022] 123.160.221.14:34980 Invalid request (Unsupported SSL request)
+2022-09-28T10:10:04: [Wed Sep 28 10:10:04 2022] 209.141.55.120:54774 [200]: /favicon.ico
+2022-09-28T11:59:52: [Wed Sep 28 11:59:52 2022] 5.61.58.124:50802 Invalid request (Unsupported SSL request)
+2022-09-28T11:59:57: [Wed Sep 28 11:59:57 2022] 5.61.58.124:50852 Invalid request (Unsupported SSL request)
+2022-09-28T12:00:04: [Wed Sep 28 12:00:04 2022] 5.61.58.124:50902 Invalid request (Malformed HTTP request)
+2022-09-28T13:49:46: [Wed Sep 28 13:49:46 2022] 125.160.226.145:37273 [200]: /images/profile/51/GAPOKTAN.png
+2022-09-28T13:49:46: [Wed Sep 28 13:49:46 2022] 125.160.226.145:11200 [200]: /images/profile/29/gapoktan%20cabai.jpg
+2022-09-28T13:49:46: [Wed Sep 28 13:49:46 2022] 125.160.226.145:63603 [200]: /images/profile/2/logo.png
+2022-09-28T13:50:19: [Wed Sep 28 13:50:19 2022] 125.160.226.145:7571 [200]: /images/profile/29/gapoktan%20cabai.jpg
+2022-09-28T13:50:19: [Wed Sep 28 13:50:19 2022] 125.160.226.145:37240 [200]: /images/profile/2/logo.png
+2022-09-28T13:50:19: [Wed Sep 28 13:50:19 2022] 125.160.226.145:27153 [200]: /images/profile/51/GAPOKTAN.png
+2022-09-28T13:50:41: [Wed Sep 28 13:50:41 2022] 125.160.226.145:30048 [200]: /images/profile/2/logo.png
+2022-09-29T07:48:31: [Thu Sep 29 07:48:30 2022] 141.98.10.78:35012 Invalid request (Malformed HTTP request)
+2022-09-29T11:36:12: [Thu Sep 29 11:36:12 2022] 162.142.125.7:44646 Invalid request (Malformed HTTP request)
+2022-09-29T11:36:13: [Thu Sep 29 11:36:13 2022] 162.142.125.7:56696 [200]: /favicon.ico
+2022-09-30T17:10:26: [Fri Sep 30 17:10:26 2022] 111.7.96.148:30214 Invalid request (Unsupported SSL request)
+2022-09-30T18:30:45: [Fri Sep 30 18:30:45 2022] 167.248.133.120:41738 Invalid request (Malformed HTTP request)
+2022-09-30T18:30:45: [Fri Sep 30 18:30:45 2022] 167.248.133.120:54948 [200]: /favicon.ico
+2022-10-01T09:29:24: [Sat Oct  1 09:29:24 2022] 194.26.29.11:62554 Invalid request (Malformed HTTP request)
+2022-10-01T16:34:54: [Sat Oct  1 16:34:53 2022] 195.96.137.7:37352 Invalid request (Malformed HTTP request)
+2022-10-01T16:34:54: [Sat Oct  1 16:34:54 2022] 195.96.137.7:53238 Invalid request (Unsupported SSL request)
+2022-10-01T16:34:55: [Sat Oct  1 16:34:54 2022] 195.96.137.7:32687 Invalid request (Malformed HTTP request)
+2022-10-01T16:35:16: [Sat Oct  1 16:35:16 2022] 195.96.137.7:50714 Invalid request (Unsupported SSL request)
+2022-10-01T16:35:17: [Sat Oct  1 16:35:17 2022] 195.96.137.7:16215 Invalid request (Unsupported SSL request)
+2022-10-01T16:35:21: [Sat Oct  1 16:35:20 2022] 195.96.137.7:29081 Invalid request (Unsupported SSL request)
+2022-10-01T16:35:21: [Sat Oct  1 16:35:20 2022] 195.96.137.7:7881 Invalid request (Unsupported SSL request)
+2022-10-01T16:35:23: [Sat Oct  1 16:35:22 2022] 195.96.137.7:55892 Invalid request (Unsupported SSL request)
+2022-10-01T16:35:24: [Sat Oct  1 16:35:23 2022] 195.96.137.7:15828 Invalid request (Unsupported SSL request)
+2022-10-01T16:35:33: [Sat Oct  1 16:35:33 2022] 195.96.137.7:45225 Invalid request (Unsupported SSL request)
+2022-10-02T14:52:49: [Sun Oct  2 14:52:49 2022] 167.248.133.117:43814 Invalid request (Malformed HTTP request)
+2022-10-02T14:52:50: [Sun Oct  2 14:52:50 2022] 167.248.133.117:35404 [200]: /favicon.ico
+2022-10-02T22:33:46: [Sun Oct  2 22:33:45 2022] 111.7.96.147:44726 Invalid request (Unsupported SSL request)
+2022-10-02T23:10:51: [Sun Oct  2 23:10:51 2022] 162.142.125.212:56390 Invalid request (Connection reset by peer)
+2022-10-02T23:10:51: [Sun Oct  2 23:10:51 2022] 162.142.125.212:49816 Invalid request (Unsupported SSL request)
+2022-10-02T23:10:54: [Sun Oct  2 23:10:54 2022] 162.142.125.212:34596 Invalid request (Malformed HTTP request)
+2022-10-02T23:10:54: [Sun Oct  2 23:10:54 2022] 162.142.125.212:49058 [200]: /favicon.ico
+2022-10-03T11:21:56: [Mon Oct  3 11:21:56 2022] 80.66.75.92:64811 Invalid request (Malformed HTTP request)
+2022-10-03T15:11:10: [Mon Oct  3 15:11:10 2022] 125.160.239.40:38641 [200]: /images/profile/2/logo.png
+2022-10-03T15:11:10: [Mon Oct  3 15:11:10 2022] 125.160.239.40:31745 [200]: /images/profile/29/gapoktan%20cabai.jpg
+2022-10-03T15:11:10: [Mon Oct  3 15:11:10 2022] 125.160.239.40:9530 [200]: /images/profile/51/GAPOKTAN.png
+2022-10-03T15:11:46: [Mon Oct  3 15:11:46 2022] 125.160.239.40:3952 [200]: /images/profile/2/logo.png
+2022-10-03T15:11:46: [Mon Oct  3 15:11:46 2022] 125.160.239.40:60443 [200]: /images/profile/29/gapoktan%20cabai.jpg
+2022-10-03T15:11:46: [Mon Oct  3 15:11:46 2022] 125.160.239.40:38041 [200]: /images/profile/51/GAPOKTAN.png
+2022-10-03T15:12:10: [Mon Oct  3 15:12:10 2022] 125.160.239.40:5350 [200]: /images/profile/2/logo.png
+2022-10-03T15:13:37: [Mon Oct  3 15:13:37 2022] 125.160.239.40:56943 [200]: /images/profile/2/logo.png
+2022-10-03T15:22:21: [Mon Oct  3 15:22:21 2022] 125.160.239.40:53171 [200]: /images/produk/81/WhatsApp%20Image%202022-04-17%20at%2009.54.23.jpeg
+2022-10-03T15:22:21: [Mon Oct  3 15:22:21 2022] 125.160.239.40:26100 [200]: /images/produk/siapJual/37/WhatsApp%20Image%202022-03-28%20at%2022.21.21%20(1).jpeg
+2022-10-03T15:22:21: [Mon Oct  3 15:22:21 2022] 125.160.239.40:51513 [200]: /images/lahan/2/WhatsApp%20Image%202022-04-10%20at%2011.42.55.jpeg
+2022-10-04T02:20:47: [Tue Oct  4 02:20:47 2022] 60.217.75.70:42976 Invalid request (Unsupported SSL request)
+2022-10-04T05:58:35: [Tue Oct  4 05:58:35 2022] 216.128.138.7:47006 Invalid request (Unsupported SSL request)
+2022-10-04T13:32:53: [Tue Oct  4 13:32:53 2022] 125.160.239.40:48999 [200]: /images/profile/29/gapoktan%20cabai.jpg
+2022-10-04T13:32:53: [Tue Oct  4 13:32:53 2022] 125.160.239.40:62059 [200]: /images/profile/2/logo.png
+2022-10-04T13:32:53: [Tue Oct  4 13:32:53 2022] 125.160.239.40:23898 [200]: /images/profile/51/GAPOKTAN.png
+2022-10-04T13:33:13: [Tue Oct  4 13:33:13 2022] 125.160.239.40:48334 [200]: /images/profile/2/logo.png
+2022-10-04T21:51:54: [Tue Oct  4 21:51:54 2022] 141.98.10.78:35726 Invalid request (Malformed HTTP request)
+2022-10-05T08:47:49: [Wed Oct  5 08:47:49 2022] 167.248.133.45:37048 Invalid request (Malformed HTTP request)
+2022-10-05T08:47:50: [Wed Oct  5 08:47:49 2022] 167.248.133.45:52600 [200]: /favicon.ico
+2022-10-06T21:58:43: [Thu Oct  6 21:58:43 2022] 141.98.10.78:56746 Invalid request (Malformed HTTP request)
+2022-10-07T06:58:28: [Fri Oct  7 06:58:28 2022] 185.70.186.188:47602 Invalid request (Malformed HTTP request)
+2022-10-07T17:18:13: [Fri Oct  7 17:18:12 2022] 179.60.150.88:62627 Invalid request (Malformed HTTP request)
+2022-10-07T19:16:50: [Fri Oct  7 19:16:49 2022] 123.160.221.16:29962 Invalid request (Unsupported SSL request)
+2022-10-07T21:02:30: [Fri Oct  7 21:02:30 2022] 128.1.41.190:44778 Invalid request (Unsupported SSL request)
+2022-10-07T21:02:31: [Fri Oct  7 21:02:31 2022] 128.1.41.190:45014 Invalid request (Unsupported SSL request)
+2022-10-07T21:02:33: [Fri Oct  7 21:02:33 2022] 128.1.41.190:45144 Invalid request (Unsupported SSL request)
+2022-10-07T21:02:55: [Fri Oct  7 21:02:55 2022] 106.75.81.218:47784 [200]: /favicon.ico
+2022-10-07T21:02:56: [Fri Oct  7 21:02:56 2022] 106.75.81.218:47818 [200]: /robots.txt
+2022-10-08T05:00:21: [Sat Oct  8 05:00:21 2022] 91.191.209.206:61540 Invalid request (Malformed HTTP request)
+2022-10-08T12:50:18: [Sat Oct  8 12:50:18 2022] 162.142.125.219:33648 Invalid request (Malformed HTTP request)
+2022-10-08T12:50:19: [Sat Oct  8 12:50:18 2022] 162.142.125.219:49322 [200]: /favicon.ico
+2022-10-09T11:58:09: [Sun Oct  9 11:58:09 2022] 123.160.221.22:44910 Invalid request (Unsupported SSL request)
+2022-10-09T11:58:32: [Sun Oct  9 11:58:32 2022] 123.160.221.22:20268 Invalid request (Malformed HTTP request)
+2022-10-10T00:29:35: [Mon Oct 10 00:29:35 2022] 125.160.228.153:58674 [200]: /images/profile/2/logo.png
+2022-10-10T00:29:35: [Mon Oct 10 00:29:35 2022] 125.160.228.153:59212 [200]: /images/profile/29/gapoktan%20cabai.jpg
+2022-10-10T00:29:35: [Mon Oct 10 00:29:35 2022] 125.160.228.153:56102 [200]: /images/profile/51/GAPOKTAN.png
+2022-10-10T00:30:29: [Mon Oct 10 00:30:29 2022] 125.160.228.153:16953 [200]: /images/profile/2/logo.png
+2022-10-10T03:59:14: [Mon Oct 10 03:59:14 2022] 125.160.228.153:45065 [200]: /images/profile/2/logo.png
+2022-10-10T04:06:10: [Mon Oct 10 04:06:10 2022] 125.160.228.153:19307 [200]: /images/profile/22/WhatsApp%20Image%202022-04-16%20at%2015.26.18.jpeg
+2022-10-10T04:06:41: [Mon Oct 10 04:06:41 2022] 125.160.228.153:55626 [200]: /images/profile/4/WhatsApp%20Image%202022-04-16%20at%2022.22.57.jpeg
+2022-10-10T04:08:02: [Mon Oct 10 04:08:02 2022] 125.160.228.153:26733 [200]: /images/profile/2/logo.png
+2022-10-10T06:51:59: [Mon Oct 10 06:51:59 2022] 125.160.228.153:1838 [200]: /images/profile/4/WhatsApp%20Image%202022-04-16%20at%2022.22.57.jpeg
+2022-10-10T07:01:21: [Mon Oct 10 07:01:20 2022] 125.160.228.153:15426 [200]: /images/profile/2/logo.png
+2022-10-11T01:48:14: [Tue Oct 11 01:48:14 2022] 60.217.75.70:47360 Invalid request (Unsupported SSL request)
+2022-10-11T12:29:32: [Tue Oct 11 12:29:32 2022] 162.142.125.222:48544 Invalid request (Malformed HTTP request)
+2022-10-11T12:29:32: [Tue Oct 11 12:29:32 2022] 162.142.125.222:33044 [200]: /favicon.ico
+2022-10-12T09:35:58: [Wed Oct 12 09:35:58 2022] 176.111.174.128:63571 Invalid request (Malformed HTTP request)
+2022-10-12T21:08:56: [Wed Oct 12 21:08:55 2022] 20.254.160.123:54484 Invalid request (Unsupported SSL request)
+2022-10-12T21:08:56: [Wed Oct 12 21:08:56 2022] 20.254.160.123:57931 Invalid request (Unsupported SSL request)
+2022-10-13T04:15:56: [Thu Oct 13 04:15:56 2022] 20.19.249.96:49630 Invalid request (Unsupported SSL request)
+2022-10-13T04:15:56: [Thu Oct 13 04:15:56 2022] 20.19.249.96:49698 Invalid request (Unsupported SSL request)
+2022-10-13T07:20:08: [Thu Oct 13 07:20:08 2022] 111.7.96.147:10432 Invalid request (Unsupported SSL request)
+2022-10-14T03:22:28: [Fri Oct 14 03:22:27 2022] 79.124.62.106:64289 Invalid request (Malformed HTTP request)
+2022-10-14T06:20:51: [Fri Oct 14 06:20:51 2022] 167.248.133.120:40572 Invalid request (Connection reset by peer)
+2022-10-14T06:20:51: [Fri Oct 14 06:20:51 2022] 167.248.133.120:60782 Invalid request (Unsupported SSL request)
+2022-10-14T06:20:54: [Fri Oct 14 06:20:53 2022] 167.248.133.120:47132 Invalid request (Malformed HTTP request)
+2022-10-14T06:20:54: [Fri Oct 14 06:20:54 2022] 167.248.133.120:53846 [200]: /favicon.ico
+2022-10-14T18:39:48: [Fri Oct 14 18:39:47 2022] 162.142.125.211:44738 Invalid request (Malformed HTTP request)
+2022-10-14T18:39:48: [Fri Oct 14 18:39:48 2022] 162.142.125.211:44530 [200]: /favicon.ico
+2022-10-15T06:56:23: [Sat Oct 15 06:56:23 2022] 125.160.224.99:1407 [200]: /images/profile/2/logo.png
+2022-10-15T06:56:23: [Sat Oct 15 06:56:23 2022] 125.160.224.99:12369 [200]: /images/profile/51/GAPOKTAN.png
+2022-10-15T06:56:23: [Sat Oct 15 06:56:23 2022] 125.160.224.99:2820 [200]: /images/profile/29/gapoktan%20cabai.jpg
+2022-10-15T06:56:42: [Sat Oct 15 06:56:42 2022] 125.160.224.99:38968 [200]: /images/profile/2/logo.png
+2022-10-15T10:34:02: [Sat Oct 15 10:34:02 2022] 125.160.224.99:35340 [200]: /images/profile/2/logo.png
+2022-10-16T15:09:42: [Sun Oct 16 15:09:42 2022] 167.248.133.60:42086 Invalid request (Malformed HTTP request)
+2022-10-16T15:09:42: [Sun Oct 16 15:09:42 2022] 167.248.133.60:52126 [200]: /favicon.ico
+2022-10-16T16:10:19: [Sun Oct 16 16:10:19 2022] 141.98.10.78:49120 Invalid request (Malformed HTTP request)
+2022-10-16T18:50:04: [Sun Oct 16 18:50:04 2022] 20.254.160.123:60796 Invalid request (Unsupported SSL request)
+2022-10-16T18:50:04: [Sun Oct 16 18:50:04 2022] 20.254.160.123:59416 Invalid request (Unsupported SSL request)
+2022-10-16T21:03:40: [Sun Oct 16 21:03:39 2022] 123.160.221.22:54386 Invalid request (Unsupported SSL request)
+2022-10-17T09:59:55: [Mon Oct 17 09:59:55 2022] 125.160.224.99:34040 [200]: /images/profile/29/gapoktan%20cabai.jpg
+2022-10-17T09:59:55: [Mon Oct 17 09:59:55 2022] 125.160.224.99:32087 [200]: /images/profile/51/GAPOKTAN.png
+2022-10-17T09:59:55: [Mon Oct 17 09:59:55 2022] 125.160.224.99:16163 [200]: /images/profile/2/logo.png
+2022-10-17T10:00:16: [Mon Oct 17 10:00:15 2022] 125.160.224.99:56397 [200]: /images/profile/2/logo.png
+2022-10-17T16:39:09: [Mon Oct 17 16:39:09 2022] 141.98.10.78:56924 Invalid request (Malformed HTTP request)
+2022-10-18T02:27:22: [Tue Oct 18 02:27:22 2022] 60.217.75.70:42258 Invalid request (Unsupported SSL request)
+2022-10-18T08:32:46: [Tue Oct 18 08:32:45 2022] 92.255.85.183:63340 Invalid request (Malformed HTTP request)
+2022-10-18T16:18:17: [Tue Oct 18 16:18:17 2022] 125.160.224.99:50361 [200]: /images/profile/2/logo.png
+2022-10-18T16:18:17: [Tue Oct 18 16:18:17 2022] 125.160.224.99:47233 [200]: /images/profile/51/GAPOKTAN.png
+2022-10-18T16:18:17: [Tue Oct 18 16:18:17 2022] 125.160.224.99:18269 [200]: /images/profile/29/gapoktan%20cabai.jpg
+2022-10-18T16:18:49: [Tue Oct 18 16:18:49 2022] 125.160.224.99:63488 [200]: /images/profile/2/logo.png
+2022-10-19T07:35:35: Starting Laravel development server: http://68.183.235.127:8003
+2022-10-19T08:57:35: [Wed Oct 19 08:57:35 2022] 162.142.125.7:39140 Invalid request (Malformed HTTP request)
+2022-10-19T08:57:36: [Wed Oct 19 08:57:35 2022] 162.142.125.7:50486 [200]: /favicon.ico
+2022-10-19T09:47:36: [Wed Oct 19 09:47:36 2022] 112.215.65.172:55914 [200]: /images/profile/29/gapoktan%20cabai.jpg
+2022-10-19T09:47:36: [Wed Oct 19 09:47:36 2022] 112.215.65.172:14502 [200]: /images/profile/51/GAPOKTAN.png
+2022-10-19T09:47:36: [Wed Oct 19 09:47:36 2022] 112.215.65.172:54320 [200]: /images/profile/2/logo.png
+2022-10-19T10:20:38: [Wed Oct 19 10:20:38 2022] 91.191.209.206:64600 Invalid request (Malformed HTTP request)
+2022-10-21T06:31:32: Starting Laravel development server: http://68.183.235.127:8003
+2022-10-21T07:03:28: [Fri Oct 21 07:03:28 2022] 180.245.69.67:57151 [200]: /images/profile/29/gapoktan%20cabai.jpg
+2022-10-21T07:03:28: [Fri Oct 21 07:03:28 2022] 180.245.69.67:57152 [200]: /images/profile/2/logo.png
+2022-10-21T07:03:28: [Fri Oct 21 07:03:28 2022] 180.242.167.157:57153 [200]: /images/profile/51/GAPOKTAN.png
+2022-10-21T07:41:02: [Fri Oct 21 07:41:02 2022] 112.215.151.59:43850 [200]: /images/profile/29/gapoktan%20cabai.jpg
+2022-10-21T07:41:02: [Fri Oct 21 07:41:02 2022] 112.215.151.59:41033 [200]: /images/profile/2/logo.png
+2022-10-21T07:41:03: [Fri Oct 21 07:41:02 2022] 112.215.151.59:52404 [200]: /images/profile/51/GAPOKTAN.png
+2022-10-21T07:46:20: [Fri Oct 21 07:46:20 2022] 180.245.69.67:57676 [200]: /images/profile/2/logo.png
+2022-10-21T08:05:30: [Fri Oct 21 08:05:29 2022] 180.242.167.157:58022 [200]: /images/profile/22/WhatsApp%20Image%202022-04-16%20at%2015.26.18.jpeg
+2022-10-21T08:13:43: [Fri Oct 21 08:13:43 2022] 180.242.167.157:58157 [200]: /images/profile/2/logo.png
+2022-10-21T08:13:43: [Fri Oct 21 08:13:43 2022] 180.242.167.157:58158 [200]: /images/profile/29/gapoktan%20cabai.jpg
+2022-10-21T08:13:43: [Fri Oct 21 08:13:43 2022] 180.245.69.67:58155 [200]: /images/profile/51/GAPOKTAN.png
+2022-10-21T08:18:49: [Fri Oct 21 08:18:49 2022] 114.124.173.181:44100 [200]: /images/profile/2/logo.png
+2022-10-21T08:18:49: [Fri Oct 21 08:18:49 2022] 114.124.173.181:44104 [200]: /images/profile/51/GAPOKTAN.png
+2022-10-21T08:18:49: [Fri Oct 21 08:18:49 2022] 114.124.173.181:44102 [200]: /images/profile/29/gapoktan%20cabai.jpg
+2022-10-21T09:59:44: [Fri Oct 21 09:59:44 2022] 79.124.62.106:63265 Invalid request (Malformed HTTP request)
+2022-10-21T10:04:51: [Fri Oct 21 10:04:50 2022] 112.215.151.72:62803 [200]: /images/profile/2/logo.png
+2022-10-21T10:04:51: [Fri Oct 21 10:04:50 2022] 112.215.151.72:18250 [200]: /images/profile/29/gapoktan%20cabai.jpg
+2022-10-21T10:04:51: [Fri Oct 21 10:04:50 2022] 112.215.151.72:14805 [200]: /images/profile/51/GAPOKTAN.png
+2022-10-21T11:44:57: Starting Laravel development server: http://68.183.235.127:8003
+2022-10-21T19:37:02: [Fri Oct 21 19:37:01 2022] 223.71.167.165:45961 Invalid request (Malformed HTTP request)
+2022-10-21T23:16:26: [Fri Oct 21 23:16:26 2022] 125.160.231.157:52351 [200]: /images/profile/2/logo.png
+2022-10-21T23:16:26: [Fri Oct 21 23:16:26 2022] 125.160.231.157:24722 [200]: /images/profile/51/GAPOKTAN.png
+2022-10-21T23:16:26: [Fri Oct 21 23:16:26 2022] 125.160.231.157:37446 [200]: /images/profile/29/gapoktan%20cabai.jpg
+2022-10-21T23:19:53: [Fri Oct 21 23:19:53 2022] 125.160.231.157:4455 [200]: /images/profile/2/logo.png
+2022-10-21T23:19:53: [Fri Oct 21 23:19:53 2022] 125.160.231.157:1746 [200]: /images/profile/29/gapoktan%20cabai.jpg
+2022-10-21T23:19:53: [Fri Oct 21 23:19:53 2022] 125.160.231.157:64441 [200]: /images/profile/51/GAPOKTAN.png
+2022-10-21T23:20:38: [Fri Oct 21 23:20:38 2022] 125.160.231.157:44283 [200]: /images/profile/22/WhatsApp%20Image%202022-04-16%20at%2015.26.18.jpeg
+2022-10-21T23:20:56: [Fri Oct 21 23:20:56 2022] 125.160.231.157:26750 [200]: /images/profile/2/logo.png
+2022-10-21T23:20:56: [Fri Oct 21 23:20:56 2022] 125.160.231.157:29588 [200]: /images/profile/29/gapoktan%20cabai.jpg
+2022-10-21T23:20:56: [Fri Oct 21 23:20:56 2022] 125.160.231.157:54250 [200]: /images/profile/51/GAPOKTAN.png
+2022-10-22T00:26:25: [Sat Oct 22 00:26:25 2022] 125.160.231.157:44400 [200]: /images/profile/22/WhatsApp%20Image%202022-04-16%20at%2015.26.18.jpeg
+2022-10-22T03:52:02: [Sat Oct 22 03:52:02 2022] 180.242.167.157:63720 [200]: /images/profile/2/logo.png
+2022-10-22T03:52:02: [Sat Oct 22 03:52:02 2022] 180.242.167.157:63721 [200]: /images/profile/51/GAPOKTAN.png
+2022-10-22T03:52:02: [Sat Oct 22 03:52:02 2022] 180.245.69.67:63722 [200]: /images/profile/29/gapoktan%20cabai.jpg
+2022-10-22T03:52:40: [Sat Oct 22 03:52:40 2022] 180.245.69.67:63763 [200]: /images/profile/2/logo.png
+2022-10-22T04:11:21: [Sat Oct 22 04:11:21 2022] 180.242.167.157:63989 [200]: /images/profile/4/WhatsApp%20Image%202022-04-16%20at%2022.22.57.jpeg
+2022-10-22T04:11:39: [Sat Oct 22 04:11:39 2022] 180.242.167.157:64001 [200]: /images/profile/4/WhatsApp%20Image%202022-04-16%20at%2022.22.57.jpeg
+2022-10-22T04:17:16: [Sat Oct 22 04:17:16 2022] 180.245.69.67:64090 [200]: /images/profile/22/WhatsApp%20Image%202022-04-16%20at%2015.26.18.jpeg
+2022-10-22T04:19:31: [Sat Oct 22 04:19:31 2022] 180.245.69.67:64123 [200]: /images/profile/51/GAPOKTAN.png
+2022-10-22T04:19:31: [Sat Oct 22 04:19:31 2022] 180.245.69.67:64122 [200]: /images/profile/2/logo.png
+2022-10-22T04:19:31: [Sat Oct 22 04:19:31 2022] 180.245.69.67:64124 [200]: /images/profile/29/gapoktan%20cabai.jpg
+2022-10-22T04:47:40: [Sat Oct 22 04:47:40 2022] 180.245.69.67:64421 [200]: /images/profile/22/WhatsApp%20Image%202022-04-16%20at%2015.26.18.jpeg
+2022-10-22T04:47:54: [Sat Oct 22 04:47:54 2022] 180.242.167.157:64430 [200]: /images/profile/2/logo.png
+2022-10-22T04:47:54: [Sat Oct 22 04:47:54 2022] 180.242.167.157:64431 [200]: /images/profile/29/gapoktan%20cabai.jpg
+2022-10-22T04:47:54: [Sat Oct 22 04:47:54 2022] 180.245.69.67:64433 [200]: /images/profile/51/GAPOKTAN.png
+2022-10-22T04:48:56: [Sat Oct 22 04:48:56 2022] 180.242.167.157:64454 [200]: /images/transaksi/TX-20220724TMX2105932/QR/11.png
+2022-10-22T04:52:12: [Sat Oct 22 04:52:12 2022] 180.245.69.67:64498 [200]: /images/profile/2/logo.png
+2022-10-22T04:52:12: [Sat Oct 22 04:52:12 2022] 180.242.167.157:64500 [200]: /images/profile/29/gapoktan%20cabai.jpg
+2022-10-22T04:52:12: [Sat Oct 22 04:52:12 2022] 180.245.69.67:64499 [200]: /images/profile/51/GAPOKTAN.png
+2022-10-22T04:53:32: [Sat Oct 22 04:53:32 2022] 180.242.167.157:64546 [200]: /images/profile/2/logo.png
+2022-10-22T04:53:32: [Sat Oct 22 04:53:32 2022] 180.242.167.157:64544 [200]: /images/profile/29/gapoktan%20cabai.jpg
+2022-10-22T04:53:32: [Sat Oct 22 04:53:32 2022] 180.242.167.157:64543 [200]: /images/profile/51/GAPOKTAN.png
+2022-10-22T05:50:10: [Sat Oct 22 05:50:10 2022] 180.245.69.67:60280 [200]: /images/produk/1/WhatsApp%20Image%202022-04-17%20at%2009.54.23.jpeg
+2022-10-22T05:50:10: [Sat Oct 22 05:50:10 2022] 180.245.69.67:60282 [200]: /images/lahan/2/WhatsApp%20Image%202022-04-10%20at%2011.42.55.jpeg
+2022-10-22T05:50:10: [Sat Oct 22 05:50:10 2022] 180.242.167.157:60278 [200]: /images/produk/siapJual/1/WhatsApp%20Image%202022-03-28%20at%2022.21.21%20(1).jpeg
+2022-10-22T05:56:02: [Sat Oct 22 05:56:01 2022] 180.242.167.157:62684 [200]: /images/profile/4/WhatsApp%20Image%202022-04-16%20at%2022.22.57.jpeg
+2022-10-22T05:56:28: [Sat Oct 22 05:56:28 2022] 180.242.167.157:62701 [200]: /images/produk/1/WhatsApp%20Image%202022-04-17%20at%2009.54.23.jpeg
+2022-10-22T05:56:28: [Sat Oct 22 05:56:28 2022] 180.242.167.157:62702 [200]: /images/produk/siapJual/1/WhatsApp%20Image%202022-03-28%20at%2022.21.21%20(1).jpeg
+2022-10-22T05:56:28: [Sat Oct 22 05:56:28 2022] 180.242.167.157:62700 [200]: /images/lahan/2/WhatsApp%20Image%202022-04-10%20at%2011.42.55.jpeg
+2022-10-22T06:04:35: [Sat Oct 22 06:04:35 2022] 180.242.167.157:62895 [200]: /images/profile/2/logo.png
+2022-10-22T06:15:42: [Sat Oct 22 06:15:42 2022] 180.245.69.67:63114 [200]: /images/profile/2/logo.png
+2022-10-22T06:15:42: [Sat Oct 22 06:15:42 2022] 180.242.167.157:63115 [200]: /images/profile/29/gapoktan%20cabai.jpg
+2022-10-22T06:15:42: [Sat Oct 22 06:15:42 2022] 180.245.69.67:63117 [200]: /images/profile/51/GAPOKTAN.png
+2022-10-22T06:15:56: [Sat Oct 22 06:15:56 2022] 180.242.167.157:63144 [200]: /images/profile/4/WhatsApp%20Image%202022-04-16%20at%2022.22.57.jpeg
+2022-10-22T06:19:40: [Sat Oct 22 06:19:39 2022] 180.242.167.157:63260 [200]: /images/produk/84/WhatsApp%20Image%202022-03-28%20at%2022.20.25%20(1).jpeg
+2022-10-22T06:19:40: [Sat Oct 22 06:19:39 2022] 180.242.167.157:63261 [200]: /images/lahan/2/WhatsApp%20Image%202022-04-10%20at%2011.42.55.jpeg
+2022-10-22T06:34:50: [Sat Oct 22 06:34:50 2022] 180.245.69.67:62981 [200]: /images/produk/84/WhatsApp%20Image%202022-03-28%20at%2022.20.25%20(1).jpeg
+2022-10-22T07:22:06: [Sat Oct 22 07:22:06 2022] 180.245.69.67:60651 [200]: /images/profile/22/WhatsApp%20Image%202022-04-16%20at%2015.26.18.jpeg
+2022-10-22T07:22:13: [Sat Oct 22 07:22:12 2022] 180.245.69.67:60654 [200]: /images/profile/51/GAPOKTAN.png
+2022-10-22T07:22:13: [Sat Oct 22 07:22:12 2022] 180.242.167.157:60657 [200]: /images/profile/29/gapoktan%20cabai.jpg
+2022-10-22T07:22:13: [Sat Oct 22 07:22:12 2022] 180.242.167.157:60655 [200]: /images/profile/2/logo.png
+2022-10-22T20:50:14: [Sat Oct 22 20:50:14 2022] 152.32.220.209:41638 Invalid request (Unsupported SSL request)
+2022-10-22T20:50:14: [Sat Oct 22 20:50:14 2022] 152.32.220.209:42008 Invalid request (Unsupported SSL request)
+2022-10-22T20:50:15: [Sat Oct 22 20:50:14 2022] 152.32.220.209:42456 Invalid request (Unsupported SSL request)
+2022-10-22T21:07:04: [Sat Oct 22 21:07:04 2022] 223.111.175.2:43336 [200]: /favicon.ico
+2022-10-22T21:07:05: [Sat Oct 22 21:07:05 2022] 223.111.175.2:43630 [200]: /robots.txt
+2022-10-22T22:48:31: [Sat Oct 22 22:48:31 2022] 20.254.160.123:65302 Invalid request (Unsupported SSL request)
+2022-10-22T22:48:32: [Sat Oct 22 22:48:31 2022] 20.254.160.123:52866 Invalid request (Unsupported SSL request)
+2022-10-23T08:04:47: [Sun Oct 23 08:04:46 2022] 141.98.10.78:53102 Invalid request (Malformed HTTP request)
+2022-10-23T10:10:59: [Sun Oct 23 10:10:58 2022] 209.141.33.65:51670 [200]: /favicon.ico
+2022-10-23T11:41:06: [Sun Oct 23 11:41:06 2022] 205.185.116.89:25972 [200]: /favicon.ico
+2022-10-23T11:41:07: [Sun Oct 23 11:41:07 2022] 209.141.49.169:29294 [200]: /favicon.ico
+2022-10-23T18:38:51: [Sun Oct 23 18:38:51 2022] 167.94.138.62:45066 Invalid request (Connection reset by peer)
+2022-10-23T18:38:51: [Sun Oct 23 18:38:51 2022] 167.94.138.62:50566 Invalid request (Unsupported SSL request)
+2022-10-23T18:38:54: [Sun Oct 23 18:38:54 2022] 167.94.138.62:45418 Invalid request (Malformed HTTP request)
+2022-10-23T18:38:54: [Sun Oct 23 18:38:54 2022] 167.94.138.62:35474 [200]: /favicon.ico
+2022-10-24T02:59:03: [Mon Oct 24 02:59:02 2022] 125.160.231.157:11142 [200]: /images/profile/2/logo.png
+2022-10-24T02:59:03: [Mon Oct 24 02:59:02 2022] 125.160.231.157:23391 [200]: /images/profile/29/gapoktan%20cabai.jpg
+2022-10-24T02:59:03: [Mon Oct 24 02:59:02 2022] 125.160.231.157:56552 [200]: /images/profile/51/GAPOKTAN.png
+2022-10-24T02:59:34: [Mon Oct 24 02:59:34 2022] 125.160.231.157:5243 [200]: /images/profile/4/WhatsApp%20Image%202022-04-16%20at%2022.22.57.jpeg
+2022-10-24T03:18:00: [Mon Oct 24 03:18:00 2022] 125.160.231.157:64815 [200]: /images/profile/8/WhatsApp%20Image%202022-04-10%20at%2011.42.55%20(1).jpeg
+2022-10-24T03:23:40: [Mon Oct 24 03:23:40 2022] 125.160.231.157:64347 [200]: /images/profile/2/logo.png
+2022-10-24T03:24:01: [Mon Oct 24 03:24:01 2022] 125.160.231.157:39601 [200]: /images/produk/94/WhatsApp%20Image%202022-03-29%20at%2021.59.33%20(1).jpeg
+2022-10-24T03:24:35: [Mon Oct 24 03:24:35 2022] 125.160.231.157:38112 [200]: /images/produk/93/WhatsApp%20Image%202022-03-29%20at%2021.59.33%20(1).jpeg
+2022-10-24T03:25:00: [Mon Oct 24 03:25:00 2022] 125.160.231.157:18173 [200]: /images/produk/92/WhatsApp%20Image%202022-03-29%20at%2021.59.33%20(1).jpeg
+2022-10-24T03:25:16: [Mon Oct 24 03:25:16 2022] 125.160.231.157:1099 [200]: /images/produk/91/WhatsApp%20Image%202022-04-17%20at%2009.54.23.jpeg
+2022-10-24T03:25:35: [Mon Oct 24 03:25:35 2022] 125.160.231.157:17478 [200]: /images/produk/90/WhatsApp%20Image%202022-04-17%20at%2009.54.23.jpeg
+2022-10-24T03:25:48: [Mon Oct 24 03:25:48 2022] 125.160.231.157:1409 [200]: /images/produk/89/WhatsApp%20Image%202022-04-17%20at%2009.54.23.jpeg
+2022-10-24T03:27:04: [Mon Oct 24 03:27:04 2022] 125.160.231.157:61274 [200]: /images/produk/88/WhatsApp%20Image%202022-03-28%20at%2022.20.25%20(1).jpeg
+2022-10-24T03:27:18: [Mon Oct 24 03:27:17 2022] 125.160.231.157:41856 [200]: /images/produk/87/WhatsApp%20Image%202022-03-28%20at%2022.20.25%20(1).jpeg
+2022-10-24T03:27:29: [Mon Oct 24 03:27:29 2022] 125.160.231.157:25096 [200]: /images/produk/84/WhatsApp%20Image%202022-03-28%20at%2022.20.25%20(1).jpeg
+2022-10-24T03:31:45: [Mon Oct 24 03:31:44 2022] 125.160.231.157:5560 [200]: /images/lahan/5/WhatsApp%20Image%202022-04-14%20at%2022.14.02.jpeg
+2022-10-24T03:31:45: [Mon Oct 24 03:31:44 2022] 125.160.231.157:3122 [200]: /images/produk/95/WhatsApp%20Image%202022-03-28%20at%2022.20.25%20(1).jpeg
+2022-10-24T03:34:16: [Mon Oct 24 03:34:15 2022] 125.160.231.157:50907 [200]: /images/profile/2/logo.png
+2022-10-24T03:37:31: [Mon Oct 24 03:37:30 2022] 125.160.231.157:17483 [200]: /images/produk/97/WhatsApp%20Image%202022-03-28%20at%2022.20.25%20(1).jpeg
+2022-10-24T03:38:06: [Mon Oct 24 03:38:05 2022] 125.160.231.157:19262 [200]: /images/produk/96/WhatsApp%20Image%202022-03-28%20at%2022.20.25%20(1).jpeg
+2022-10-24T03:38:16: [Mon Oct 24 03:38:16 2022] 125.160.231.157:54024 [200]: /images/produk/95/WhatsApp%20Image%202022-03-28%20at%2022.20.25%20(1).jpeg
+2022-10-24T03:48:15: [Mon Oct 24 03:48:15 2022] 125.160.231.157:50919 [200]: /images/produk/siapJual/38/WhatsApp%20Image%202022-04-29%20at%2007.16.45.jpeg
+2022-10-24T03:48:15: [Mon Oct 24 03:48:15 2022] 125.160.231.157:53895 [200]: /images/produk/88/WhatsApp%20Image%202022-03-28%20at%2022.20.25%20(1).jpeg
+2022-10-24T03:48:15: [Mon Oct 24 03:48:15 2022] 125.160.231.157:23707 [200]: /images/lahan/2/WhatsApp%20Image%202022-04-10%20at%2011.42.55.jpeg
+2022-10-24T04:01:50: [Mon Oct 24 04:01:49 2022] 125.160.231.157:59197 [200]: /images/profile/22/WhatsApp%20Image%202022-04-16%20at%2015.26.18.jpeg
+2022-10-24T04:14:35: [Mon Oct 24 04:14:34 2022] 125.160.231.157:38336 [200]: /images/profile/2/logo.png
+2022-10-24T04:17:04: [Mon Oct 24 04:17:04 2022] 125.160.231.157:9952 [200]: /images/profile/22/WhatsApp%20Image%202022-04-16%20at%2015.26.18.jpeg
+2022-10-24T04:24:25: [Mon Oct 24 04:24:25 2022] 125.160.231.157:37001 [200]: /images/profile/2/logo.png
+2022-10-24T04:28:18: [Mon Oct 24 04:28:18 2022] 125.160.231.157:58063 [200]: /images/profile/22/WhatsApp%20Image%202022-04-16%20at%2015.26.18.jpeg
+2022-10-24T04:35:20: [Mon Oct 24 04:35:20 2022] 125.160.231.157:11088 [200]: /images/produk/siapJual/39/WhatsApp%20Image%202022-04-29%20at%2007.16.45.jpeg
+2022-10-24T04:35:20: [Mon Oct 24 04:35:20 2022] 125.160.231.157:47785 [200]: /images/produk/89/WhatsApp%20Image%202022-04-17%20at%2009.54.23.jpeg
+2022-10-24T04:35:20: [Mon Oct 24 04:35:20 2022] 125.160.231.157:5840 [200]: /images/lahan/6/WhatsApp%20Image%202022-04-14%20at%2022.14.02.jpeg
+2022-10-24T04:36:08: [Mon Oct 24 04:36:08 2022] 125.160.231.157:26522 [200]: /images/profile/22/WhatsApp%20Image%202022-04-16%20at%2015.26.18.jpeg
+2022-10-24T04:37:01: [Mon Oct 24 04:37:00 2022] 125.160.231.157:7222 [200]: /images/profile/2/logo.png
+2022-10-24T04:55:03: [Mon Oct 24 04:55:03 2022] 125.160.231.157:20275 [200]: /images/profile/2/logo.png
+2022-10-24T04:56:25: [Mon Oct 24 04:56:25 2022] 125.160.231.157:42460 [200]: /images/produk/102/WhatsApp%20Image%202022-03-28%20at%2022.20.25%20(1).jpeg
+2022-10-24T04:56:59: [Mon Oct 24 04:56:59 2022] 125.160.231.157:47558 [200]: /images/produk/101/WhatsApp%20Image%202022-03-29%20at%2021.59.33%20(1).jpeg
+2022-10-24T04:57:29: [Mon Oct 24 04:57:29 2022] 125.160.231.157:28815 [200]: /images/produk/100/WhatsApp%20Image%202022-03-28%20at%2022.20.25%20(1).jpeg
+2022-10-24T04:57:57: [Mon Oct 24 04:57:57 2022] 125.160.231.157:3833 [200]: /images/produk/99/WhatsApp%20Image%202022-03-28%20at%2022.20.25%20(1).jpeg
+2022-10-24T04:58:39: [Mon Oct 24 04:58:39 2022] 125.160.231.157:15021 [200]: /images/produk/98/WhatsApp%20Image%202022-03-29%20at%2021.59.33%20(1).jpeg
+2022-10-24T05:04:45: [Mon Oct 24 05:04:44 2022] 125.160.231.157:64586 [200]: /images/profile/22/WhatsApp%20Image%202022-04-16%20at%2015.26.18.jpeg
+2022-10-24T05:06:31: [Mon Oct 24 05:06:31 2022] 125.160.231.157:49748 [200]: /images/profile/2/logo.png
+2022-10-24T05:09:19: [Mon Oct 24 05:09:19 2022] 140.213.35.199:27298 [200]: /images/profile/29/gapoktan%20cabai.jpg
+2022-10-24T05:09:19: [Mon Oct 24 05:09:19 2022] 140.213.35.199:62219 [200]: /images/profile/2/logo.png
+2022-10-24T05:09:19: [Mon Oct 24 05:09:19 2022] 140.213.35.199:40674 [200]: /images/profile/51/GAPOKTAN.png
+2022-10-24T05:11:52: [Mon Oct 24 05:11:51 2022] 125.160.231.157:18671 [200]: /images/profile/2/logo.png
+2022-10-24T05:25:04: [Mon Oct 24 05:25:03 2022] 125.160.231.157:45560 [200]: /images/profile/22/WhatsApp%20Image%202022-04-16%20at%2015.26.18.jpeg
+2022-10-24T05:27:03: [Mon Oct 24 05:27:03 2022] 125.160.231.157:5794 [200]: /images/profile/2/logo.png
+2022-10-24T05:29:23: [Mon Oct 24 05:29:23 2022] 125.160.231.157:15390 [200]: /images/profile/22/WhatsApp%20Image%202022-04-16%20at%2015.26.18.jpeg
+2022-10-24T05:30:21: [Mon Oct 24 05:30:20 2022] 125.160.231.157:6528 [200]: /images/profile/2/logo.png
+2022-10-24T05:32:05: [Mon Oct 24 05:32:05 2022] 125.160.231.157:23433 [200]: /images/profile/22/WhatsApp%20Image%202022-04-16%20at%2015.26.18.jpeg
+2022-10-24T05:32:56: [Mon Oct 24 05:32:56 2022] 125.160.231.157:49555 [200]: /images/profile/2/logo.png
+2022-10-24T05:38:21: [Mon Oct 24 05:38:21 2022] 125.160.231.157:21177 [200]: /images/transaksi/TXRP-20221024YW3TY050514/QR/42.png
+2022-10-24T05:43:02: [Mon Oct 24 05:43:01 2022] 125.160.231.157:10618 [200]: /images/profile/2/logo.png
+2022-10-24T05:44:49: [Mon Oct 24 05:44:49 2022] 125.160.231.157:50740 [200]: /images/profile/2/logo.png
+2022-10-24T05:45:07: [Mon Oct 24 05:45:07 2022] 125.160.231.157:45433 [200]: /images/transaksi/TXRP-20221024MQU85050412/QR/41.png
+2022-10-24T05:45:52: [Mon Oct 24 05:45:52 2022] 125.160.231.157:54642 [200]: /images/transaksi/TXRP-20221024MGZMB050259/QR/40.png
+2022-10-24T05:46:14: [Mon Oct 24 05:46:13 2022] 125.160.231.157:17960 [200]: /images/profile/2/logo.png
+2022-10-24T05:46:55: [Mon Oct 24 05:46:54 2022] 125.160.231.157:30582 [200]: /images/profile/28/WhatsApp%20Image%202022-04-16%20at%2017.37.58.jpeg
+2022-10-24T05:47:19: [Mon Oct 24 05:47:19 2022] 125.160.231.157:42770 [200]: /images/profile/2/logo.png
+2022-10-24T05:48:44: [Mon Oct 24 05:48:44 2022] 125.160.231.157:9921 [200]: /images/profile/28/WhatsApp%20Image%202022-04-16%20at%2017.37.58.jpeg
+2022-10-24T07:10:43: [Mon Oct 24 07:10:43 2022] 125.160.231.157:56847 [200]: /images/profile/28/WhatsApp%20Image%202022-04-16%20at%2017.37.58.jpeg
+2022-10-24T07:18:16: [Mon Oct 24 07:18:15 2022] 125.160.231.157:18685 [200]: /images/profile/2/logo.png
+2022-10-24T07:34:09: [Mon Oct 24 07:34:09 2022] 125.160.231.157:24721 [200]: /images/lahan/11/WhatsApp%20Image%202022-04-15%20at%2017.14.38%20(1).jpeg
+2022-10-24T07:34:09: [Mon Oct 24 07:34:09 2022] 125.160.231.157:23166 [200]: /images/produk/4/WhatsApp%20Image%202022-03-29%20at%2021.59.33%20(1).jpeg
+2022-10-24T07:34:09: [Mon Oct 24 07:34:09 2022] 125.160.231.157:9013 [200]: /images/produk/siapJual/8/WhatsApp%20Image%202022-03-28%20at%2022.21.21%20(1).jpeg
+2022-10-24T07:34:39: [Mon Oct 24 07:34:39 2022] 125.160.231.157:31010 [200]: /images/profile/2/logo.png
+2022-10-24T07:35:03: [Mon Oct 24 07:35:03 2022] 125.160.231.157:1750 [200]: /images/produk/108/WhatsApp%20Image%202022-03-28%20at%2022.20.25%20(1).jpeg
+2022-10-24T07:35:28: [Mon Oct 24 07:35:27 2022] 125.160.231.157:37643 [200]: /images/produk/107/WhatsApp%20Image%202022-03-29%20at%2021.59.33%20(1).jpeg
+2022-10-24T07:35:49: [Mon Oct 24 07:35:49 2022] 125.160.231.157:15660 [200]: /images/produk/106/WhatsApp%20Image%202022-03-28%20at%2022.20.25%20(1).jpeg
+2022-10-24T07:36:11: [Mon Oct 24 07:36:11 2022] 125.160.231.157:57136 [200]: /images/produk/105/WhatsApp%20Image%202022-03-29%20at%2021.59.33%20(1).jpeg
+2022-10-24T07:36:38: [Mon Oct 24 07:36:38 2022] 125.160.231.157:34054 [200]: /images/produk/104/WhatsApp%20Image%202022-03-28%20at%2022.20.25%20(1).jpeg
+2022-10-24T07:36:59: [Mon Oct 24 07:36:59 2022] 125.160.231.157:18705 [200]: /images/produk/103/WhatsApp%20Image%202022-04-17%20at%2009.54.23.jpeg
+2022-10-24T07:41:28: [Mon Oct 24 07:41:28 2022] 125.160.231.157:25731 [200]: /images/profile/2/logo.png
+2022-10-24T07:49:11: [Mon Oct 24 07:49:11 2022] 125.160.231.157:56392 [200]: /images/profile/2/logo.png
+2022-10-24T07:53:45: [Mon Oct 24 07:53:45 2022] 125.160.231.157:4882 [200]: /images/profile/2/logo.png
+2022-10-24T07:54:34: [Mon Oct 24 07:54:33 2022] 125.160.231.157:45627 [200]: /images/expired/5/QR/5.png
+2022-10-24T08:03:58: [Mon Oct 24 08:03:58 2022] 125.160.231.157:56697 [200]: /images/profile/29/gapoktan%20cabai.jpg
+2022-10-24T08:03:58: [Mon Oct 24 08:03:58 2022] 125.160.231.157:55175 [200]: /images/profile/2/logo.png
+2022-10-24T08:03:58: [Mon Oct 24 08:03:58 2022] 125.160.231.157:31462 [200]: /images/profile/51/GAPOKTAN.png
+2022-10-24T08:04:15: [Mon Oct 24 08:04:15 2022] 125.160.231.157:51593 [200]: /images/produk/siapJual/45/WhatsApp%20Image%202022-04-29%20at%2007.16.44.jpeg
+2022-10-24T08:04:15: [Mon Oct 24 08:04:15 2022] 125.160.231.157:29520 [200]: /images/product/45/QR/45.png
+2022-10-24T08:04:15: [Mon Oct 24 08:04:15 2022] 125.160.231.157:59652 [200]: /images/produk/siapJual/44/WhatsApp%20Image%202022-04-29%20at%2007.16.45.jpeg
+2022-10-24T08:04:15: [Mon Oct 24 08:04:15 2022] 125.160.231.157:10019 [200]: /images/produk/siapJual/43/WhatsApp%20Image%202022-04-29%20at%2007.16.44.jpeg
+2022-10-24T08:04:15: [Mon Oct 24 08:04:15 2022] 125.160.231.157:30244 [200]: /images/product/44/QR/44.png
+2022-10-24T08:04:15: [Mon Oct 24 08:04:15 2022] 125.160.231.157:58007 [200]: /images/product/43/QR/43.png
+2022-10-24T08:04:16: [Mon Oct 24 08:04:15 2022] 125.160.231.157:57206 [200]: /images/produk/siapJual/42/WhatsApp%20Image%202022-04-29%20at%2007.16.44.jpeg
+2022-10-24T08:04:16: [Mon Oct 24 08:04:15 2022] 125.160.231.157:50888 [200]: /images/product/42/QR/42.png
+2022-10-24T08:04:16: [Mon Oct 24 08:04:15 2022] 125.160.231.157:8976 [200]: /images/produk/siapJual/41/WhatsApp%20Image%202022-04-29%20at%2007.16.43.jpeg
+2022-10-24T08:04:16: [Mon Oct 24 08:04:15 2022] 125.160.231.157:15775 [200]: /images/product/41/QR/41.png
+2022-10-24T08:04:43: [Mon Oct 24 08:04:43 2022] 125.160.231.157:31544 [200]: /images/produk/siapJual/45/WhatsApp%20Image%202022-04-29%20at%2007.16.44.jpeg
+2022-10-24T08:04:43: [Mon Oct 24 08:04:43 2022] 125.160.231.157:8623 [200]: /images/product/45/QR/45.png
+2022-10-24T08:04:43: [Mon Oct 24 08:04:43 2022] 125.160.231.157:44616 [200]: /images/profile/2/logo.png
+2022-10-24T08:08:18: [Mon Oct 24 08:08:18 2022] 125.160.231.157:50631 [200]: /images/profile/2/logo.png
+2022-10-24T08:08:18: [Mon Oct 24 08:08:18 2022] 125.160.231.157:52752 [200]: /images/profile/29/gapoktan%20cabai.jpg
+2022-10-24T08:08:18: [Mon Oct 24 08:08:18 2022] 125.160.231.157:11323 [200]: /images/profile/51/GAPOKTAN.png
+2022-10-24T08:08:23: [Mon Oct 24 08:08:23 2022] 125.160.231.157:8644 [200]: /images/produk/siapJual/44/WhatsApp%20Image%202022-04-29%20at%2007.16.45.jpeg
+2022-10-24T08:08:23: [Mon Oct 24 08:08:23 2022] 125.160.231.157:39250 [200]: /images/product/44/QR/44.png
+2022-10-24T08:08:23: [Mon Oct 24 08:08:23 2022] 125.160.231.157:21201 [200]: /images/produk/siapJual/43/WhatsApp%20Image%202022-04-29%20at%2007.16.44.jpeg
+2022-10-24T08:08:23: [Mon Oct 24 08:08:23 2022] 125.160.231.157:22273 [200]: /images/product/43/QR/43.png
+2022-10-24T08:08:23: [Mon Oct 24 08:08:23 2022] 125.160.231.157:20494 [200]: /images/produk/siapJual/42/WhatsApp%20Image%202022-04-29%20at%2007.16.44.jpeg
+2022-10-24T08:08:23: [Mon Oct 24 08:08:23 2022] 125.160.231.157:28141 [200]: /images/product/42/QR/42.png
+2022-10-24T08:08:23: [Mon Oct 24 08:08:23 2022] 125.160.231.157:37622 [200]: /images/produk/siapJual/41/WhatsApp%20Image%202022-04-29%20at%2007.16.43.jpeg
+2022-10-24T08:08:23: [Mon Oct 24 08:08:23 2022] 125.160.231.157:28678 [200]: /images/product/41/QR/41.png
+2022-10-24T08:08:32: [Mon Oct 24 08:08:32 2022] 125.160.231.157:4466 [200]: /images/produk/siapJual/41/WhatsApp%20Image%202022-04-29%20at%2007.16.43.jpeg
+2022-10-24T08:08:32: [Mon Oct 24 08:08:32 2022] 125.160.231.157:2620 [200]: /images/product/41/QR/41.png
+2022-10-24T08:08:47: [Mon Oct 24 08:08:47 2022] 125.160.231.157:46211 [200]: /images/profile/2/logo.png
+2022-10-24T08:08:47: [Mon Oct 24 08:08:47 2022] 125.160.231.157:14529 [200]: /images/profile/29/gapoktan%20cabai.jpg
+2022-10-24T08:08:47: [Mon Oct 24 08:08:47 2022] 125.160.231.157:16676 [200]: /images/profile/51/GAPOKTAN.png
+2022-10-24T08:08:50: [Mon Oct 24 08:08:50 2022] 125.160.231.157:48961 [200]: /images/produk/siapJual/44/WhatsApp%20Image%202022-04-29%20at%2007.16.45.jpeg
+2022-10-24T08:08:50: [Mon Oct 24 08:08:50 2022] 125.160.231.157:40636 [200]: /images/product/44/QR/44.png
+2022-10-24T08:08:50: [Mon Oct 24 08:08:50 2022] 125.160.231.157:16999 [200]: /images/product/43/QR/43.png
+2022-10-24T08:08:50: [Mon Oct 24 08:08:50 2022] 125.160.231.157:20864 [200]: /images/produk/siapJual/43/WhatsApp%20Image%202022-04-29%20at%2007.16.44.jpeg
+2022-10-24T08:08:50: [Mon Oct 24 08:08:50 2022] 125.160.231.157:3444 [200]: /images/produk/siapJual/42/WhatsApp%20Image%202022-04-29%20at%2007.16.44.jpeg
+2022-10-24T08:08:50: [Mon Oct 24 08:08:50 2022] 125.160.231.157:36511 [200]: /images/product/42/QR/42.png
+2022-10-24T08:08:55: [Mon Oct 24 08:08:55 2022] 125.160.231.157:45194 [200]: /images/produk/siapJual/42/WhatsApp%20Image%202022-04-29%20at%2007.16.44.jpeg
+2022-10-24T08:08:55: [Mon Oct 24 08:08:55 2022] 125.160.231.157:56756 [200]: /images/product/42/QR/42.png
+2022-10-24T08:09:26: [Mon Oct 24 08:09:26 2022] 125.160.231.157:56529 [200]: /images/profile/22/WhatsApp%20Image%202022-04-16%20at%2015.26.18.jpeg
+2022-10-24T08:09:28: [Mon Oct 24 08:09:28 2022] 125.160.231.157:4498 [200]: /images/profile/2/logo.png
+2022-10-24T08:09:28: [Mon Oct 24 08:09:28 2022] 125.160.231.157:50839 [200]: /images/profile/29/gapoktan%20cabai.jpg
+2022-10-24T08:09:28: [Mon Oct 24 08:09:28 2022] 125.160.231.157:24999 [200]: /images/profile/51/GAPOKTAN.png
+2022-10-24T08:09:30: [Mon Oct 24 08:09:30 2022] 125.160.231.157:44768 [200]: /images/produk/siapJual/44/WhatsApp%20Image%202022-04-29%20at%2007.16.45.jpeg
+2022-10-24T08:09:30: [Mon Oct 24 08:09:30 2022] 125.160.231.157:55509 [200]: /images/product/44/QR/44.png
+2022-10-24T08:09:30: [Mon Oct 24 08:09:30 2022] 125.160.231.157:25631 [200]: /images/produk/siapJual/43/WhatsApp%20Image%202022-04-29%20at%2007.16.44.jpeg
+2022-10-24T08:09:30: [Mon Oct 24 08:09:30 2022] 125.160.231.157:33563 [200]: /images/product/43/QR/43.png
+2022-10-24T08:09:30: [Mon Oct 24 08:09:30 2022] 125.160.231.157:36454 [200]: /images/produk/siapJual/42/WhatsApp%20Image%202022-04-29%20at%2007.16.44.jpeg
+2022-10-24T08:09:30: [Mon Oct 24 08:09:30 2022] 125.160.231.157:7151 [200]: /images/product/42/QR/42.png
+2022-10-24T08:09:30: [Mon Oct 24 08:09:30 2022] 125.160.231.157:41192 [200]: /images/produk/siapJual/41/WhatsApp%20Image%202022-04-29%20at%2007.16.43.jpeg
+2022-10-24T08:09:30: [Mon Oct 24 08:09:30 2022] 125.160.231.157:44286 [200]: /images/product/41/QR/41.png
+2022-10-24T08:15:08: [Mon Oct 24 08:15:08 2022] 125.160.231.157:49479 [200]: /images/profile/29/gapoktan%20cabai.jpg
+2022-10-24T08:15:08: [Mon Oct 24 08:15:08 2022] 125.160.231.157:60584 [200]: /images/profile/2/logo.png
+2022-10-24T08:15:08: [Mon Oct 24 08:15:08 2022] 125.160.231.157:62524 [200]: /images/profile/51/GAPOKTAN.png
+2022-10-24T08:15:10: [Mon Oct 24 08:15:10 2022] 125.160.231.157:23634 [200]: /images/produk/siapJual/44/WhatsApp%20Image%202022-04-29%20at%2007.16.45.jpeg
+2022-10-24T08:15:10: [Mon Oct 24 08:15:10 2022] 125.160.231.157:27562 [200]: /images/produk/siapJual/43/WhatsApp%20Image%202022-04-29%20at%2007.16.44.jpeg
+2022-10-24T08:15:10: [Mon Oct 24 08:15:10 2022] 125.160.231.157:64963 [200]: /images/product/44/QR/44.png
+2022-10-24T08:15:10: [Mon Oct 24 08:15:10 2022] 125.160.231.157:26594 [200]: /images/product/43/QR/43.png
+2022-10-24T08:15:10: [Mon Oct 24 08:15:10 2022] 125.160.231.157:21251 [200]: /images/produk/siapJual/42/WhatsApp%20Image%202022-04-29%20at%2007.16.44.jpeg
+2022-10-24T08:15:10: [Mon Oct 24 08:15:10 2022] 125.160.231.157:2713 [200]: /images/product/42/QR/42.png
+2022-10-24T08:15:10: [Mon Oct 24 08:15:10 2022] 125.160.231.157:34623 [200]: /images/produk/siapJual/41/WhatsApp%20Image%202022-04-29%20at%2007.16.43.jpeg
+2022-10-24T08:15:10: [Mon Oct 24 08:15:10 2022] 125.160.231.157:27891 [200]: /images/product/41/QR/41.png
+2022-10-24T08:15:31: [Mon Oct 24 08:15:31 2022] 125.160.231.157:36441 [200]: /images/produk/siapJual/43/WhatsApp%20Image%202022-04-29%20at%2007.16.44.jpeg
+2022-10-24T08:15:31: [Mon Oct 24 08:15:31 2022] 125.160.231.157:18919 [200]: /images/product/43/QR/43.png
+2022-10-24T08:16:20: [Mon Oct 24 08:16:19 2022] 125.160.231.157:39253 [200]: /images/profile/2/logo.png
+2022-10-24T08:17:57: [Mon Oct 24 08:17:56 2022] 125.160.231.157:40969 [200]: /images/profile/51/GAPOKTAN.png
+2022-10-24T08:17:57: [Mon Oct 24 08:17:56 2022] 125.160.231.157:33590 [200]: /images/profile/2/logo.png
+2022-10-24T08:17:57: [Mon Oct 24 08:17:56 2022] 125.160.231.157:45084 [200]: /images/profile/29/gapoktan%20cabai.jpg
+2022-10-24T08:17:58: [Mon Oct 24 08:17:58 2022] 125.160.231.157:38649 [200]: /images/produk/siapJual/44/WhatsApp%20Image%202022-04-29%20at%2007.16.45.jpeg
+2022-10-24T08:17:58: [Mon Oct 24 08:17:58 2022] 125.160.231.157:26177 [200]: /images/product/44/QR/44.png
+2022-10-24T08:17:58: [Mon Oct 24 08:17:58 2022] 125.160.231.157:27998 [200]: /images/produk/siapJual/42/WhatsApp%20Image%202022-04-29%20at%2007.16.44.jpeg
+2022-10-24T08:17:58: [Mon Oct 24 08:17:58 2022] 125.160.231.157:29834 [200]: /images/product/42/QR/42.png
+2022-10-24T08:17:58: [Mon Oct 24 08:17:58 2022] 125.160.231.157:9542 [200]: /images/produk/siapJual/41/WhatsApp%20Image%202022-04-29%20at%2007.16.43.jpeg
+2022-10-24T08:17:58: [Mon Oct 24 08:17:58 2022] 125.160.231.157:31338 [200]: /images/product/41/QR/41.png
+2022-10-24T08:18:52: [Mon Oct 24 08:18:52 2022] 125.160.231.157:35213 [200]: /images/produk/siapJual/41/WhatsApp%20Image%202022-04-29%20at%2007.16.43.jpeg
+2022-10-24T08:18:52: [Mon Oct 24 08:18:52 2022] 125.160.231.157:6735 [200]: /images/product/41/QR/41.png
+2022-10-24T08:19:29: [Mon Oct 24 08:19:29 2022] 125.160.231.157:18973 [200]: /images/profile/2/logo.png
+2022-10-24T08:19:48: [Mon Oct 24 08:19:48 2022] 125.160.231.157:27937 [200]: /images/profile/2/logo.png
+2022-10-24T08:22:30: [Mon Oct 24 08:22:30 2022] 125.160.231.157:43696 [200]: /images/profile/27/WhatsApp%20Image%202022-04-16%20at%2015.58.13.jpeg
+2022-10-24T08:23:58: [Mon Oct 24 08:23:58 2022] 125.160.231.157:52935 [200]: /images/profile/2/logo.png
+2022-10-25T06:36:48: [Tue Oct 25 06:36:48 2022] 139.162.161.56:36046 Invalid request (Unsupported SSL request)
+2022-10-25T06:36:49: [Tue Oct 25 06:36:49 2022] 139.162.161.56:36052 Invalid request (Malformed HTTP request)
+2022-10-26T03:24:03: [Wed Oct 26 03:24:03 2022] 125.160.231.157:11187 [200]: /images/profile/2/logo.png
+2022-10-26T03:24:03: [Wed Oct 26 03:24:03 2022] 125.160.231.157:60233 [200]: /images/profile/29/gapoktan%20cabai.jpg
+2022-10-26T03:24:03: [Wed Oct 26 03:24:03 2022] 125.160.231.157:61306 [200]: /images/profile/51/GAPOKTAN.png
+2022-10-26T03:30:05: [Wed Oct 26 03:30:05 2022] 125.160.231.157:38294 [200]: /images/profile/2/logo.png
+2022-10-26T03:30:24: [Wed Oct 26 03:30:24 2022] 125.160.231.157:3615 [200]: /images/produk/113/WhatsApp%20Image%202022-04-29%20at%2007.16.44.jpeg
+2022-10-26T03:30:48: [Wed Oct 26 03:30:48 2022] 125.160.231.157:60429 [200]: /images/produk/112/WhatsApp%20Image%202022-03-28%20at%2022.20.25%20(1).jpeg
+2022-10-26T03:31:06: [Wed Oct 26 03:31:05 2022] 125.160.231.157:37944 [200]: /images/produk/111/WhatsApp%20Image%202022-03-28%20at%2022.20.25%20(1).jpeg
+2022-10-26T03:31:24: [Wed Oct 26 03:31:23 2022] 125.160.231.157:57594 [200]: /images/produk/110/WhatsApp%20Image%202022-03-28%20at%2022.20.25%20(1).jpeg
+2022-10-26T03:31:43: [Wed Oct 26 03:31:43 2022] 125.160.231.157:19386 [200]: /images/produk/109/WhatsApp%20Image%202022-03-29%20at%2021.59.33%20(1).jpeg
+2022-10-26T03:46:33: [Wed Oct 26 03:46:33 2022] 125.160.231.157:10017 [200]: /images/profile/22/WhatsApp%20Image%202022-04-16%20at%2015.26.18.jpeg
+2022-10-26T03:46:36: [Wed Oct 26 03:46:36 2022] 125.160.231.157:28826 [200]: /images/profile/29/gapoktan%20cabai.jpg
+2022-10-26T03:46:36: [Wed Oct 26 03:46:36 2022] 125.160.231.157:51252 [200]: /images/profile/51/GAPOKTAN.png
+2022-10-26T03:46:36: [Wed Oct 26 03:46:36 2022] 125.160.231.157:14145 [200]: /images/profile/2/logo.png
+2022-10-26T03:46:40: [Wed Oct 26 03:46:40 2022] 125.160.231.157:16757 [200]: /images/produk/siapJual/50/WhatsApp%20Image%202022-03-28%20at%2022.20.25%20(1).jpeg
+2022-10-26T03:46:40: [Wed Oct 26 03:46:40 2022] 125.160.231.157:43684 [200]: /images/product/50/QR/50.png
+2022-10-26T03:46:40: [Wed Oct 26 03:46:40 2022] 125.160.231.157:65488 [200]: /images/produk/siapJual/49/WhatsApp%20Image%202022-03-28%20at%2022.21.21%20(1).jpeg
+2022-10-26T03:46:40: [Wed Oct 26 03:46:40 2022] 125.160.231.157:61187 [200]: /images/product/49/QR/49.png
+2022-10-26T03:46:40: [Wed Oct 26 03:46:40 2022] 125.160.231.157:52117 [200]: /images/produk/siapJual/48/WhatsApp%20Image%202022-04-29%20at%2007.16.43.jpeg
+2022-10-26T03:46:40: [Wed Oct 26 03:46:40 2022] 125.160.231.157:57010 [200]: /images/product/48/QR/48.png
+2022-10-26T03:46:40: [Wed Oct 26 03:46:40 2022] 125.160.231.157:51969 [200]: /images/produk/siapJual/47/WhatsApp%20Image%202022-04-29%20at%2007.16.44.jpeg
+2022-10-26T03:46:40: [Wed Oct 26 03:46:40 2022] 125.160.231.157:22406 [200]: /images/product/47/QR/47.png
+2022-10-26T03:46:40: [Wed Oct 26 03:46:40 2022] 125.160.231.157:64687 [200]: /images/produk/siapJual/46/WhatsApp%20Image%202022-04-29%20at%2007.16.45.jpeg
+2022-10-26T03:46:40: [Wed Oct 26 03:46:40 2022] 125.160.231.157:5951 [200]: /images/product/46/QR/46.png
+2022-10-26T03:47:13: [Wed Oct 26 03:47:13 2022] 125.160.231.157:43445 [200]: /images/profile/22/WhatsApp%20Image%202022-04-16%20at%2015.26.18.jpeg
+2022-10-26T03:47:13: [Wed Oct 26 03:47:13 2022] 125.160.231.157:26745 [200]: /images/produk/siapJual/49/WhatsApp%20Image%202022-03-28%20at%2022.21.21%20(1).jpeg
+2022-10-26T03:47:14: [Wed Oct 26 03:47:13 2022] 125.160.231.157:6941 [200]: /images/product/49/QR/49.png
+2022-10-26T03:48:30: [Wed Oct 26 03:48:30 2022] 125.160.231.157:41036 [200]: /images/profile/29/gapoktan%20cabai.jpg
+2022-10-26T03:48:30: [Wed Oct 26 03:48:30 2022] 125.160.231.157:64255 [200]: /images/profile/2/logo.png
+2022-10-26T03:48:30: [Wed Oct 26 03:48:30 2022] 125.160.231.157:18902 [200]: /images/profile/51/GAPOKTAN.png
+2022-10-26T03:48:32: [Wed Oct 26 03:48:32 2022] 125.160.231.157:1914 [200]: /images/produk/siapJual/50/WhatsApp%20Image%202022-03-28%20at%2022.20.25%20(1).jpeg
+2022-10-26T03:48:32: [Wed Oct 26 03:48:32 2022] 125.160.231.157:39791 [200]: /images/product/50/QR/50.png
+2022-10-26T03:48:32: [Wed Oct 26 03:48:32 2022] 125.160.231.157:1952 [200]: /images/produk/siapJual/48/WhatsApp%20Image%202022-04-29%20at%2007.16.43.jpeg
+2022-10-26T03:48:32: [Wed Oct 26 03:48:32 2022] 125.160.231.157:1491 [200]: /images/product/48/QR/48.png
+2022-10-26T03:48:32: [Wed Oct 26 03:48:32 2022] 125.160.231.157:55482 [200]: /images/produk/siapJual/47/WhatsApp%20Image%202022-04-29%20at%2007.16.44.jpeg
+2022-10-26T03:48:32: [Wed Oct 26 03:48:32 2022] 125.160.231.157:2930 [200]: /images/product/47/QR/47.png
+2022-10-26T03:48:32: [Wed Oct 26 03:48:32 2022] 125.160.231.157:58623 [200]: /images/produk/siapJual/46/WhatsApp%20Image%202022-04-29%20at%2007.16.45.jpeg
+2022-10-26T03:48:32: [Wed Oct 26 03:48:32 2022] 125.160.231.157:30356 [200]: /images/product/46/QR/46.png
+2022-10-26T03:48:32: [Wed Oct 26 03:48:32 2022] 125.160.231.157:55884 [200]: /images/produk/siapJual/44/WhatsApp%20Image%202022-04-29%20at%2007.16.45.jpeg
+2022-10-26T03:48:32: [Wed Oct 26 03:48:32 2022] 125.160.231.157:63730 [200]: /images/product/44/QR/44.png
+2022-10-26T03:48:43: [Wed Oct 26 03:48:43 2022] 125.160.231.157:58880 [200]: /images/produk/siapJual/50/WhatsApp%20Image%202022-03-28%20at%2022.20.25%20(1).jpeg
+2022-10-26T03:48:43: [Wed Oct 26 03:48:43 2022] 125.160.231.157:56122 [200]: /images/product/50/QR/50.png
+2022-10-26T03:49:53: [Wed Oct 26 03:49:53 2022] 125.160.231.157:58083 [200]: /images/produk/siapJual/47/WhatsApp%20Image%202022-04-29%20at%2007.16.44.jpeg
+2022-10-26T03:49:53: [Wed Oct 26 03:49:53 2022] 125.160.231.157:20703 [200]: /images/product/47/QR/47.png
+2022-10-26T03:54:44: [Wed Oct 26 03:54:44 2022] 125.160.231.157:23399 [200]: /images/profile/26/WhatsApp%20Image%202022-04-16%20at%2015.53.20.jpeg
+2022-10-26T03:56:51: [Wed Oct 26 03:56:51 2022] 125.160.231.157:46135 [200]: /images/profile/2/logo.png
+2022-10-26T04:03:58: [Wed Oct 26 04:03:57 2022] 125.160.231.157:48404 [200]: /images/profile/22/WhatsApp%20Image%202022-04-16%20at%2015.26.18.jpeg
+2022-10-26T04:06:00: [Wed Oct 26 04:06:00 2022] 125.160.231.157:3096 [200]: /images/transaksi/TXRP-20221024YW3TY050514/QR/42.png
+2022-10-26T04:07:55: [Wed Oct 26 04:07:55 2022] 125.160.231.157:5899 [200]: /images/profile/2/logo.png
+2022-10-26T04:09:48: [Wed Oct 26 04:09:48 2022] 125.160.231.157:2542 [200]: /images/profile/22/WhatsApp%20Image%202022-04-16%20at%2015.26.18.jpeg
+2022-10-26T04:10:00: [Wed Oct 26 04:10:00 2022] 125.160.231.157:35570 [200]: /images/transaksi/TXRP-20221024YW3TY050514/QR/42.png
+2022-10-26T04:10:50: [Wed Oct 26 04:10:50 2022] 125.160.231.157:4850 [200]: /images/profile/2/logo.png
+2022-10-26T04:17:01: [Wed Oct 26 04:17:00 2022] 125.160.231.157:58885 [200]: /images/produk/siapJual/40/WhatsApp%20Image%202022-04-29%20at%2007.16.43.jpeg
+2022-10-26T04:17:01: [Wed Oct 26 04:17:00 2022] 125.160.231.157:3929 [200]: /images/lahan/5/WhatsApp%20Image%202022-04-14%20at%2022.14.02.jpeg
+2022-10-26T04:17:01: [Wed Oct 26 04:17:00 2022] 125.160.231.157:17649 [200]: /images/produk/92/WhatsApp%20Image%202022-03-29%20at%2021.59.33%20(1).jpeg
+2022-10-26T04:22:50: [Wed Oct 26 04:22:50 2022] 125.160.231.157:46449 [200]: /images/profile/4/WhatsApp%20Image%202022-04-16%20at%2022.22.57.jpeg
+2022-10-26T04:23:58: [Wed Oct 26 04:23:58 2022] 167.94.138.117:57608 Invalid request (Malformed HTTP request)
+2022-10-26T04:23:58: [Wed Oct 26 04:23:58 2022] 167.94.138.117:47378 [200]: /favicon.ico
+2022-10-26T04:27:41: [Wed Oct 26 04:27:41 2022] 125.160.231.157:14181 [200]: /images/profile/2/logo.png
+2022-10-26T04:27:56: [Wed Oct 26 04:27:56 2022] 125.160.231.157:39733 [200]: /images/produk/118/WhatsApp%20Image%202022-03-28%20at%2022.20.25%20(1).jpeg
+2022-10-26T04:28:21: [Wed Oct 26 04:28:20 2022] 125.160.231.157:26044 [200]: /images/produk/117/WhatsApp%20Image%202022-03-29%20at%2021.59.33%20(1).jpeg
+2022-10-26T04:28:46: [Wed Oct 26 04:28:46 2022] 125.160.231.157:13711 [200]: /images/produk/116/WhatsApp%20Image%202022-04-29%20at%2007.16.43.jpeg
+2022-10-26T04:29:07: [Wed Oct 26 04:29:07 2022] 125.160.231.157:42263 [200]: /images/produk/115/WhatsApp%20Image%202022-03-28%20at%2022.20.25%20(1).jpeg
+2022-10-26T04:29:29: [Wed Oct 26 04:29:29 2022] 125.160.231.157:46243 [200]: /images/produk/114/WhatsApp%20Image%202022-03-28%20at%2022.20.25%20(1).jpeg
+2022-10-26T04:42:44: [Wed Oct 26 04:42:44 2022] 125.160.231.157:19180 [200]: /images/profile/22/WhatsApp%20Image%202022-04-16%20at%2015.26.18.jpeg
+2022-10-26T04:42:49: [Wed Oct 26 04:42:49 2022] 125.160.231.157:21157 [200]: /images/profile/29/gapoktan%20cabai.jpg
+2022-10-26T04:42:49: [Wed Oct 26 04:42:49 2022] 125.160.231.157:15671 [200]: /images/profile/2/logo.png
+2022-10-26T04:42:49: [Wed Oct 26 04:42:49 2022] 125.160.231.157:34834 [200]: /images/profile/51/GAPOKTAN.png
+2022-10-26T04:42:50: [Wed Oct 26 04:42:50 2022] 125.160.231.157:30233 [200]: /images/produk/siapJual/55/WhatsApp%20Image%202022-03-28%20at%2022.20.25%20(1).jpeg
+2022-10-26T04:42:50: [Wed Oct 26 04:42:50 2022] 125.160.231.157:50399 [200]: /images/product/55/QR/55.png
+2022-10-26T04:42:50: [Wed Oct 26 04:42:50 2022] 125.160.231.157:50066 [200]: /images/produk/siapJual/54/WhatsApp%20Image%202022-03-29%20at%2021.59.33%20(1).jpeg
+2022-10-26T04:42:50: [Wed Oct 26 04:42:50 2022] 125.160.231.157:47816 [200]: /images/product/54/QR/54.png
+2022-10-26T04:42:50: [Wed Oct 26 04:42:50 2022] 125.160.231.157:25269 [200]: /images/produk/siapJual/53/WhatsApp%20Image%202022-04-29%20at%2007.16.43.jpeg
+2022-10-26T04:42:50: [Wed Oct 26 04:42:50 2022] 125.160.231.157:5936 [200]: /images/product/53/QR/53.png
+2022-10-26T04:42:50: [Wed Oct 26 04:42:50 2022] 125.160.231.157:52839 [200]: /images/produk/siapJual/52/WhatsApp%20Image%202022-04-29%20at%2007.16.44.jpeg
+2022-10-26T04:42:50: [Wed Oct 26 04:42:50 2022] 125.160.231.157:53987 [200]: /images/product/52/QR/52.png
+2022-10-26T04:42:50: [Wed Oct 26 04:42:50 2022] 125.160.231.157:14843 [200]: /images/produk/siapJual/51/WhatsApp%20Image%202022-04-29%20at%2007.16.44.jpeg
+2022-10-26T04:42:50: [Wed Oct 26 04:42:50 2022] 125.160.231.157:25952 [200]: /images/product/51/QR/51.png
+2022-10-26T04:43:02: [Wed Oct 26 04:43:02 2022] 125.160.231.157:64026 [200]: /images/profile/22/WhatsApp%20Image%202022-04-16%20at%2015.26.18.jpeg
+2022-10-26T04:43:02: [Wed Oct 26 04:43:02 2022] 125.160.231.157:22359 [200]: /images/produk/siapJual/55/WhatsApp%20Image%202022-03-28%20at%2022.20.25%20(1).jpeg
+2022-10-26T04:43:02: [Wed Oct 26 04:43:02 2022] 125.160.231.157:11403 [200]: /images/product/55/QR/55.png
+2022-10-26T04:44:08: [Wed Oct 26 04:44:07 2022] 125.160.231.157:44152 [200]: /images/profile/22/WhatsApp%20Image%202022-04-16%20at%2015.26.18.jpeg
+2022-10-26T04:44:08: [Wed Oct 26 04:44:07 2022] 125.160.231.157:30731 [200]: /images/produk/siapJual/54/WhatsApp%20Image%202022-03-29%20at%2021.59.33%20(1).jpeg
+2022-10-26T04:44:08: [Wed Oct 26 04:44:07 2022] 125.160.231.157:40946 [200]: /images/product/54/QR/54.png
+2022-10-26T04:45:03: [Wed Oct 26 04:45:03 2022] 125.160.231.157:30869 [200]: /images/profile/22/WhatsApp%20Image%202022-04-16%20at%2015.26.18.jpeg
+2022-10-26T04:45:03: [Wed Oct 26 04:45:03 2022] 125.160.231.157:61485 [200]: /images/produk/siapJual/54/WhatsApp%20Image%202022-03-29%20at%2021.59.33%20(1).jpeg
+2022-10-26T04:45:03: [Wed Oct 26 04:45:03 2022] 125.160.231.157:58439 [200]: /images/product/54/QR/54.png
+2022-10-26T04:46:06: [Wed Oct 26 04:46:06 2022] 125.160.231.157:44097 [200]: /images/profile/2/logo.png
+2022-10-26T04:46:06: [Wed Oct 26 04:46:06 2022] 125.160.231.157:11557 [200]: /images/profile/29/gapoktan%20cabai.jpg
+2022-10-26T04:46:06: [Wed Oct 26 04:46:06 2022] 125.160.231.157:53902 [200]: /images/profile/51/GAPOKTAN.png
+2022-10-26T04:46:08: [Wed Oct 26 04:46:08 2022] 125.160.231.157:29000 [200]: /images/produk/siapJual/53/WhatsApp%20Image%202022-04-29%20at%2007.16.43.jpeg
+2022-10-26T04:46:08: [Wed Oct 26 04:46:08 2022] 125.160.231.157:27706 [200]: /images/product/53/QR/53.png
+2022-10-26T04:46:08: [Wed Oct 26 04:46:08 2022] 125.160.231.157:20474 [200]: /images/produk/siapJual/52/WhatsApp%20Image%202022-04-29%20at%2007.16.44.jpeg
+2022-10-26T04:46:08: [Wed Oct 26 04:46:08 2022] 125.160.231.157:32550 [200]: /images/product/52/QR/52.png
+2022-10-26T04:46:08: [Wed Oct 26 04:46:08 2022] 125.160.231.157:64387 [200]: /images/produk/siapJual/51/WhatsApp%20Image%202022-04-29%20at%2007.16.44.jpeg
+2022-10-26T04:46:08: [Wed Oct 26 04:46:08 2022] 125.160.231.157:21140 [200]: /images/product/51/QR/51.png
+2022-10-26T04:46:08: [Wed Oct 26 04:46:08 2022] 125.160.231.157:15229 [200]: /images/produk/siapJual/48/WhatsApp%20Image%202022-04-29%20at%2007.16.43.jpeg
+2022-10-26T04:46:08: [Wed Oct 26 04:46:08 2022] 125.160.231.157:44571 [200]: /images/product/48/QR/48.png
+2022-10-26T04:46:08: [Wed Oct 26 04:46:08 2022] 125.160.231.157:31629 [200]: /images/produk/siapJual/47/WhatsApp%20Image%202022-04-29%20at%2007.16.44.jpeg
+2022-10-26T04:46:08: [Wed Oct 26 04:46:08 2022] 125.160.231.157:8957 [200]: /images/product/47/QR/47.png
+2022-10-26T04:46:17: [Wed Oct 26 04:46:17 2022] 125.160.231.157:60678 [200]: /images/produk/siapJual/53/WhatsApp%20Image%202022-04-29%20at%2007.16.43.jpeg
+2022-10-26T04:46:17: [Wed Oct 26 04:46:17 2022] 125.160.231.157:63196 [200]: /images/product/53/QR/53.png
+2022-10-26T04:47:35: [Wed Oct 26 04:47:35 2022] 125.160.231.157:17648 [200]: /images/produk/siapJual/51/WhatsApp%20Image%202022-04-29%20at%2007.16.44.jpeg
+2022-10-26T04:47:35: [Wed Oct 26 04:47:35 2022] 125.160.231.157:11441 [200]: /images/product/51/QR/51.png
+2022-10-26T04:48:09: [Wed Oct 26 04:48:08 2022] 125.160.231.157:6628 [200]: /images/transaksi/TXRP-20221024MGZMB050259/QR/40.png
+2022-10-26T04:49:32: [Wed Oct 26 04:49:31 2022] 125.160.231.157:29292 [200]: /images/transaksi/TXRP-20221024MGZMB050259/QR/40.png
+2022-10-26T04:50:33: [Wed Oct 26 04:50:33 2022] 125.160.231.157:60706 [200]: /images/profile/2/logo.png
+2022-10-26T04:54:14: [Wed Oct 26 04:54:14 2022] 125.160.231.157:27193 [200]: /images/transaksi/TX-20221026S5MS044345/QR/23.png
+2022-10-26T07:51:53: [Wed Oct 26 07:51:52 2022] 125.160.231.157:3111 [200]: /images/profile/2/logo.png
+2022-10-26T07:51:53: [Wed Oct 26 07:51:52 2022] 125.160.231.157:4717 [200]: /images/profile/51/GAPOKTAN.png
+2022-10-26T07:51:53: [Wed Oct 26 07:51:52 2022] 125.160.231.157:27464 [200]: /images/profile/29/gapoktan%20cabai.jpg
+2022-10-26T07:53:06: [Wed Oct 26 07:53:06 2022] 125.160.231.157:17470 [200]: /images/profile/2/logo.png
+2022-10-26T10:13:43: [Wed Oct 26 10:13:43 2022] 125.160.231.157:8761 [200]: /images/profile/4/WhatsApp%20Image%202022-04-16%20at%2022.22.57.jpeg
+2022-10-26T10:15:27: [Wed Oct 26 10:15:27 2022] 125.160.231.157:14760 [200]: /images/produk/siapJual/1/WhatsApp%20Image%202022-03-28%20at%2022.21.21%20(1).jpeg
+2022-10-26T10:15:27: [Wed Oct 26 10:15:27 2022] 125.160.231.157:59820 [200]: /images/produk/1/WhatsApp%20Image%202022-04-17%20at%2009.54.23.jpeg
+2022-10-26T10:15:27: [Wed Oct 26 10:15:27 2022] 125.160.231.157:42216 [200]: /images/lahan/2/WhatsApp%20Image%202022-04-10%20at%2011.42.55.jpeg
+2022-10-26T10:28:47: [Wed Oct 26 10:28:46 2022] 125.160.231.157:23750 [200]: /images/produk/10/WhatsApp%20Image%202022-03-29%20at%2021.59.33%20(1).jpeg
+2022-10-26T10:28:47: [Wed Oct 26 10:28:46 2022] 125.160.231.157:23737 [200]: /images/produk/siapJual/6/WhatsApp%20Image%202022-04-29%20at%2007.16.45.jpeg
+2022-10-26T10:29:31: [Wed Oct 26 10:29:31 2022] 125.160.231.157:17323 [200]: /images/lahan/10/WhatsApp%20Image%202022-04-16%20at%2021.50.40.jpeg
+2022-10-26T10:29:31: [Wed Oct 26 10:29:31 2022] 125.160.231.157:60210 [200]: /images/produk/24/WhatsApp%20Image%202022-04-17%20at%2009.54.23.jpeg
+2022-10-26T10:30:45: [Wed Oct 26 10:30:45 2022] 125.160.231.157:32697 [200]: /images/produk/siapJual/42/WhatsApp%20Image%202022-04-29%20at%2007.16.44.jpeg
+2022-10-26T10:30:45: [Wed Oct 26 10:30:45 2022] 125.160.231.157:55954 [200]: /images/produk/99/WhatsApp%20Image%202022-03-28%20at%2022.20.25%20(1).jpeg
+2022-10-26T10:30:45: [Wed Oct 26 10:30:45 2022] 125.160.231.157:48765 [200]: /images/lahan/7/WhatsApp%20Image%202022-04-14%20at%2022.14.02.jpeg
+2022-10-26T10:35:55: [Wed Oct 26 10:35:54 2022] 125.160.231.157:33469 [200]: /images/produk/16/WhatsApp%20Image%202022-04-29%20at%2007.16.43.jpeg
+2022-10-26T13:25:47: [Wed Oct 26 13:25:47 2022] 125.160.231.157:20851 [200]: /images/profile/51/GAPOKTAN.png
+2022-10-26T13:25:47: [Wed Oct 26 13:25:47 2022] 125.160.231.157:29827 [200]: /images/profile/2/logo.png
+2022-10-26T13:25:47: [Wed Oct 26 13:25:47 2022] 125.160.231.157:2830 [200]: /images/profile/29/gapoktan%20cabai.jpg
+2022-10-26T13:26:06: [Wed Oct 26 13:26:05 2022] 125.160.231.157:62551 [200]: /images/profile/22/WhatsApp%20Image%202022-04-16%20at%2015.26.18.jpeg
+2022-10-26T13:40:06: [Wed Oct 26 13:40:06 2022] 125.160.231.157:16274 [200]: /images/profile/2/logo.png
+2022-10-27T03:59:24: [Thu Oct 27 03:59:23 2022] 180.244.186.158:55578 [200]: /images/profile/2/logo.png
+2022-10-27T03:59:24: [Thu Oct 27 03:59:23 2022] 180.244.186.158:55581 [200]: /images/profile/29/gapoktan%20cabai.jpg
+2022-10-27T03:59:24: [Thu Oct 27 03:59:24 2022] 36.83.201.137:55579 [200]: /images/profile/51/GAPOKTAN.png
+2022-10-27T04:05:20: [Thu Oct 27 04:05:19 2022] 180.244.186.158:55692 [200]: /images/profile/2/logo.png
+2022-10-27T06:48:24: [Thu Oct 27 06:48:23 2022] 36.83.201.137:56150 [200]: /images/profile/2/logo.png
+2022-10-27T12:26:47: [Thu Oct 27 12:26:46 2022] 45.61.139.175:52990 Invalid request (Unsupported SSL request)
+2022-10-27T15:04:56: [Thu Oct 27 15:04:56 2022] 139.59.181.152:42786 [200]: /favicon.ico
+2022-10-27T22:39:00: [Thu Oct 27 22:39:00 2022] 47.242.152.73:38958 [200]: /robots.txt
+2022-10-28T13:33:36: [Fri Oct 28 13:33:36 2022] 185.73.124.61:64955 Invalid request (Malformed HTTP request)
+2022-10-29T00:01:20: [Sat Oct 29 00:01:20 2022] 162.142.125.8:33824 Invalid request (Malformed HTTP request)
+2022-10-29T00:01:21: [Sat Oct 29 00:01:20 2022] 162.142.125.8:51542 [200]: /favicon.ico
+2022-10-29T03:48:57: [Sat Oct 29 03:48:57 2022] 180.244.186.158:53382 [200]: /images/profile/2/logo.png
+2022-10-29T03:48:58: [Sat Oct 29 03:48:58 2022] 180.244.186.158:53383 [200]: /images/profile/29/gapoktan%20cabai.jpg
+2022-10-29T03:48:58: [Sat Oct 29 03:48:58 2022] 36.83.205.9:53385 [200]: /images/profile/51/GAPOKTAN.png
+2022-10-29T04:01:33: [Sat Oct 29 04:01:33 2022] 36.83.205.9:57433 [200]: /images/profile/2/logo.png
+2022-10-29T04:01:33: [Sat Oct 29 04:01:33 2022] 180.244.186.158:57434 [200]: /images/profile/29/gapoktan%20cabai.jpg
+2022-10-29T04:01:33: [Sat Oct 29 04:01:33 2022] 180.244.186.158:57436 [200]: /images/profile/51/GAPOKTAN.png
+2022-10-29T04:03:38: [Sat Oct 29 04:03:37 2022] 36.83.205.9:57498 [200]: /images/profile/4/WhatsApp%20Image%202022-04-16%20at%2022.22.57.jpeg
+2022-10-29T04:04:06: [Sat Oct 29 04:04:06 2022] 36.83.205.9:57510 [200]: /images/profile/4/WhatsApp%20Image%202022-04-16%20at%2022.22.57.jpeg
+2022-10-29T04:05:20: [Sat Oct 29 04:05:19 2022] 180.244.186.158:53653 [200]: /images/profile/2/logo.png
+2022-10-29T04:05:20: [Sat Oct 29 04:05:19 2022] 36.83.205.9:53654 [200]: /images/profile/29/gapoktan%20cabai.jpg
+2022-10-29T04:05:20: [Sat Oct 29 04:05:19 2022] 180.244.186.158:53655 [200]: /images/profile/51/GAPOKTAN.png
+2022-10-29T04:05:25: [Sat Oct 29 04:05:25 2022] 36.83.205.9:53658 [200]: /images/produk/siapJual/53/WhatsApp%20Image%202022-04-29%20at%2007.16.43.jpeg
+2022-10-29T04:05:25: [Sat Oct 29 04:05:25 2022] 180.244.186.158:53659 [200]: /images/product/53/QR/53.png
+2022-10-29T04:05:25: [Sat Oct 29 04:05:25 2022] 36.83.205.9:53661 [200]: /images/product/52/QR/52.png
+2022-10-29T04:05:25: [Sat Oct 29 04:05:25 2022] 180.244.186.158:53660 [200]: /images/produk/siapJual/51/WhatsApp%20Image%202022-04-29%20at%2007.16.44.jpeg
+2022-10-29T04:05:25: [Sat Oct 29 04:05:25 2022] 180.244.186.158:53662 [200]: /images/product/51/QR/51.png
+2022-10-29T04:05:25: [Sat Oct 29 04:05:25 2022] 180.244.186.158:53663 [200]: /images/produk/siapJual/52/WhatsApp%20Image%202022-04-29%20at%2007.16.44.jpeg
+2022-10-29T04:05:25: [Sat Oct 29 04:05:25 2022] 180.244.186.158:53667 [200]: /images/produk/siapJual/48/WhatsApp%20Image%202022-04-29%20at%2007.16.43.jpeg
+2022-10-29T04:05:26: [Sat Oct 29 04:05:26 2022] 180.244.186.158:53664 [200]: /images/product/48/QR/48.png
+2022-10-29T04:05:26: [Sat Oct 29 04:05:26 2022] 180.244.186.158:53665 [200]: /images/produk/siapJual/47/WhatsApp%20Image%202022-04-29%20at%2007.16.44.jpeg
+2022-10-29T04:05:26: [Sat Oct 29 04:05:26 2022] 36.83.205.9:53668 [200]: /images/product/47/QR/47.png
+2022-10-29T04:08:21: [Sat Oct 29 04:08:21 2022] 180.244.186.158:53708 [200]: /images/profile/2/logo.png
+2022-10-29T04:12:04: [Sat Oct 29 04:12:04 2022] 36.83.205.9:53754 [200]: /images/profile/4/WhatsApp%20Image%202022-04-16%20at%2022.22.57.jpeg
+2022-10-29T04:12:14: [Sat Oct 29 04:12:14 2022] 36.83.205.9:53759 [200]: /images/lahan/2/WhatsApp%20Image%202022-04-10%20at%2011.42.55.jpeg
+2022-10-29T04:12:14: [Sat Oct 29 04:12:14 2022] 180.244.186.158:53761 [200]: /images/produk/siapJual/1/WhatsApp%20Image%202022-03-28%20at%2022.21.21%20(1).jpeg
+2022-10-29T04:12:14: [Sat Oct 29 04:12:14 2022] 36.83.205.9:53760 [200]: /images/produk/1/WhatsApp%20Image%202022-04-17%20at%2009.54.23.jpeg
+2022-10-29T04:13:34: [Sat Oct 29 04:13:34 2022] 36.83.205.9:49480 [200]: /images/profile/4/WhatsApp%20Image%202022-04-16%20at%2022.22.57.jpeg
+2022-10-29T04:22:03: [Sat Oct 29 04:22:03 2022] 180.244.186.158:53881 [200]: /images/profile/2/logo.png
+2022-10-29T06:11:11: [Sat Oct 29 06:11:11 2022] 36.83.205.9:55285 [200]: /images/profile/4/WhatsApp%20Image%202022-04-16%20at%2022.22.57.jpeg
+2022-10-29T06:11:30: [Sat Oct 29 06:11:29 2022] 36.83.205.9:55292 [200]: /images/lahan/2/WhatsApp%20Image%202022-04-10%20at%2011.42.55.jpeg
+2022-10-29T06:11:30: [Sat Oct 29 06:11:29 2022] 180.244.186.158:55294 [200]: /images/produk/1/WhatsApp%20Image%202022-04-17%20at%2009.54.23.jpeg
+2022-10-29T06:11:30: [Sat Oct 29 06:11:29 2022] 180.244.186.158:55293 [200]: /images/produk/siapJual/1/WhatsApp%20Image%202022-03-28%20at%2022.21.21%20(1).jpeg
+2022-10-29T06:14:08: [Sat Oct 29 06:14:08 2022] 180.244.186.158:55349 [200]: /images/profile/4/WhatsApp%20Image%202022-04-16%20at%2022.22.57.jpeg
+2022-10-29T06:15:02: [Sat Oct 29 06:15:02 2022] 36.83.205.9:55361 [200]: /images/produk/1/WhatsApp%20Image%202022-04-17%20at%2009.54.23.jpeg
+2022-10-29T06:15:02: [Sat Oct 29 06:15:02 2022] 180.244.186.158:55362 [200]: /images/produk/siapJual/1/WhatsApp%20Image%202022-03-28%20at%2022.21.21%20(1).jpeg
+2022-10-29T06:15:02: [Sat Oct 29 06:15:02 2022] 36.83.205.9:55360 [200]: /images/lahan/2/WhatsApp%20Image%202022-04-10%20at%2011.42.55.jpeg
+2022-10-29T06:17:17: [Sat Oct 29 06:17:17 2022] 180.244.186.158:55434 [200]: /images/profile/2/logo.png
+2022-10-29T06:17:17: [Sat Oct 29 06:17:17 2022] 180.244.186.158:55436 [200]: /images/profile/29/gapoktan%20cabai.jpg
+2022-10-29T06:17:17: [Sat Oct 29 06:17:17 2022] 36.83.205.9:55438 [200]: /images/profile/51/GAPOKTAN.png
+2022-10-29T06:17:34: [Sat Oct 29 06:17:34 2022] 180.244.186.158:55458 [200]: /images/profile/4/WhatsApp%20Image%202022-04-16%20at%2022.22.57.jpeg
+2022-10-29T06:22:31: [Sat Oct 29 06:22:31 2022] 180.244.186.158:51234 [200]: /images/profile/2/logo.png
+2022-10-29T06:22:31: [Sat Oct 29 06:22:31 2022] 180.244.186.158:51236 [200]: /images/profile/29/gapoktan%20cabai.jpg
+2022-10-29T06:22:31: [Sat Oct 29 06:22:31 2022] 36.83.205.9:51235 [200]: /images/profile/51/GAPOKTAN.png
+2022-10-29T06:22:59: [Sat Oct 29 06:22:59 2022] 180.244.186.158:51238 [200]: /images/profile/4/WhatsApp%20Image%202022-04-16%20at%2022.22.57.jpeg
+2022-10-29T06:23:41: [Sat Oct 29 06:23:41 2022] 180.244.186.158:51279 [200]: /favicon.ico
+2022-10-29T06:25:09: [Sat Oct 29 06:25:09 2022] 180.244.186.158:51336 [200]: /images/profile/2/logo.png
+2022-10-29T06:25:10: [Sat Oct 29 06:25:09 2022] 180.244.186.158:51339 [200]: /images/profile/51/GAPOKTAN.png
+2022-10-29T06:25:10: [Sat Oct 29 06:25:09 2022] 180.244.186.158:51337 [200]: /images/profile/29/gapoktan%20cabai.jpg
+2022-10-29T06:25:19: [Sat Oct 29 06:25:18 2022] 180.244.186.158:51354 [200]: /images/profile/4/WhatsApp%20Image%202022-04-16%20at%2022.22.57.jpeg
+2022-10-29T06:28:37: [Sat Oct 29 06:28:36 2022] 36.83.205.9:51415 [200]: /images/transaksi/TX-20220801PQ09035009/QR/16.png
+2022-10-29T06:29:43: [Sat Oct 29 06:29:42 2022] 180.244.186.158:51493 [200]: /images/profile/2/logo.png
+2022-10-29T06:30:08: [Sat Oct 29 06:30:07 2022] 180.244.186.158:51508 [200]: /images/profile/2/logo.png
+2022-10-29T06:32:37: [Sat Oct 29 06:32:37 2022] 180.244.186.158:51576 [200]: /images/profile/2/logo.png
+2022-10-29T06:34:59: [Sat Oct 29 06:34:59 2022] 180.244.186.158:51630 [200]: /images/profile/2/logo.png
+2022-10-29T06:36:11: [Sat Oct 29 06:36:11 2022] 36.83.205.9:51675 [200]: /images/profile/51/GAPOKTAN.png
+2022-10-29T06:36:11: [Sat Oct 29 06:36:11 2022] 180.244.186.158:51673 [200]: /images/profile/2/logo.png
+2022-10-29T06:36:11: [Sat Oct 29 06:36:11 2022] 36.83.205.9:51676 [200]: /images/profile/29/gapoktan%20cabai.jpg
+2022-10-29T06:36:21: [Sat Oct 29 06:36:21 2022] 114.4.216.240:57380 [200]: /images/produk/siapJual/1/WhatsApp%20Image%202022-03-28%20at%2022.21.21%20(1).jpeg
+2022-10-29T06:36:21: [Sat Oct 29 06:36:21 2022] 114.4.216.240:57381 [200]: /images/lahan/2/WhatsApp%20Image%202022-04-10%20at%2011.42.55.jpeg
+2022-10-29T06:36:21: [Sat Oct 29 06:36:21 2022] 114.4.216.240:57382 [200]: /images/produk/1/WhatsApp%20Image%202022-04-17%20at%2009.54.23.jpeg
+2022-10-29T06:37:21: [Sat Oct 29 06:37:20 2022] 36.83.205.9:51707 [200]: /images/profile/2/logo.png
+2022-10-29T06:44:31: [Sat Oct 29 06:44:31 2022] 180.244.186.158:51826 [200]: /images/profile/2/logo.png
+2022-10-29T06:44:31: [Sat Oct 29 06:44:31 2022] 180.244.186.158:51828 [200]: /images/profile/29/gapoktan%20cabai.jpg
+2022-10-29T06:44:31: [Sat Oct 29 06:44:31 2022] 36.83.205.9:51827 [200]: /images/profile/51/GAPOKTAN.png
+2022-10-29T06:45:03: [Sat Oct 29 06:45:03 2022] 180.244.186.158:51860 [200]: /images/profile/3/202208191660881240_Cool_HD_Wallpaper.jpg
+2022-10-29T06:45:14: [Sat Oct 29 06:45:14 2022] 36.83.205.9:51869 [200]: /images/profile/3/202208191660881240_Cool_HD_Wallpaper.jpg
+2022-10-29T06:45:14: [Sat Oct 29 06:45:14 2022] 180.244.186.158:51870 [200]: /images/profile/2/logo.png
+2022-10-29T06:45:29: [Sat Oct 29 06:45:29 2022] 180.244.186.158:51885 [200]: /images/profile/3/202208191660881240_Cool_HD_Wallpaper.jpg
+2022-10-29T06:45:29: [Sat Oct 29 06:45:29 2022] 36.83.205.9:51887 [200]: /images/transaksi/TXRP-20221029KYLWT063427/QR/52.png
+2022-10-29T06:46:24: [Sat Oct 29 06:46:23 2022] 180.244.186.158:51909 [200]: /images/profile/4/WhatsApp%20Image%202022-04-16%20at%2022.22.57.jpeg
+2022-10-29T07:42:35: [Sat Oct 29 07:42:34 2022] 180.244.186.158:56495 [200]: /images/profile/2/logo.png
+2022-10-29T08:29:31: [Sat Oct 29 08:29:31 2022] 36.83.205.9:57294 [200]: /images/lahan/4/WhatsApp%20Image%202022-04-14%20at%2022.14.02.jpeg
+2022-10-29T08:29:31: [Sat Oct 29 08:29:31 2022] 180.244.186.158:57293 [200]: /images/produk/siapJual/55/WhatsApp%20Image%202022-03-28%20at%2022.20.25%20(1).jpeg
+2022-10-29T08:29:31: [Sat Oct 29 08:29:31 2022] 36.83.205.9:57295 [200]: /images/profile/2/logo.png
+2022-10-29T08:30:04: [Sat Oct 29 08:30:04 2022] 36.83.205.9:57308 [200]: /images/transaksi/TX-20221026S5MS044345/QR/23.png
+2022-10-29T08:31:01: [Sat Oct 29 08:31:01 2022] 114.4.216.240:59641 [200]: /images/produk/siapJual/55/WhatsApp%20Image%202022-03-28%20at%2022.20.25%20(1).jpeg
+2022-10-29T08:31:01: [Sat Oct 29 08:31:01 2022] 114.4.216.240:59642 [200]: /images/lahan/4/WhatsApp%20Image%202022-04-14%20at%2022.14.02.jpeg
+2022-10-29T08:31:46: [Sat Oct 29 08:31:46 2022] 180.244.186.158:57348 [200]: /images/profile/2/logo.png
+2022-10-29T08:31:46: [Sat Oct 29 08:31:46 2022] 36.83.205.9:57350 [200]: /images/profile/29/gapoktan%20cabai.jpg
+2022-10-29T08:31:46: [Sat Oct 29 08:31:46 2022] 36.83.205.9:57351 [200]: /images/profile/51/GAPOKTAN.png
+2022-10-29T08:31:49: [Sat Oct 29 08:31:49 2022] 36.83.205.9:57358 [200]: /images/product/53/QR/53.png
+2022-10-29T08:31:49: [Sat Oct 29 08:31:49 2022] 180.244.186.158:57355 [200]: /images/produk/siapJual/53/WhatsApp%20Image%202022-04-29%20at%2007.16.43.jpeg
+2022-10-29T08:31:49: [Sat Oct 29 08:31:49 2022] 180.244.186.158:57356 [200]: /images/produk/siapJual/51/WhatsApp%20Image%202022-04-29%20at%2007.16.44.jpeg
+2022-10-29T08:31:49: [Sat Oct 29 08:31:49 2022] 180.244.186.158:57357 [200]: /images/produk/siapJual/52/WhatsApp%20Image%202022-04-29%20at%2007.16.44.jpeg
+2022-10-29T08:31:49: [Sat Oct 29 08:31:49 2022] 36.83.205.9:57360 [200]: /images/product/52/QR/52.png
+2022-10-29T08:31:49: [Sat Oct 29 08:31:49 2022] 180.244.186.158:57359 [200]: /images/product/51/QR/51.png
+2022-10-29T08:31:50: [Sat Oct 29 08:31:49 2022] 36.83.205.9:57362 [200]: /images/produk/siapJual/48/WhatsApp%20Image%202022-04-29%20at%2007.16.43.jpeg
+2022-10-29T08:31:50: [Sat Oct 29 08:31:49 2022] 180.244.186.158:57363 [200]: /images/product/48/QR/48.png
+2022-10-29T08:31:50: [Sat Oct 29 08:31:50 2022] 36.83.205.9:57364 [200]: /images/produk/siapJual/47/WhatsApp%20Image%202022-04-29%20at%2007.16.44.jpeg
+2022-10-29T08:31:50: [Sat Oct 29 08:31:50 2022] 180.244.186.158:57361 [200]: /images/product/47/QR/47.png
+2022-10-29T08:31:54: [Sat Oct 29 08:31:53 2022] 180.244.186.158:57371 [200]: /images/produk/siapJual/53/WhatsApp%20Image%202022-04-29%20at%2007.16.43.jpeg
+2022-10-29T08:31:54: [Sat Oct 29 08:31:53 2022] 180.244.186.158:57372 [200]: /images/product/53/QR/53.png
+2022-10-29T08:32:06: [Sat Oct 29 08:32:05 2022] 114.4.216.240:59644 [200]: /images/produk/siapJual/53/WhatsApp%20Image%202022-04-29%20at%2007.16.43.jpeg
+2022-10-29T08:32:06: [Sat Oct 29 08:32:05 2022] 114.4.216.240:59645 [200]: /images/produk/116/WhatsApp%20Image%202022-04-29%20at%2007.16.43.jpeg
+2022-10-29T08:32:06: [Sat Oct 29 08:32:05 2022] 114.4.216.240:61816 [200]: /images/lahan/5/WhatsApp%20Image%202022-04-14%20at%2022.14.02.jpeg
+2022-10-29T08:37:13: [Sat Oct 29 08:37:13 2022] 36.83.205.9:57461 [200]: /images/profile/4/WhatsApp%20Image%202022-04-16%20at%2022.22.57.jpeg
+2022-10-29T08:37:43: [Sat Oct 29 08:37:42 2022] 36.83.205.9:57485 [200]: /images/profile/2/logo.png
+2022-10-29T08:42:08: [Sat Oct 29 08:42:08 2022] 180.244.186.158:57652 [200]: /images/produk/siapJual/55/WhatsApp%20Image%202022-03-28%20at%2022.20.25%20(1).jpeg
+2022-10-29T08:42:08: [Sat Oct 29 08:42:08 2022] 180.244.186.158:57651 [200]: /images/lahan/4/WhatsApp%20Image%202022-04-14%20at%2022.14.02.jpeg
+2022-10-29T08:42:09: [Sat Oct 29 08:42:09 2022] 180.244.186.158:57654 [200]: /images/profile/2/logo.png
+2022-10-29T08:48:03: [Sat Oct 29 08:48:03 2022] 180.244.186.158:57828 [200]: /images/profile/2/logo.png
+2022-10-29T08:48:03: [Sat Oct 29 08:48:03 2022] 36.83.205.9:57829 [200]: /images/profile/51/GAPOKTAN.png
+2022-10-29T08:48:03: [Sat Oct 29 08:48:03 2022] 180.244.186.158:57831 [200]: /images/profile/29/gapoktan%20cabai.jpg
+2022-10-29T08:48:37: [Sat Oct 29 08:48:36 2022] 180.244.186.158:57855 [200]: /images/profile/4/WhatsApp%20Image%202022-04-16%20at%2022.22.57.jpeg
+2022-10-29T08:49:41: [Sat Oct 29 08:49:41 2022] 180.244.186.158:57883 [200]: /images/produk/10/WhatsApp%20Image%202022-03-29%20at%2021.59.33%20(1).jpeg
+2022-10-29T08:49:41: [Sat Oct 29 08:49:41 2022] 36.83.205.9:57884 [200]: /images/lahan/2/WhatsApp%20Image%202022-04-10%20at%2011.42.55.jpeg
+2022-10-29T08:49:41: [Sat Oct 29 08:49:41 2022] 180.244.186.158:57885 [200]: /images/produk/siapJual/6/WhatsApp%20Image%202022-04-29%20at%2007.16.45.jpeg
+2022-10-29T08:51:30: [Sat Oct 29 08:51:29 2022] 180.244.186.158:57944 [200]: /images/lahan/14/WhatsApp%20Image%202022-04-14%20at%2022.14.02.jpeg
+2022-10-29T08:51:30: [Sat Oct 29 08:51:29 2022] 36.83.205.9:57945 [200]: /images/produk/22/WhatsApp%20Image%202022-04-17%20at%2009.54.23.jpeg
+2022-10-29T08:58:42: [Sat Oct 29 08:58:42 2022] 180.244.186.158:58033 [200]: /images/profile/29/gapoktan%20cabai.jpg
+2022-10-29T08:58:42: [Sat Oct 29 08:58:42 2022] 180.244.186.158:58032 [200]: /images/profile/2/logo.png
+2022-10-29T08:58:42: [Sat Oct 29 08:58:42 2022] 180.244.186.158:58034 [200]: /images/profile/51/GAPOKTAN.png
+2022-10-29T08:58:44: [Sat Oct 29 08:58:44 2022] 36.83.205.9:58038 [200]: /images/produk/siapJual/52/WhatsApp%20Image%202022-04-29%20at%2007.16.44.jpeg
+2022-10-29T08:58:44: [Sat Oct 29 08:58:44 2022] 180.244.186.158:58039 [200]: /images/product/52/QR/52.png
+2022-10-29T08:58:44: [Sat Oct 29 08:58:44 2022] 180.244.186.158:58040 [200]: /images/produk/siapJual/51/WhatsApp%20Image%202022-04-29%20at%2007.16.44.jpeg
+2022-10-29T08:58:44: [Sat Oct 29 08:58:44 2022] 180.244.186.158:58041 [200]: /images/produk/siapJual/53/WhatsApp%20Image%202022-04-29%20at%2007.16.43.jpeg
+2022-10-29T08:58:44: [Sat Oct 29 08:58:44 2022] 36.83.205.9:58043 [200]: /images/product/51/QR/51.png
+2022-10-29T08:58:44: [Sat Oct 29 08:58:44 2022] 180.244.186.158:58042 [200]: /images/product/53/QR/53.png
+2022-10-29T08:58:45: [Sat Oct 29 08:58:45 2022] 180.244.186.158:58045 [200]: /images/produk/siapJual/48/WhatsApp%20Image%202022-04-29%20at%2007.16.43.jpeg
+2022-10-29T08:58:45: [Sat Oct 29 08:58:45 2022] 162.243.4.24:51076 [200]: /images/produk/siapJual/52/WhatsApp%20Image%202022-04-29%20at%2007.16.44.jpeg
+2022-10-29T08:58:45: [Sat Oct 29 08:58:45 2022] 36.83.205.9:58046 [200]: /images/product/48/QR/48.png
+2022-10-29T08:58:45: [Sat Oct 29 08:58:45 2022] 180.244.186.158:58047 [200]: /images/produk/siapJual/47/WhatsApp%20Image%202022-04-29%20at%2007.16.44.jpeg
+2022-10-29T08:58:46: [Sat Oct 29 08:58:45 2022] 36.83.205.9:58044 [200]: /images/product/47/QR/47.png
+2022-10-29T08:58:46: [Sat Oct 29 08:58:46 2022] 45.55.112.20:56046 [200]: /images/produk/siapJual/47/WhatsApp%20Image%202022-04-29%20at%2007.16.44.jpeg
+2022-10-29T08:58:49: [Sat Oct 29 08:58:49 2022] 36.83.205.9:58053 [200]: /images/produk/siapJual/53/WhatsApp%20Image%202022-04-29%20at%2007.16.43.jpeg
+2022-10-29T08:58:49: [Sat Oct 29 08:58:49 2022] 36.83.205.9:58054 [200]: /images/product/53/QR/53.png
+2022-10-29T08:59:02: [Sat Oct 29 08:59:02 2022] 36.83.205.9:58060 [200]: /images/produk/siapJual/53/WhatsApp%20Image%202022-04-29%20at%2007.16.43.jpeg
+2022-10-29T08:59:02: [Sat Oct 29 08:59:02 2022] 36.83.205.9:58061 [200]: /images/produk/116/WhatsApp%20Image%202022-04-29%20at%2007.16.43.jpeg
+2022-10-29T08:59:02: [Sat Oct 29 08:59:02 2022] 36.83.205.9:58062 [200]: /images/lahan/5/WhatsApp%20Image%202022-04-14%20at%2022.14.02.jpeg
+2022-10-29T09:00:53: [Sat Oct 29 09:00:53 2022] 36.83.205.9:58076 [200]: /images/profile/2/logo.png
+2022-10-29T09:00:53: [Sat Oct 29 09:00:53 2022] 36.83.205.9:58077 [200]: /images/profile/29/gapoktan%20cabai.jpg
+2022-10-29T09:00:53: [Sat Oct 29 09:00:53 2022] 36.83.205.9:58079 [200]: /images/profile/51/GAPOKTAN.png
+2022-10-29T09:01:02: [Sat Oct 29 09:01:02 2022] 180.244.186.158:58083 [200]: /images/produk/siapJual/52/WhatsApp%20Image%202022-04-29%20at%2007.16.44.jpeg
+2022-10-29T09:01:02: [Sat Oct 29 09:01:02 2022] 180.244.186.158:58084 [200]: /images/product/52/QR/52.png
+2022-10-29T09:01:02: [Sat Oct 29 09:01:02 2022] 36.83.205.9:58086 [200]: /images/product/51/QR/51.png
+2022-10-29T09:01:02: [Sat Oct 29 09:01:02 2022] 180.244.186.158:58085 [200]: /images/produk/siapJual/51/WhatsApp%20Image%202022-04-29%20at%2007.16.44.jpeg
+2022-10-29T09:01:02: [Sat Oct 29 09:01:02 2022] 180.244.186.158:58088 [200]: /images/produk/siapJual/48/WhatsApp%20Image%202022-04-29%20at%2007.16.43.jpeg
+2022-10-29T09:01:02: [Sat Oct 29 09:01:02 2022] 36.83.205.9:58087 [200]: /images/product/48/QR/48.png
+2022-10-29T09:01:03: [Sat Oct 29 09:01:02 2022] 180.244.186.158:58089 [200]: /images/produk/siapJual/47/WhatsApp%20Image%202022-04-29%20at%2007.16.44.jpeg
+2022-10-29T09:01:03: [Sat Oct 29 09:01:02 2022] 36.83.205.9:58090 [200]: /images/product/47/QR/47.png
+2022-10-29T09:01:48: [Sat Oct 29 09:01:48 2022] 36.83.205.9:58111 [200]: /images/profile/4/WhatsApp%20Image%202022-04-16%20at%2022.22.57.jpeg
+2022-10-29T09:02:19: [Sat Oct 29 09:02:19 2022] 36.83.205.9:58125 [200]: /images/profile/4/WhatsApp%20Image%202022-04-16%20at%2022.22.57.jpeg
+2022-10-29T09:03:58: [Sat Oct 29 09:03:58 2022] 36.83.205.9:58151 [200]: /images/transaksi/TX-20220801PQ09035009/QR/16.png
+2022-10-29T09:04:27: [Sat Oct 29 09:04:27 2022] 114.4.216.240:61828 [200]: /images/produk/siapJual/25/WhatsApp%20Image%202022-04-29%20at%2007.16.43.jpeg
+2022-10-29T09:04:27: [Sat Oct 29 09:04:27 2022] 114.4.216.240:61829 [200]: /images/lahan/2/WhatsApp%20Image%202022-04-10%20at%2011.42.55.jpeg
+2022-10-29T09:08:38: [Sat Oct 29 09:08:37 2022] 180.244.186.158:52803 [200]: /images/profile/2/logo.png
+2022-10-29T09:08:38: [Sat Oct 29 09:08:37 2022] 36.83.205.9:52804 [200]: /images/profile/51/GAPOKTAN.png
+2022-10-29T09:08:38: [Sat Oct 29 09:08:37 2022] 180.244.186.158:52805 [200]: /images/profile/29/gapoktan%20cabai.jpg
+2022-10-29T09:08:46: [Sat Oct 29 09:08:45 2022] 36.83.205.9:52822 [200]: /images/profile/4/WhatsApp%20Image%202022-04-16%20at%2022.22.57.jpeg
+2022-10-29T09:08:57: [Sat Oct 29 09:08:57 2022] 36.83.205.9:52833 [200]: /images/profile/4/WhatsApp%20Image%202022-04-16%20at%2022.22.57.jpeg
+2022-10-29T09:08:57: [Sat Oct 29 09:08:57 2022] 36.83.205.9:52832 [200]: /images/lahan/2/WhatsApp%20Image%202022-04-10%20at%2011.42.55.jpeg
+2022-10-29T09:08:57: [Sat Oct 29 09:08:57 2022] 36.83.205.9:52834 [200]: /images/produk/114/WhatsApp%20Image%202022-03-28%20at%2022.20.25%20(1).jpeg
+2022-10-29T09:08:57: [Sat Oct 29 09:08:57 2022] 36.83.205.9:52835 [200]: /images/produk/siapJual/51/WhatsApp%20Image%202022-04-29%20at%2007.16.44.jpeg
+2022-10-29T09:09:14: [Sat Oct 29 09:09:13 2022] 36.83.205.9:52839 [200]: /images/produk/56/WhatsApp%20Image%202022-03-28%20at%2022.20.25%20(1).jpeg
+2022-10-29T09:09:14: [Sat Oct 29 09:09:13 2022] 36.83.205.9:52838 [200]: /images/lahan/2/WhatsApp%20Image%202022-04-10%20at%2011.42.55.jpeg
+2022-10-29T09:09:57: [Sat Oct 29 09:09:57 2022] 180.244.186.158:58214 [200]: /images/profile/4/WhatsApp%20Image%202022-04-16%20at%2022.22.57.jpeg
+2022-10-29T09:10:13: [Sat Oct 29 09:10:12 2022] 180.244.186.158:58223 [200]: /images/lahan/2/WhatsApp%20Image%202022-04-10%20at%2011.42.55.jpeg
+2022-10-29T09:10:13: [Sat Oct 29 09:10:12 2022] 36.83.205.9:58225 [200]: /images/produk/siapJual/1/WhatsApp%20Image%202022-03-28%20at%2022.21.21%20(1).jpeg
+2022-10-29T09:10:13: [Sat Oct 29 09:10:12 2022] 36.83.205.9:58224 [200]: /images/produk/1/WhatsApp%20Image%202022-04-17%20at%2009.54.23.jpeg
+2022-10-29T09:10:50: [Sat Oct 29 09:10:49 2022] 180.244.186.158:58235 [200]: /images/produk/55/WhatsApp%20Image%202022-03-28%20at%2022.20.25%20(1).jpeg
+2022-10-29T09:10:50: [Sat Oct 29 09:10:49 2022] 36.83.205.9:58236 [200]: /images/produk/siapJual/27/WhatsApp%20Image%202022-04-29%20at%2007.16.43.jpeg
+2022-10-29T15:10:26: [Sat Oct 29 15:10:26 2022] 179.60.147.13:64270 Invalid request (Malformed HTTP request)
+2022-10-30T07:51:39: [Sun Oct 30 07:51:39 2022] 89.248.165.52:35130 Invalid request (Malformed HTTP request)
+2022-10-30T07:51:40: [Sun Oct 30 07:51:40 2022] 89.248.165.52:33462 Invalid request (Malformed HTTP request)
+2022-10-30T07:51:40: [Sun Oct 30 07:51:40 2022] 89.248.165.52:53800 Invalid request (Malformed HTTP request)
+2022-10-30T08:48:42: [Sun Oct 30 08:48:41 2022] 89.248.165.52:37694 Invalid request (Malformed HTTP request)
+2022-10-30T08:48:44: [Sun Oct 30 08:48:43 2022] 89.248.165.52:34740 Invalid request (Malformed HTTP request)
+2022-10-30T08:48:44: [Sun Oct 30 08:48:44 2022] 89.248.165.52:35616 Invalid request (Malformed HTTP request)
+2022-10-30T09:00:39: [Sun Oct 30 09:00:39 2022] 169.150.207.250:36794 Invalid request (Malformed HTTP request)
+2022-10-30T09:00:39: [Sun Oct 30 09:00:39 2022] 169.150.207.250:36800 Invalid request (Unsupported SSL request)
+2022-10-30T09:00:39: [Sun Oct 30 09:00:39 2022] 169.150.207.250:36808 Invalid request (Malformed HTTP request)
+2022-10-30T09:00:47: [Sun Oct 30 09:00:46 2022] 169.150.207.250:36822 Invalid request (Unexpected EOF)
+2022-10-30T09:00:47: [Sun Oct 30 09:00:46 2022] 169.150.207.250:38762 Invalid request (Unsupported SSL request)
+2022-10-30T09:00:47: [Sun Oct 30 09:00:46 2022] 169.150.207.250:38776 Invalid request (Malformed HTTP request)
+2022-10-30T09:00:47: [Sun Oct 30 09:00:46 2022] 169.150.207.250:38778 Invalid request (Malformed HTTP request)
+2022-10-30T09:00:47: [Sun Oct 30 09:00:46 2022] 169.150.207.250:38782 Invalid request (Malformed HTTP request)
+2022-10-30T09:00:47: [Sun Oct 30 09:00:46 2022] 169.150.207.250:38796 Invalid request (Malformed HTTP request)
+2022-10-30T09:00:47: [Sun Oct 30 09:00:46 2022] 169.150.207.250:38802 Invalid request (Malformed HTTP request)
+2022-10-30T09:01:04: [Sun Oct 30 09:01:03 2022] 169.150.207.250:43884 Invalid request (Unsupported SSL request)
+2022-10-30T13:39:50: [Sun Oct 30 13:39:50 2022] 125.160.233.244:21301 [200]: /images/profile/2/logo.png
+2022-10-30T13:39:50: [Sun Oct 30 13:39:50 2022] 125.160.233.244:11761 [200]: /images/profile/29/gapoktan%20cabai.jpg
+2022-10-30T13:39:50: [Sun Oct 30 13:39:50 2022] 125.160.233.244:12193 [200]: /images/profile/51/GAPOKTAN.png
+2022-10-30T13:58:48: [Sun Oct 30 13:58:48 2022] 125.160.233.244:20273 [200]: /images/profile/8/WhatsApp%20Image%202022-04-10%20at%2011.42.55%20(1).jpeg
+2022-10-30T14:27:57: [Sun Oct 30 14:27:56 2022] 125.160.233.244:24168 [200]: /images/profile/2/logo.png
+2022-10-30T14:28:37: [Sun Oct 30 14:28:37 2022] 125.160.233.244:20396 [200]: /images/produk/129/WhatsApp%20Image%202022-03-28%20at%2022.20.25%20(1).jpeg
+2022-10-30T14:29:14: [Sun Oct 30 14:29:14 2022] 125.160.233.244:3928 [200]: /images/produk/128/WhatsApp%20Image%202022-03-29%20at%2021.59.33%20(1).jpeg
+2022-10-30T14:29:53: [Sun Oct 30 14:29:53 2022] 125.160.233.244:37392 [200]: /images/produk/127/WhatsApp%20Image%202022-03-28%20at%2022.20.25%20(1).jpeg
+2022-10-30T14:30:26: [Sun Oct 30 14:30:26 2022] 125.160.233.244:41927 [200]: /images/produk/126/WhatsApp%20Image%202022-04-29%20at%2007.16.43.jpeg
+2022-10-30T14:31:05: [Sun Oct 30 14:31:05 2022] 125.160.233.244:12844 [200]: /images/produk/125/WhatsApp%20Image%202022-03-28%20at%2022.20.25%20(1).jpeg
+2022-10-30T14:31:54: [Sun Oct 30 14:31:54 2022] 125.160.233.244:42876 [200]: /images/produk/124/WhatsApp%20Image%202022-04-29%20at%2007.16.43.jpeg
+2022-10-30T14:32:32: [Sun Oct 30 14:32:32 2022] 125.160.233.244:60521 [200]: /images/produk/123/WhatsApp%20Image%202022-03-28%20at%2022.20.25%20(1).jpeg
+2022-10-30T14:32:57: [Sun Oct 30 14:32:57 2022] 125.160.233.244:51630 [200]: /images/produk/122/WhatsApp%20Image%202022-04-17%20at%2009.54.23.jpeg
+2022-10-30T14:33:31: [Sun Oct 30 14:33:31 2022] 125.160.233.244:15585 [200]: /images/produk/121/WhatsApp%20Image%202022-03-28%20at%2022.20.25%20(1).jpeg
+2022-10-30T14:34:03: [Sun Oct 30 14:34:03 2022] 125.160.233.244:6015 [200]: /images/produk/120/WhatsApp%20Image%202022-04-29%20at%2007.16.44.jpeg
+2022-10-30T14:34:44: [Sun Oct 30 14:34:44 2022] 125.160.233.244:59676 [200]: /images/produk/119/WhatsApp%20Image%202022-03-28%20at%2022.20.25%20(1).jpeg
+2022-10-30T14:51:03: [Sun Oct 30 14:51:03 2022] 125.160.233.244:60225 [200]: /images/profile/22/WhatsApp%20Image%202022-04-16%20at%2015.26.18.jpeg
+2022-10-30T14:51:43: [Sun Oct 30 14:51:42 2022] 125.160.233.244:64591 [200]: /images/profile/51/GAPOKTAN.png
+2022-10-30T14:51:43: [Sun Oct 30 14:51:42 2022] 125.160.233.244:27623 [200]: /images/profile/2/logo.png
+2022-10-30T14:51:43: [Sun Oct 30 14:51:42 2022] 125.160.233.244:3351 [200]: /images/profile/29/gapoktan%20cabai.jpg
+2022-10-30T14:51:45: [Sun Oct 30 14:51:44 2022] 125.160.233.244:23474 [200]: /images/produk/siapJual/59/WhatsApp%20Image%202022-04-29%20at%2007.16.44.jpeg
+2022-10-30T14:51:45: [Sun Oct 30 14:51:44 2022] 125.160.233.244:3141 [200]: /images/product/59/QR/59.png
+2022-10-30T14:51:45: [Sun Oct 30 14:51:44 2022] 125.160.233.244:37691 [200]: /images/produk/siapJual/58/WhatsApp%20Image%202022-03-28%20at%2022.21.21%20(1).jpeg
+2022-10-30T14:51:45: [Sun Oct 30 14:51:44 2022] 125.160.233.244:11038 [200]: /images/product/58/QR/58.png
+2022-10-30T14:51:45: [Sun Oct 30 14:51:44 2022] 125.160.233.244:21635 [200]: /images/produk/siapJual/57/WhatsApp%20Image%202022-04-29%20at%2007.16.45.jpeg
+2022-10-30T14:51:45: [Sun Oct 30 14:51:44 2022] 125.160.233.244:3463 [200]: /images/product/57/QR/57.png
+2022-10-30T14:51:45: [Sun Oct 30 14:51:45 2022] 125.160.233.244:15660 [200]: /images/produk/siapJual/56/WhatsApp%20Image%202022-04-29%20at%2007.16.45.jpeg
+2022-10-30T14:51:45: [Sun Oct 30 14:51:45 2022] 125.160.233.244:30056 [200]: /images/product/56/QR/56.png
+2022-10-30T14:51:45: [Sun Oct 30 14:51:45 2022] 125.160.233.244:21192 [200]: /images/produk/siapJual/53/WhatsApp%20Image%202022-04-29%20at%2007.16.43.jpeg
+2022-10-30T14:51:45: [Sun Oct 30 14:51:45 2022] 125.160.233.244:38414 [200]: /images/product/53/QR/53.png
+2022-10-30T14:52:06: [Sun Oct 30 14:52:06 2022] 125.160.233.244:55496 [200]: /images/produk/siapJual/58/WhatsApp%20Image%202022-03-28%20at%2022.21.21%20(1).jpeg
+2022-10-30T14:52:06: [Sun Oct 30 14:52:06 2022] 125.160.233.244:64952 [200]: /images/product/58/QR/58.png
+2022-10-30T14:52:06: [Sun Oct 30 14:52:06 2022] 125.160.233.244:58458 [200]: /images/profile/22/WhatsApp%20Image%202022-04-16%20at%2015.26.18.jpeg
+2022-10-30T14:53:08: [Sun Oct 30 14:53:08 2022] 125.160.233.244:7308 [200]: /images/profile/2/logo.png
+2022-10-30T14:53:08: [Sun Oct 30 14:53:08 2022] 125.160.233.244:5551 [200]: /images/profile/29/gapoktan%20cabai.jpg
+2022-10-30T14:53:08: [Sun Oct 30 14:53:08 2022] 125.160.233.244:64414 [200]: /images/profile/51/GAPOKTAN.png
+2022-10-30T14:53:09: [Sun Oct 30 14:53:09 2022] 125.160.233.244:41099 [200]: /images/produk/siapJual/59/WhatsApp%20Image%202022-04-29%20at%2007.16.44.jpeg
+2022-10-30T14:53:09: [Sun Oct 30 14:53:09 2022] 125.160.233.244:55115 [200]: /images/product/59/QR/59.png
+2022-10-30T14:53:09: [Sun Oct 30 14:53:09 2022] 125.160.233.244:62680 [200]: /images/produk/siapJual/57/WhatsApp%20Image%202022-04-29%20at%2007.16.45.jpeg
+2022-10-30T14:53:09: [Sun Oct 30 14:53:09 2022] 125.160.233.244:64317 [200]: /images/product/57/QR/57.png
+2022-10-30T14:53:09: [Sun Oct 30 14:53:09 2022] 125.160.233.244:28243 [200]: /images/produk/siapJual/56/WhatsApp%20Image%202022-04-29%20at%2007.16.45.jpeg
+2022-10-30T14:53:09: [Sun Oct 30 14:53:09 2022] 125.160.233.244:57544 [200]: /images/product/56/QR/56.png
+2022-10-30T14:53:09: [Sun Oct 30 14:53:09 2022] 125.160.233.244:1635 [200]: /images/produk/siapJual/53/WhatsApp%20Image%202022-04-29%20at%2007.16.43.jpeg
+2022-10-30T14:53:09: [Sun Oct 30 14:53:09 2022] 125.160.233.244:51897 [200]: /images/product/53/QR/53.png
+2022-10-30T14:53:09: [Sun Oct 30 14:53:09 2022] 125.160.233.244:21203 [200]: /images/produk/siapJual/52/WhatsApp%20Image%202022-04-29%20at%2007.16.44.jpeg
+2022-10-30T14:53:09: [Sun Oct 30 14:53:09 2022] 125.160.233.244:29295 [200]: /images/product/52/QR/52.png
+2022-10-30T14:53:49: [Sun Oct 30 14:53:49 2022] 125.160.233.244:52392 [200]: /images/produk/siapJual/57/WhatsApp%20Image%202022-04-29%20at%2007.16.45.jpeg
+2022-10-30T14:53:49: [Sun Oct 30 14:53:49 2022] 125.160.233.244:62491 [200]: /images/product/57/QR/57.png
+2022-10-30T14:53:49: [Sun Oct 30 14:53:49 2022] 125.160.233.244:56234 [200]: /images/profile/22/WhatsApp%20Image%202022-04-16%20at%2015.26.18.jpeg
+2022-10-30T14:54:41: [Sun Oct 30 14:54:41 2022] 125.160.233.244:33970 [200]: /images/profile/2/logo.png
+2022-10-30T14:54:41: [Sun Oct 30 14:54:41 2022] 125.160.233.244:27639 [200]: /images/profile/29/gapoktan%20cabai.jpg
+2022-10-30T14:54:41: [Sun Oct 30 14:54:41 2022] 125.160.233.244:27423 [200]: /images/profile/51/GAPOKTAN.png
+2022-10-30T14:54:44: [Sun Oct 30 14:54:44 2022] 125.160.233.244:50336 [200]: /images/produk/siapJual/59/WhatsApp%20Image%202022-04-29%20at%2007.16.44.jpeg
+2022-10-30T14:54:44: [Sun Oct 30 14:54:44 2022] 125.160.233.244:6871 [200]: /images/produk/siapJual/56/WhatsApp%20Image%202022-04-29%20at%2007.16.45.jpeg
+2022-10-30T14:54:44: [Sun Oct 30 14:54:44 2022] 125.160.233.244:53466 [200]: /images/product/59/QR/59.png
+2022-10-30T14:54:44: [Sun Oct 30 14:54:44 2022] 125.160.233.244:35479 [200]: /images/product/56/QR/56.png
+2022-10-30T14:54:44: [Sun Oct 30 14:54:44 2022] 125.160.233.244:4431 [200]: /images/produk/siapJual/53/WhatsApp%20Image%202022-04-29%20at%2007.16.43.jpeg
+2022-10-30T14:54:44: [Sun Oct 30 14:54:44 2022] 125.160.233.244:8348 [200]: /images/product/53/QR/53.png
+2022-10-30T14:54:44: [Sun Oct 30 14:54:44 2022] 125.160.233.244:49362 [200]: /images/produk/siapJual/52/WhatsApp%20Image%202022-04-29%20at%2007.16.44.jpeg
+2022-10-30T14:54:44: [Sun Oct 30 14:54:44 2022] 125.160.233.244:6574 [200]: /images/product/52/QR/52.png
+2022-10-30T14:54:44: [Sun Oct 30 14:54:44 2022] 125.160.233.244:7015 [200]: /images/produk/siapJual/51/WhatsApp%20Image%202022-04-29%20at%2007.16.44.jpeg
+2022-10-30T14:54:45: [Sun Oct 30 14:54:44 2022] 125.160.233.244:5590 [200]: /images/product/51/QR/51.png
+2022-10-30T14:55:00: [Sun Oct 30 14:55:00 2022] 125.160.233.244:23349 [200]: /images/profile/22/WhatsApp%20Image%202022-04-16%20at%2015.26.18.jpeg
+2022-10-30T14:55:00: [Sun Oct 30 14:55:00 2022] 125.160.233.244:34241 [200]: /images/produk/siapJual/52/WhatsApp%20Image%202022-04-29%20at%2007.16.44.jpeg
+2022-10-30T14:55:00: [Sun Oct 30 14:55:00 2022] 125.160.233.244:26738 [200]: /images/product/52/QR/52.png
+2022-10-30T14:55:57: [Sun Oct 30 14:55:57 2022] 125.160.233.244:35388 [200]: /images/profile/2/logo.png
+2022-10-30T14:55:57: [Sun Oct 30 14:55:57 2022] 125.160.233.244:54562 [200]: /images/profile/29/gapoktan%20cabai.jpg
+2022-10-30T14:55:57: [Sun Oct 30 14:55:57 2022] 125.160.233.244:52024 [200]: /images/profile/51/GAPOKTAN.png
+2022-10-30T14:56:03: [Sun Oct 30 14:56:03 2022] 125.160.233.244:10033 [200]: /images/produk/siapJual/56/WhatsApp%20Image%202022-04-29%20at%2007.16.45.jpeg
+2022-10-30T14:56:03: [Sun Oct 30 14:56:03 2022] 125.160.233.244:24425 [200]: /images/produk/siapJual/59/WhatsApp%20Image%202022-04-29%20at%2007.16.44.jpeg
+2022-10-30T14:56:03: [Sun Oct 30 14:56:03 2022] 125.160.233.244:15254 [200]: /images/product/56/QR/56.png
+2022-10-30T14:56:03: [Sun Oct 30 14:56:03 2022] 125.160.233.244:61692 [200]: /images/product/59/QR/59.png
+2022-10-30T14:56:03: [Sun Oct 30 14:56:03 2022] 125.160.233.244:29356 [200]: /images/produk/siapJual/53/WhatsApp%20Image%202022-04-29%20at%2007.16.43.jpeg
+2022-10-30T14:56:03: [Sun Oct 30 14:56:03 2022] 125.160.233.244:16722 [200]: /images/product/53/QR/53.png
+2022-10-30T14:56:03: [Sun Oct 30 14:56:03 2022] 125.160.233.244:5861 [200]: /images/produk/siapJual/51/WhatsApp%20Image%202022-04-29%20at%2007.16.44.jpeg
+2022-10-30T14:56:03: [Sun Oct 30 14:56:03 2022] 125.160.233.244:63113 [200]: /images/product/51/QR/51.png
+2022-10-30T14:56:03: [Sun Oct 30 14:56:03 2022] 125.160.233.244:11169 [200]: /images/produk/siapJual/48/WhatsApp%20Image%202022-04-29%20at%2007.16.43.jpeg
+2022-10-30T14:56:03: [Sun Oct 30 14:56:03 2022] 125.160.233.244:22094 [200]: /images/product/48/QR/48.png
+2022-10-30T14:56:16: [Sun Oct 30 14:56:16 2022] 125.160.233.244:44841 [200]: /images/product/59/QR/59.png
+2022-10-30T14:56:16: [Sun Oct 30 14:56:16 2022] 125.160.233.244:43599 [200]: /images/produk/siapJual/59/WhatsApp%20Image%202022-04-29%20at%2007.16.44.jpeg
+2022-10-30T14:57:09: [Sun Oct 30 14:57:09 2022] 125.160.233.244:52307 [200]: /images/profile/2/logo.png
+2022-10-30T14:57:09: [Sun Oct 30 14:57:09 2022] 125.160.233.244:6647 [200]: /images/profile/29/gapoktan%20cabai.jpg
+2022-10-30T14:57:09: [Sun Oct 30 14:57:09 2022] 125.160.233.244:59863 [200]: /images/profile/51/GAPOKTAN.png
+2022-10-30T14:57:11: [Sun Oct 30 14:57:11 2022] 125.160.233.244:46789 [200]: /images/produk/siapJual/56/WhatsApp%20Image%202022-04-29%20at%2007.16.45.jpeg
+2022-10-30T14:57:11: [Sun Oct 30 14:57:11 2022] 125.160.233.244:25949 [200]: /images/product/56/QR/56.png
+2022-10-30T14:57:11: [Sun Oct 30 14:57:11 2022] 125.160.233.244:5935 [200]: /images/produk/siapJual/53/WhatsApp%20Image%202022-04-29%20at%2007.16.43.jpeg
+2022-10-30T14:57:11: [Sun Oct 30 14:57:11 2022] 125.160.233.244:31893 [200]: /images/product/53/QR/53.png
+2022-10-30T14:57:11: [Sun Oct 30 14:57:11 2022] 125.160.233.244:36381 [200]: /images/produk/siapJual/51/WhatsApp%20Image%202022-04-29%20at%2007.16.44.jpeg
+2022-10-30T14:57:11: [Sun Oct 30 14:57:11 2022] 125.160.233.244:38665 [200]: /images/product/51/QR/51.png
+2022-10-30T14:57:11: [Sun Oct 30 14:57:11 2022] 125.160.233.244:14190 [200]: /images/produk/siapJual/48/WhatsApp%20Image%202022-04-29%20at%2007.16.43.jpeg
+2022-10-30T14:57:11: [Sun Oct 30 14:57:11 2022] 125.160.233.244:54565 [200]: /images/product/48/QR/48.png
+2022-10-30T14:57:11: [Sun Oct 30 14:57:11 2022] 125.160.233.244:3136 [200]: /images/produk/siapJual/47/WhatsApp%20Image%202022-04-29%20at%2007.16.44.jpeg
+2022-10-30T14:57:11: [Sun Oct 30 14:57:11 2022] 125.160.233.244:34082 [200]: /images/product/47/QR/47.png
+2022-10-30T14:57:22: [Sun Oct 30 14:57:21 2022] 125.160.233.244:52245 [200]: /images/produk/siapJual/47/WhatsApp%20Image%202022-04-29%20at%2007.16.44.jpeg
+2022-10-30T14:57:22: [Sun Oct 30 14:57:21 2022] 125.160.233.244:1642 [200]: /images/product/47/QR/47.png
+2022-10-30T14:59:01: [Sun Oct 30 14:59:01 2022] 125.160.233.244:41045 [200]: /images/profile/2/logo.png
+2022-10-30T15:05:28: [Sun Oct 30 15:05:28 2022] 125.160.233.244:4793 [200]: /images/profile/3/202208191660881240_Cool_HD_Wallpaper.jpg
+2022-10-30T15:08:33: [Sun Oct 30 15:08:33 2022] 125.160.233.244:50850 [200]: /images/profile/2/logo.png
+2022-10-30T15:10:17: [Sun Oct 30 15:10:17 2022] 125.160.233.244:57320 [200]: /images/profile/2/logo.png
+2022-10-30T15:10:40: [Sun Oct 30 15:10:40 2022] 125.160.233.244:4595 [200]: /images/expired/12/QR/12.png
+2022-10-30T19:11:28: [Sun Oct 30 19:11:28 2022] 167.94.138.117:45532 Invalid request (Malformed HTTP request)
+2022-10-30T19:11:29: [Sun Oct 30 19:11:29 2022] 167.94.138.117:45760 [200]: /favicon.ico
+2022-10-31T04:06:56: [Mon Oct 31 04:06:55 2022] 125.160.233.244:34959 [200]: /images/profile/2/logo.png
+2022-10-31T04:06:56: [Mon Oct 31 04:06:55 2022] 125.160.233.244:9515 [200]: /images/profile/51/GAPOKTAN.png
+2022-10-31T04:06:56: [Mon Oct 31 04:06:55 2022] 125.160.233.244:54995 [200]: /images/profile/29/gapoktan%20cabai.jpg
+2022-10-31T04:07:31: [Mon Oct 31 04:07:30 2022] 125.160.233.244:47059 [200]: /images/profile/2/logo.png
