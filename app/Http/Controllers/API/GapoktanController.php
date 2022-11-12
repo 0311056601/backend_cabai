@@ -203,6 +203,74 @@ class GapoktanController extends Controller
 
     }
 
+    public function chartSummary() {
+
+        $user = Auth::user();
+
+        $data = [];
+        $dataTransaksi = [];
+        
+        for($i=0; $i < 7; $i++) {
+            $tgl = Carbon::now();
+
+            
+            if($i != 0) {
+                $t = $tgl->add(-$i, 'day');
+                // get data all jumlah produk market
+                $dataProduk = ProdukSiapJual::where('tanggal_pengemasan', $t->format('Y-m-d'))->where('gapoktan_id', $user->id)->get()->sum('volume');
+    
+                // get data all permintaan cabai
+                // $dataPermintaan = RequestProduk::where('tanggal_pembelian', 'like', '%'.$t->format('Y-m-d').'%')->where('gapoktan_id', $user->id)->get()->sum('volume');
+
+                // array_push($data, ['tanggal' => $t->format('d/M'), 'produk' => $dataProduk, 'kebutuhan' => $dataPermintaan, 'no' => $i+1]);
+
+                $dataPermintaan = RequestProduk::where('tanggal_pembelian', 'like', '%'.$tgl->format('Y-m-d').'%')->where('gapoktan_id', $user->id)->where('status', 'Produk diterima konsumen')->get()->sum('volume');
+                $dataProdukTerjual = TransaksiCabai::where('created_at', 'like', '%'.$tgl->format('Y-m-d').'%')->where('gapoktan_id', $user->id)->where('status_pembayaran', 'Diterima Gapoktan')->get();
+                foreach($dataProdukTerjual as $dpt) {
+
+                    $p = ProdukSiapJual::find($dpt->produk_id)->volume;
+                    array_push($dataTransaksi, $p);
+
+                };
+
+                $totalProdukTerjual = array_sum($dataTransaksi);
+                $total = $totalProdukTerjual + $dataPermintaan;
+
+                // array_push($data, ['tanggal' => $tgl->format('d/M'), 'produk' => $dataProduk, 'kebutuhan' => $dataPermintaan, 'no' => $i+1]);
+                array_push($data, ['tanggal' => $tgl->format('d/M'), 'produk' => $dataProduk, 'transaksi' => $total, 'no' => $i+1]);
+
+            } else {
+                // get data all jumlah produk market
+                $dataProduk = ProdukSiapJual::where('tanggal_pengemasan', $tgl->format('Y-m-d'))->where('gapoktan_id', $user->id)->get()->sum('volume');
+    
+                // get data all permintaan cabai dan transaksi cabai
+                // $dataPermintaan = RequestProduk::where('tanggal_pembelian', 'like', '%'.$tgl->format('Y-m-d').'%')->where('gapoktan_id', $user->id)->get()->sum('volume');
+                $dataPermintaan = RequestProduk::where('tanggal_pembelian', 'like', '%'.$tgl->format('Y-m-d').'%')->where('gapoktan_id', $user->id)->where('status', 'Produk diterima konsumen')->get()->sum('volume');
+                $dataProdukTerjual = TransaksiCabai::where('created_at', 'like', '%'.$tgl->format('Y-m-d').'%')->where('gapoktan_id', $user->id)->where('status_pembayaran', 'Diterima Gapoktan')->get();
+                foreach($dataProdukTerjual as $dpt) {
+
+                    $p = ProdukSiapJual::find($dpt->produk_id)->volume;
+                    array_push($dataTransaksi, $p);
+
+                };
+
+                $totalProdukTerjual = array_sum($dataTransaksi);
+                $total = $totalProdukTerjual + $dataPermintaan;
+
+                // array_push($data, ['tanggal' => $tgl->format('d/M'), 'produk' => $dataProduk, 'kebutuhan' => $dataPermintaan, 'no' => $i+1]);
+                array_push($data, ['tanggal' => $tgl->format('d/M'), 'produk' => $dataProduk, 'transaksi' => $total, 'no' => $i+1]);
+            }
+
+        }
+
+        $this->successStatus       = 200;
+        $success['success']        = true;
+        $success['data']           = $data;
+
+        return response()->json($success, $this->successStatus);
+
+    }
+
     public function listProdukPetani() {
         $user = Auth::user();
 

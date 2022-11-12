@@ -62,6 +62,7 @@ Route::group(['middleware' => 'auth:api'], function () {
     Route::get('v2/getDashboardPetaniHome', [App\Http\Controllers\API\PetaniController::class, 'index']);
 
     Route::get('v2/getDashboardGapoktan', [App\Http\Controllers\API\GapoktanController::class, 'index']);
+    Route::get('v2/getDashboardSummaryGapoktan', [App\Http\Controllers\API\GapoktanController::class, 'chartSummary']);
     Route::get('v2/gapoktan-get-produk', [App\Http\Controllers\API\GapoktanController::class, 'listProdukPetani']);
     Route::get('v2/gapoktan-get-data-gudang', [App\Http\Controllers\API\GapoktanController::class, 'dataGudang']);
     Route::get('v2/gapoktan-konrimasi-produk/{produkId}', [App\Http\Controllers\API\GapoktanController::class, 'konfirmasiProdukPetani']);
