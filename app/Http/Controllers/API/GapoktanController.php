@@ -224,7 +224,8 @@ class GapoktanController extends Controller
 
                 // array_push($data, ['tanggal' => $t->format('d/M'), 'produk' => $dataProduk, 'kebutuhan' => $dataPermintaan, 'no' => $i+1]);
 
-                $dataPermintaan = RequestProduk::where('tanggal_pembelian', 'like', '%'.$tgl->format('Y-m-d').'%')->where('gapoktan_id', $user->id)->where('status', 'Produk diterima konsumen')->get()->sum('volume');
+                // $dataPermintaan = RequestProduk::where('tanggal_pembelian', 'like', '%'.$tgl->format('Y-m-d').'%')->where('gapoktan_id', $user->id)->where('status', 'Produk diterima konsumen')->get()->sum('volume');
+                $dataPermintaan = RequestProduk::where('tanggal_pembelian', 'like', '%'.$tgl->format('Y-m-d').'%')->where('gapoktan_id', $user->id)->where('harga', '!=', null)->get()->sum('volume');
                 $dataProdukTerjual = TransaksiCabai::where('created_at', 'like', '%'.$tgl->format('Y-m-d').'%')->where('gapoktan_id', $user->id)->where('status_pembayaran', 'Diterima Gapoktan')->get();
                 foreach($dataProdukTerjual as $dpt) {
 
@@ -245,7 +246,9 @@ class GapoktanController extends Controller
     
                 // get data all permintaan cabai dan transaksi cabai
                 // $dataPermintaan = RequestProduk::where('tanggal_pembelian', 'like', '%'.$tgl->format('Y-m-d').'%')->where('gapoktan_id', $user->id)->get()->sum('volume');
-                $dataPermintaan = RequestProduk::where('tanggal_pembelian', 'like', '%'.$tgl->format('Y-m-d').'%')->where('gapoktan_id', $user->id)->where('status', 'Produk diterima konsumen')->get()->sum('volume');
+
+                // $dataPermintaan = RequestProduk::where('tanggal_pembelian', 'like', '%'.$tgl->format('Y-m-d').'%')->where('gapoktan_id', $user->id)->where('status', 'Produk diterima konsumen')->get()->sum('volume');
+                $dataPermintaan = RequestProduk::where('tanggal_pembelian', 'like', '%'.$tgl->format('Y-m-d').'%')->where('gapoktan_id', $user->id)->where('harga', '!=', null)->get()->sum('volume');
                 $dataProdukTerjual = TransaksiCabai::where('created_at', 'like', '%'.$tgl->format('Y-m-d').'%')->where('gapoktan_id', $user->id)->where('status_pembayaran', 'Diterima Gapoktan')->get();
                 foreach($dataProdukTerjual as $dpt) {
 
