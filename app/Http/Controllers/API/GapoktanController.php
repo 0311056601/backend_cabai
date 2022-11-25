@@ -826,7 +826,8 @@ class GapoktanController extends Controller
             // $user = Profile::where('user_id', $login->id)->with('getUser')->first();
             $user = Profile::where('user_id', $login->gapoktan)->with('getUser')->first();
             $petani = User::where('id', $produk->petani)->with('getProfile', 'getLahan')->first();
-            $produkHash = TransaksiLog::where('smartcontract', 'produk')->where('produk_id', $produk->id)->first();
+            // $produkHash = TransaksiLog::where('smartcontract', 'produk')->where('produk_id', $produk->id)->first();
+            $produkHash = TransaksiLog::where('smartcontract', 'produk')->where('produk_id', $transaksi->produk_id)->first();
             $pembeli = Profile::where('user_id', $transaksi->user_id)->with('getUser')->first();
             $sekarang = $date->format('Y-m-d');
 
