@@ -216,8 +216,11 @@ class GapoktanController extends Controller
             
             if($i != 0) {
                 $t = $tgl->add(-$i, 'day');
-                // get data all jumlah produk market
-                $dataProduk = ProdukSiapJual::where('tanggal_pengemasan', $t->format('Y-m-d'))->where('gapoktan_id', $user->id)->get()->sum('volume');
+                // // get data all jumlah produk market
+                // $dataProduk = ProdukSiapJual::where('tanggal_pengemasan', $t->format('Y-m-d'))->where('gapoktan_id', $user->id)->get()->sum('volume');
+
+                // get data panen petani
+                $dataProduk = GapoktanGudangDetail::where('created_at', 'like', '%'.$t->format('Y-m-d').'%')->where('gapoktan_id', $user->id)->where('status', 'Panen petani')->get()->sum('volume_in');
     
                 // get data all permintaan cabai
                 // $dataPermintaan = RequestProduk::where('tanggal_pembelian', 'like', '%'.$t->format('Y-m-d').'%')->where('gapoktan_id', $user->id)->get()->sum('volume');
@@ -241,8 +244,11 @@ class GapoktanController extends Controller
                 array_push($data, ['tanggal' => $tgl->format('d/M'), 'produk' => $dataProduk, 'transaksi' => $total, 'no' => $i+1]);
 
             } else {
-                // get data all jumlah produk market
-                $dataProduk = ProdukSiapJual::where('tanggal_pengemasan', $tgl->format('Y-m-d'))->where('gapoktan_id', $user->id)->get()->sum('volume');
+                // // get data all jumlah produk market
+                // $dataProduk = ProdukSiapJual::where('tanggal_pengemasan', $tgl->format('Y-m-d'))->where('gapoktan_id', $user->id)->get()->sum('volume');
+
+                // get data panen petani
+                $dataProduk = GapoktanGudangDetail::where('created_at', 'like', '%'.$tgl->format('Y-m-d').'%')->where('gapoktan_id', $user->id)->where('status', 'Panen petani')->get()->sum('volume_in');
     
                 // get data all permintaan cabai dan transaksi cabai
                 // $dataPermintaan = RequestProduk::where('tanggal_pembelian', 'like', '%'.$tgl->format('Y-m-d').'%')->where('gapoktan_id', $user->id)->get()->sum('volume');
@@ -820,7 +826,7 @@ class GapoktanController extends Controller
             // $user = Profile::where('user_id', $login->id)->with('getUser')->first();
             $user = Profile::where('user_id', $login->gapoktan)->with('getUser')->first();
             $petani = User::where('id', $produk->petani)->with('getProfile', 'getLahan')->first();
-            $produkHash = TransaksiLog::where('produk_id', $produk->id)->first();
+            $produkHash = TransaksiLog::where('smartcontract', 'produk')->where('produk_id', $produk->id)->first();
             $pembeli = Profile::where('user_id', $transaksi->user_id)->with('getUser')->first();
             $sekarang = $date->format('Y-m-d');
 
