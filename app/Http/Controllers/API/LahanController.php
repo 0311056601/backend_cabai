@@ -29,7 +29,7 @@ class LahanController extends Controller {
 
     public function DetailLahan($lahanId) {
 
-        $lahan = Lahan::find($lahanId);
+        $lahan = Lahan::where('id', $lahanId)->with('getImg')->first();
 
         if($lahan) {
 
