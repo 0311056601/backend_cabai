@@ -65,6 +65,18 @@ class LahanController extends Controller {
 
     }
 
+    public function listLahanWithPetaniId($petaniId) {
+
+        $lahan = Lahan::where('user_id', $petaniId)->get();
+
+        $this->successStatus       = 200;
+        $success['success']        = true;
+        $success['lahan']          = $lahan;
+
+        return response()->json($success, $this->successStatus);
+
+    }
+
     public function simpanLahan(Request $request) {
 
         $user = Auth::user();

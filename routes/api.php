@@ -46,6 +46,7 @@ Route::group(['middleware' => 'auth:api'], function () {
     Route::get('v2/detailSaldo', [App\Http\Controllers\API\UserController::class, 'detailSaldo']);
 
     Route::get('v2/listLahan', [App\Http\Controllers\API\LahanController::class, 'listLahan']);
+    Route::get('v2/listLahanWithPetaniId/{petaniId}', [App\Http\Controllers\API\LahanController::class, 'listLahanWithPetaniId']);
     Route::get('v2/DetailLahan/{lahanId}', [App\Http\Controllers\API\LahanController::class, 'DetailLahan']);
     Route::post('v2/simpanLahan', [App\Http\Controllers\API\LahanController::class, 'simpanLahan']);
     Route::get('v2/HapusLahan/{lahanId}', [App\Http\Controllers\API\LahanController::class, 'hapusLahan']);
