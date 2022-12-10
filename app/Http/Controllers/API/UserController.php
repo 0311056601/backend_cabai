@@ -181,7 +181,11 @@ class UserController extends Controller {
 
             } else {
                 $user = $auth;
-                $user->username = $request->nama;
+                if($request->nama) {
+                    $user->username = $request->nama;
+                } else {
+                    $user->username = $user->username;
+                }
                 $user->save();
             }
 
