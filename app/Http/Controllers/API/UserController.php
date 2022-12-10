@@ -151,8 +151,12 @@ class UserController extends Controller {
             if($request->email) {
                 $user = User::where('id', $auth->id)->first();
                 if($user){
-                    $user->username = $request->nama;
-                    $user->email = $request->email;
+                    if($request->nama) {
+                        $user->username = $request->nama;
+                    }
+                    if($request->email) {
+                        $user->email = $request->email;
+                    }
                     if($request->password) {
                         $user->password = Hash::make($request->password);
                         $user->save();
@@ -186,12 +190,21 @@ class UserController extends Controller {
                 $profile->user_id = $user->id;
             }
             $profile->role = $user->role;
-            $profile->nama = $request->nama;
+
+            if($request->nama) {
+                $profile->nama = $request->nama;
+            }
+
             if($request->kontak) {
                 $profile->kontak = $request->kontak;
             }
+
             if($request->alamat) {
                 $profile->alamat = $request->alamat;
+            }
+
+            if($request->kota) {
+                $profile->kota = $request->kota;
             }
 
             if ($request->hasFile('files')) {
