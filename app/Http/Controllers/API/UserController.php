@@ -153,9 +153,13 @@ class UserController extends Controller {
                 if($user){
                     if($request->nama) {
                         $user->username = $request->nama;
+                    } else {
+                        $user->username = $user->username;
                     }
                     if($request->email) {
                         $user->email = $request->email;
+                    } else {
+                        $user->email = $user->email;
                     }
                     if($request->password) {
                         $user->password = Hash::make($request->password);
