@@ -10,6 +10,7 @@ use App\Models\GapoktanGudangDetail;
 use App\Models\ProdukSiapJualDetail;
 use App\Models\MHargaCabaiPetani;
 use App\Models\MHargaPengemasan;
+use App\Models\GapoktanGudang;
 use App\Models\LogRequestData;
 use App\Models\TransaksiCabai;
 use App\Models\ProdukSiapJual;
@@ -457,6 +458,54 @@ class ExternalController extends Controller
         $this->successStatus       = 200;
         $success['success']        = true;
         $success['data']           = $data;
+
+        return response()->json($success, $this->successStatus);
+
+    }
+
+    public function getdataGudang($gapkotanId) {
+
+        // get data gudang gapoktan
+        // $gudang = GapoktanGudang::where('user_gapoktan', $gapkotanId)->where('status', 1)->orderBy('updated_at', 'desc')->get();
+        $expired = MExpired::where('status', 'Aktif')->where('gapoktan_id', $gapkotanId)->first();
+
+        $gudang = GapoktanGudang::where('user_gapoktan', $gapkotanId)->where('status', 1)->orderBy('updated_at', 'desc')->with('getProduk')->get();
+
+        $dataSuper = 0;
+        $data1 = 0;
+        $data2 = 0;
+        $currentDate = Carbon::now();
+        $now = $currentDate->format('Y-m-d');
+
+        foreach($gudang as $g) {
+
+            // get data expired
+            $expire = date('Y-m-d', strtotime($g->getProduk->tanggal_panen. ' + '.$expired->expired.' days'));
+
+            // jika hari ini belum expired maka data dimasukkan
+            if(strtotime($now) <= strtotime($expire)) {
+
+                if($g->kualitas == 'Kelas Super') {
+                    $dataSuper += $g->volume;
+                } else if($g->kualitas == 'Kelas 1') {
+                    $data1 += $g->volume;
+                } else if($g->kualitas == 'Kelas 2') {
+                    $data2 += $g->volume;
+                }
+
+            }
+
+        }
+
+        $data = compact(
+            'dataSuper',
+            'data1',
+            'data2',
+        );
+
+        $this->successStatus = 200;
+        $success['success']  = true;
+        $success['data']     = $data;
 
         return response()->json($success, $this->successStatus);
 
