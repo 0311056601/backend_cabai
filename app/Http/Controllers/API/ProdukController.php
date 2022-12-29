@@ -32,7 +32,7 @@ class ProdukController extends Controller
     public function listProdukPetani() {
         $user = Auth::user();
 
-        $produk = ProdukPetani::where('user_id', $user->id)->get();
+        $produk = ProdukPetani::where('user_id', $user->id)->orderBy('created_at', 'desc')->get();
 
         $this->successStatus       = 200;
         $success['success']        = true;
@@ -52,7 +52,7 @@ class ProdukController extends Controller
             $simpanProduk->tanggal_panen = $request->tanggal_panen;
             $simpanProduk->kualitas = $request->kualitas;
             $simpanProduk->harga = $request->harga;
-            // $simpanProduk->volume = $request->volume;
+            $simpanProduk->volume = $request->volume;
             $simpanProduk->status = "Produk Dibuat Petani";
             $simpanProduk->save();
 
@@ -140,7 +140,8 @@ class ProdukController extends Controller
 
         if($produk) {
 
-            $produk->status = "Produk Dikirim ke Gapoktan";
+            // $produk->status = "Produk Dikirim ke Gapoktan";
+            $produk->status = "Menunggu Dimasukan ke Gudang oleh Gapoktan";
             $produk->save();
 
             $this->successStatus       = 200;
